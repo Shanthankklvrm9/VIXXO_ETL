@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_ZSQi0HKoEem5gfsP-wY8Ug" label="test" description="" language="java" technicalLabel="TEST" creationDate="2019-05-05T15:28:56.000-0700" author="_ZSQi0XKoEem5gfsP-wY8Ug" productVersion="Talend Data Fabric-7.1.1.20181026_1147" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/Shanthankklvrm9/VIXXO_ETL.git&quot;,&quot;login&quot;:&quot;Shanthankklvrm9&quot;,&quot;passwd&quot;:&quot;XPjI/LLcwCYctJeuv1A4wA==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM">
+  <TalendProperties:Project xmi:id="_ZSQi0HKoEem5gfsP-wY8Ug" label="test" description="" language="java" technicalLabel="TEST" creationDate="2019-05-05T15:28:56.000-0700" author="_ZSQi0XKoEem5gfsP-wY8Ug" productVersion="Talend Data Fabric-7.1.1.20181026_1147" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/Shanthankklvrm9/VIXXO_ETL.git&quot;,&quot;login&quot;:&quot;Shanthankklvrm9&quot;,&quot;passwd&quot;:&quot;XPjI/LLcwCYctJeuv1A4wA==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM" itemsRelationVersion="1.3">
     <migrationTask xmi:id="_ZbvO8HKoEem5gfsP-wY8Ug" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_ZSQi0XKoEem5gfsP-wY8Ug" login="security@company.com" firstName="security" lastName="security" type="MDM" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_a2DQ0HKoEem5gfsP-wY8Ug" login="shanthan.kakulavaram@vixxo.com" firstName="shanthan" lastName="kakulavaram" type="MDM" additionnalData="{}"/>
 </xmi:XMI>
