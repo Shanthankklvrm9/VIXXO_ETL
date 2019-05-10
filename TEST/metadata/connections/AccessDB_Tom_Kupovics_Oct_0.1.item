@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="" DatabaseType="Access" DatasourceName="" DbmsId="access_id" DriverClass="net.ucanaccess.jdbc.UcanaccessDriver" FileFieldName="//hart-pfs2/kupovics$/711 10 Oct 2018 Billing DB.accdb" Password="" Port="" ProductId="ACCESS" SID="" SQLMode="false" ServerName="" SqlSynthax="SQL Syntax" StandardSQL="true" URL="jdbc:ucanaccess:////hart-pfs2/kupovics$/711 10 Oct 2018 Billing DB.accdb" UiSchema="" Username="" dataPackage="_GzorwMWbEeiCvqjm-yC4Xw" dbVersionString="AS400_V6R1_V7R2" id="_G0xwsMWaEeiCvqjm-yC4Xw" label="AccessDB_Tom_Kupovics_Oct" name="AccessDB_Tom_Kupovics_Oct" xmi:id="_VQKcMMWaEeiCvqjm-yC4Xw">
+    <taggedValue tag="Is Conn Need Reload" value="true" xmi:id="_VQKcMcWaEeiCvqjm-yC4Xw"/>
+    <taggedValue tag="package filter" value="" xmi:id="_VzcIYMWaEeiCvqjm-yC4Xw"/>
+    <taggedValue tag="Status" value="" xmi:id="_Vzl5YMWaEeiCvqjm-yC4Xw"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_Vzl5YcWaEeiCvqjm-yC4Xw"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_Vzl5YsWaEeiCvqjm-yC4Xw"/>
+    <taggedValue tag="Description" value="" xmi:id="_Vzl5Y8WaEeiCvqjm-yC4Xw"/>
+    <taggedValue tag="Author" value="" xmi:id="_Vzl5ZMWaEeiCvqjm-yC4Xw"/>
+    <taggedValue tag="otherParameter" xmi:id="_Vzl5ZcWaEeiCvqjm-yC4Xw"/>
+    <taggedValue tag="DB ProductName" value="Ucanaccess for access db(Jet) using hasqldb" xmi:id="_8-yGgMWaEeiCvqjm-yC4Xw"/>
+    <taggedValue tag="DB ProductVersion" value="V2010 [VERSION_14]" xmi:id="_8-yGgcWaEeiCvqjm-yC4Xw"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="`" xmi:id="_8-yGgsWaEeiCvqjm-yC4Xw"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="" xmi:id="_VQKcMsWaEeiCvqjm-yC4Xw"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema dataManager="_VQKcMMWaEeiCvqjm-yC4Xw" name="AccessDB_Tom_Kupovics_Oct" xmi:id="_GzorwMWbEeiCvqjm-yC4Xw">
+    <ownedElement id="_E2vhQMWbEeiCvqjm-yC4Xw" label="Z_2018_INVOICES_MONTHLY" name="Z_2018 INVOICES MONTHLY" tableType="TABLE" xmi:id="_GzorwcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdTable">
+      <feature label="DIVISION" length="64" name="DIVISION" sourceType="DOUBLE" talendType="id_Double" xmi:id="_GzorwsWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzorw8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="ZONE" length="32" name="ZONE" sourceType="INTEGER" talendType="id_Long" xmi:id="_GzorxMWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzorxcWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="BALANCING_SEGMENT" length="255" name="BALANCING SEGMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzorxsWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzorx8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="STORE__" length="255" name="STORE _" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzoryMWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzorycWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="ORIGINAL_STORE" length="255" name="ORIGINAL STORE" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzorysWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzory8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="PRIMARY_FSR" length="255" name="PRIMARY FSR" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzorzMWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzorzcWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="SERVICE_PROVIDER" length="255" name="SERVICE PROVIDER" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzorzsWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzorz8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="EQUIPMENT_CODE" length="255" name="EQUIPMENT CODE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Gzor0MWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor0cWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="COST_CENTER" length="64" name="COST CENTER" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Gzor0sWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor08WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="ACCOUNT" length="64" name="ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Gzor1MWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor1cWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="SUB_ACCOUNT" length="64" name="SUB ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Gzor1sWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor18WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="MATERIALS" length="64" name="MATERIALS" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Gzor2MWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor2cWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="TRAVEL" length="64" name="TRAVEL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Gzor2sWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor28WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="LABOR" length="64" name="LABOR" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Gzor3MWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor3cWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="MISC" length="64" name="MISC" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Gzor3sWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor38WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="SVCE_FEE" length="64" name="SVCE FEE" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Gzor4MWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor4cWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="SUB_CONTRACTOR" length="64" name="SUB CONTRACTOR" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Gzor4sWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor48WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="ADJUSTMENT" length="64" name="ADJUSTMENT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Gzor5MWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor5cWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="SHIPPING_AND_HANDLING" length="64" name="SHIPPING AND HANDLING" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Gzor5sWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor58WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="FREIGHT" length="64" name="FREIGHT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Gzor6MWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor6cWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="TAX" length="64" name="TAX" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Gzor6sWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor68WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="TOTAL" length="64" name="TOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Gzor7MWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor7cWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="REPAIR_NOTE" length="255" name="REPAIR NOTE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Gzor7sWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor78WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="REPAIR_NOTE_1" length="16777216" name="REPAIR NOTE 1" sourceType="VARCHAR" talendType="id_String" xmi:id="_Gzor8MWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor8cWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="SERVICE_DATE" length="26" name="SERVICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Gzor8sWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor88WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="CREATED_DATE" length="26" name="CREATED DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Gzor9MWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor9cWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="PROBLEM" length="255" name="PROBLEM" sourceType="VARCHAR" talendType="id_String" xmi:id="_Gzor9sWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor98WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="TRADE" length="255" name="TRADE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Gzor-MWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor-cWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="PROBLEM_CLASS" length="255" name="PROBLEM CLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Gzor-sWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor-8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="PROBLEM_SUBCLASS" length="255" name="PROBLEM SUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Gzor_MWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor_cWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="PROBLEM_SUBSUBCLASS" length="255" name="PROBLEM SUBSUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Gzor_sWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Gzor_8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="PO_NUMBER" length="64" name="PO NUMBER" sourceType="DOUBLE" talendType="id_Double" xmi:id="_GzosAMWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosAcWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="QUOTE_ID" length="64" name="QUOTE ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_GzosAsWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosA8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="RFS_OR_PM" length="255" name="RFS OR PM" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosBMWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosBcWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="TRACKING_ID" length="64" name="TRACKING ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_GzosBsWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosB8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="IPT_INVOICE_NUMBER" length="255" name="IPT INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosCMWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosCcWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="IPT_INVOICE_DATE" length="26" name="IPT INVOICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_GzosCsWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosC8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="IPT_VIID" length="64" name="IPT VIID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_GzosDMWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosDcWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="SR_NUMBER" length="255" name="SR NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosDsWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosD8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="DFM_CMNT" length="255" name="DFM CMNT" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosEMWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosEcWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="FSR_COMMENTS" length="255" name="FSR COMMENTS" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosEsWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosE8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="CORP_OR_FRAN" length="255" name="CORP OR FRAN" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosFMWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosFcWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="BUCKET" length="255" name="BUCKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosFsWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosF8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="POST_DATE" length="26" name="POST DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_GzosGMWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosGcWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="REPLACEMENT" length="255" name="REPLACEMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosGsWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosG8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="GST_TAX" length="32" name="GST TAX" sourceType="INTEGER" talendType="id_Long" xmi:id="_GzosHMWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosHcWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="PST_TAX" length="32" name="PST TAX" sourceType="INTEGER" talendType="id_Long" xmi:id="_GzosHsWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosH8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="HST_TAX" length="32" name="HST TAX" sourceType="INTEGER" talendType="id_Long" xmi:id="_GzosIMWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosIcWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="MARKET" length="32" name="MARKET" sourceType="INTEGER" talendType="id_Long" xmi:id="_GzosIsWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosI8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="DATE_UPLOADED" length="26" name="DATE UPLOADED" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_GzosJMWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosJcWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="DATE_APPROVED" length="26" name="DATE APPROVED" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_GzosJsWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosJ8WbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="DATE_OF_REMITTANCE" length="26" name="DATE OF REMITTANCE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_GzosKMWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosKcWbEeiCvqjm-yC4Xw"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_E6tbQMWbEeiCvqjm-yC4Xw" label="INVOICES" name="INVOICES" tableType="TABLE" xmi:id="_GzosKsWbEeiCvqjm-yC4Xw" xsi:type="relational:TdTable">
+      <feature label="BALANCING_SEGMENT" length="255" name="BALANCING SEGMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosK8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosLMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="STORE" length="64" name="STORE" sourceType="DOUBLE" talendType="id_Double" xmi:id="_GzosLcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosLsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="ACCOUN" length="64" name="ACCOUN" sourceType="DOUBLE" talendType="id_Double" xmi:id="_GzosL8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosMMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="SUB_ACCOUNT" length="64" name="SUB ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_GzosMcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosMsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="SUBTOTAL" length="100" name="SUBTOTAL" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_GzosM8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosNMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="HST" length="100" name="HST" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_GzosNcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosNsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="GST" length="100" name="GST" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_GzosN8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosOMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="PST" length="100" name="PST" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_GzosOcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosOsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="US_TAX" length="100" name="US TAX" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_GzosO8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosPMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="TOTAL" length="100" name="TOTAL" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_GzosPcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosPsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="REPAIR_NOTE1" length="255" name="REPAIR NOTE1" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosP8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosQMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="REPAIR_NOTE" length="255" name="REPAIR NOTE" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosQcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosQsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="CREATED_DATE" length="255" name="CREATED DATE" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosQ8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosRMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="TRACKING_ID" length="255" name="TRACKING ID" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosRcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosRsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="MARKET" length="64" name="MARKET" sourceType="DOUBLE" talendType="id_Double" xmi:id="_GzosR8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosSMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="PROVINCE" length="255" name="PROVINCE" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosScWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosSsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="INVOICE_NUMBER" length="255" name="INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosS8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosTMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="ZONES" length="64" name="ZONES" sourceType="DOUBLE" talendType="id_Double" xmi:id="_GzosTcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosTsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="DFM_COMMENTS" length="255" name="DFM COMMENTS" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosT8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosUMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="FM_COMMENTS" length="255" name="FM COMMENTS" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosUcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosUsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="PRIMARY_FSR" length="255" name="PRIMARY FSR" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosU8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosVMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="SERVICE_PROVIDER" length="255" name="SERVICE PROVIDER" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosVcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosVsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="EQUIPMENT_CODE" length="255" name="EQUIPMENT CODE" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosV8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosWMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="COST_CENTER" length="255" name="COST CENTER" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosWcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosWsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="MATERIALS" length="255" name="MATERIALS" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosW8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosXMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="TRAVEL" length="255" name="TRAVEL" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosXcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosXsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="LABOR" length="255" name="LABOR" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosX8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosYMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="OTHER" length="26" name="OTHER" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_GzosYcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosYsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="SERVICE_FEE" length="255" name="SERVICE FEE" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosY8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosZMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="SUB_CONTRACTOR" length="255" name="SUB CONTRACTOR" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosZcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosZsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="ADJUSTMENT" length="255" name="ADJUSTMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosZ8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosaMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="SHIPPING_AND_HANDLING" length="255" name="SHIPPING AND HANDLING" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosacWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosasWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="FREIGHT" length="255" name="FREIGHT" sourceType="VARCHAR" talendType="id_String" xmi:id="_Gzosa8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosbMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="PROBLEM" length="255" name="PROBLEM" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosbcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosbsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="TRADE" length="255" name="TRADE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Gzosb8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzoscMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="PROBLEM_CLASS" length="100" name="PROBLEM CLASS" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_GzosccWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzoscsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="PROBLEM_SUBCLASS" length="100" name="PROBLEM SUBCLASS" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_Gzosc8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosdMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="PROBLEM_SUBSUBCLASS" length="100" name="PROBLEM SUBSUBCLASS" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_GzosdcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosdsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="PO_NUMBER" length="100" name="PO NUMBER" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_Gzosd8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzoseMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="QUOTE_ID" length="100" name="QUOTE ID" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_GzosecWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosesWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="RFS_OR_PM" length="255" name="RFS OR PM" sourceType="VARCHAR" talendType="id_String" xmi:id="_Gzose8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosfMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="INVOICE_DATE" length="26" name="INVOICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_GzosfcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosfsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="VIID" length="255" name="VIID" sourceType="VARCHAR" talendType="id_String" xmi:id="_Gzosf8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosgMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="CORP_OR_FRAN" length="255" name="CORP OR FRAN" sourceType="VARCHAR" talendType="id_String" xmi:id="_GzosgcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzosgsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature label="BUCKET" length="255" name="BUCKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_Gzosg8WbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzoshMWbEeiCvqjm-yC4Xw"/>
+      </feature>
+      <feature key="true" label="ID" length="32" name="ID" sourceType="INTEGER" talendType="id_Long" xmi:id="_GzoshcWbEeiCvqjm-yC4Xw" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_GzoshsWbEeiCvqjm-yC4Xw"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_82b20806-3a6e-4eb5-99f0-54aba152c1da"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iNSN2azmh8H1fBN3hjMpfpCUCdPaWOczsEsCUBkbnlW1L2knRkpI+OkYmfesOBlcgfjePeuo2gHb
+gnFF11aU+A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e2c1384e-8ec1-4432-af4c-8cf5ce702c2f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ZWkCS8CnJoztlZSNN3FBQBN6Z9kJfc6FEGM2sdLmDCNOhJ9mFzQ3MNbq9XNuHnR0lrdwcBPKLx+O
+GZEQVW5vxQ==</DigestValue></Reference></SignedInfo><SignatureValue>iw83IaViyF/3du3G6iBYrRUMpsCTOM6SuKI2P+v6t6t7gzNzUaHwqogghXnnepx8I/qf+p6Hjt1M
+mhz6JQC6Aphf2lXZFk+Sq+554FdXjzViHN3mQMkt+SXnMHA8gTHEpkWM13A3HFE8Kn8hqlAThyEO
+O7tu/qeW8sV4l4hJ9US90EPF3h0XmpLs3D/wFk3nPn1bk8zfM+KDi7+6xuxLlK7ZcV6y8fA73oXs
+cK6aTSg3GO0JhcNIf8iOYlq2a1knwo8SouWNAGvzBdV95nM9wOD/TdiT2zUxae2Tg7jQjbXZs6QX
+RBVf2RjuvEQpg9Ck2Y5IuA3G+xjAeasK6NzoHg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e2c1384e-8ec1-4432-af4c-8cf5ce702c2f" Target="#_82b20806-3a6e-4eb5-99f0-54aba152c1da"><Timestamp>2019-05-10 18:14:14</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

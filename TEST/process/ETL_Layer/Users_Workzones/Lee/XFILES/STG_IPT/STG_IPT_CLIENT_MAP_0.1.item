@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Dev" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Prod">
+    <contextParameter comment="" name="Orcl_Talend_IPT_AdditionalParams" prompt="Orcl_Talend_IPT_AdditionalParams?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Login" prompt="Orcl_Talend_IPT_Login?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="DW_SQLSERVER"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Password" prompt="Orcl_Talend_IPT_Password?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_Password" value="PB0LYQZA+17y7VyiQ6RPdg=="/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Port" prompt="Orcl_Talend_IPT_Port?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Schema" prompt="Orcl_Talend_IPT_Schema?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Server" prompt="Orcl_Talend_IPT_Server?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="bos-odaha-scan.ip-tech.com"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_ServiceName" prompt="Orcl_Talend_IPT_ServiceName?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="fmprd_ha"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_AdditionalParams" prompt="Orcl_Talend_Siebel_AdditionalParams?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Login" prompt="Orcl_Talend_Siebel_Login?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="TALEND_PROD"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Password" prompt="Orcl_Talend_Siebel_Password?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w=="/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Port" prompt="Orcl_Talend_Siebel_Port?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Schema" prompt="Orcl_Talend_Siebel_Schema?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Server" prompt="Orcl_Talend_Siebel_Server?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="BOS-ODAPRD-SCAN"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_ServiceName" prompt="Orcl_Talend_Siebel_ServiceName?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="FSNPRD_PRD"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="STAGE"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_Password" value="ABIaQdAQRn7oVJEmlDB/Ig=="/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="bos-odaprd-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="DWPRD_PRD"/>
+  </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" name="Orcl_Talend_IPT_AdditionalParams" prompt="Orcl_Talend_IPT_AdditionalParams?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Login" prompt="Orcl_Talend_IPT_Login?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="DW_SQLSERVER"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Password" prompt="Orcl_Talend_IPT_Password?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_Password" value="PB0LYQZA+17y7VyiQ6RPdg=="/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Port" prompt="Orcl_Talend_IPT_Port?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Schema" prompt="Orcl_Talend_IPT_Schema?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Server" prompt="Orcl_Talend_IPT_Server?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="bos-odaha-scan.ip-tech.com"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_ServiceName" prompt="Orcl_Talend_IPT_ServiceName?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="fmprd_ha"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_AdditionalParams" prompt="Orcl_Talend_Siebel_AdditionalParams?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Login" prompt="Orcl_Talend_Siebel_Login?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="TALEND_PROD"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Password" prompt="Orcl_Talend_Siebel_Password?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w=="/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Port" prompt="Orcl_Talend_Siebel_Port?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Schema" prompt="Orcl_Talend_Siebel_Schema?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Server" prompt="Orcl_Talend_Siebel_Server?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="BOS-ODAPRD-SCAN"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_ServiceName" prompt="Orcl_Talend_Siebel_ServiceName?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="FSNPRD_PRD"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="STAGE"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_Password" value="gNPPthtkvecbhGi6X0f4lw=="/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="bos-odapr-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="DWDEV"/>
+  </context>
+  <context confirmationNeeded="false" name="Test">
+    <contextParameter comment="" name="Orcl_Talend_IPT_AdditionalParams" prompt="Orcl_Talend_IPT_AdditionalParams?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Login" prompt="Orcl_Talend_IPT_Login?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="DW_SQLSERVER"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Password" prompt="Orcl_Talend_IPT_Password?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_Password" value="PB0LYQZA+17y7VyiQ6RPdg=="/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Port" prompt="Orcl_Talend_IPT_Port?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Schema" prompt="Orcl_Talend_IPT_Schema?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Server" prompt="Orcl_Talend_IPT_Server?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="bos-odaha-scan.ip-tech.com"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_ServiceName" prompt="Orcl_Talend_IPT_ServiceName?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="fmprd_ha"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_AdditionalParams" prompt="Orcl_Talend_Siebel_AdditionalParams?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Login" prompt="Orcl_Talend_Siebel_Login?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="TALEND_PROD"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Password" prompt="Orcl_Talend_Siebel_Password?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w=="/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Port" prompt="Orcl_Talend_Siebel_Port?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Schema" prompt="Orcl_Talend_Siebel_Schema?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Server" prompt="Orcl_Talend_Siebel_Server?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="BOS-ODAPRD-SCAN"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_ServiceName" prompt="Orcl_Talend_Siebel_ServiceName?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="FSNPRD_PRD"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="STAGE"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_Password" value="GfMTl5G6nMtFYhG2Or1aZA=="/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="bos-odaha-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="DWTST"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value=""/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend/6.1.1/studio/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_mdGMED4OEeaDz8Fpp_ootA" name="DQTechnical"/>
+    <routinesParameter id="_mZ-moD4OEeaDz8Fpp_ootA" name="DataOperation"/>
+    <routinesParameter id="_mcqHMD4OEeaDz8Fpp_ootA" name="DataQualityDependencies"/>
+    <routinesParameter id="_mcgWMD4OEeaDz8Fpp_ootA" name="DataQuality"/>
+    <routinesParameter id="_mc9CID4OEeaDz8Fpp_ootA" name="DqStringHandling"/>
+    <routinesParameter id="_maRhkD4OEeaDz8Fpp_ootA" name="Mathematical"/>
+    <routinesParameter id="_makcgD4OEeaDz8Fpp_ootA" name="Numeric"/>
+    <routinesParameter id="_mauNgD4OEeaDz8Fpp_ootA" name="Relational"/>
+    <routinesParameter id="_mYMd8D4OEeaDz8Fpp_ootA" name="SQLike"/>
+    <routinesParameter id="_mbK5cD4OEeaDz8Fpp_ootA" name="StringHandling"/>
+    <routinesParameter id="_mbUDYD4OEeaDz8Fpp_ootA" name="TalendDataGenerator"/>
+    <routinesParameter id="_mbm-UD4OEeaDz8Fpp_ootA" name="TalendDate"/>
+    <routinesParameter id="_mb6gUD4OEeaDz8Fpp_ootA" name="TalendString"/>
+  </parameters>
+  <node componentName="tOracleConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_2"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_yiRzgD8yEea6uKGJangeXg"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_TNS_FILE" value="false"/>
+    <elementParameter field="FILE" name="TNS_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TNS_EDITOR" name="TNS_EDITOR" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.Orcl_Talend_IPT_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" value="context.Orcl_Talend_IPT_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.Orcl_Talend_IPT_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Orcl_Talend_IPT_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.Orcl_Talend_IPT_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kucwy9zHj7bMB0Lrydp4r4taQmIiTpKOHxW9aIVgrSvvDg=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.Orcl_Talend_IPT_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:thin:USER/MDP@server&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Orcl_Talend_IPT"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tOracleConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_3"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_JfvQUEH9EeaMtKM_IVCTwA"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_TNS_FILE" value="false"/>
+    <elementParameter field="FILE" name="TNS_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TNS_EDITOR" name="TNS_EDITOR" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.Orcl_Talend_Stage_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" value="context.Orcl_Talend_Stage_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.Orcl_Talend_Stage_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Orcl_Talend_Stage_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.Orcl_Talend_Stage_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kucwy9zHj7bMBzjxDKhx6aN1LQ0VuOj7F9DqOHA7p3j3WQ=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.Orcl_Talend_Stage_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:thin:USER/MDP@server&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Orcl_Talend_Stage"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tOracleCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_2"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleCommit_1"/>
+  </node>
+  <node componentName="tOracleCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_2"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_3"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleCommit_2"/>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleInput_2"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_yiRzgD8yEea6uKGJangeXg"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="context.Orcl_Talend_IPT_Server"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.Orcl_Talend_IPT_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.Orcl_Talend_IPT_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.Orcl_Talend_IPT_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.Orcl_Talend_IPT_ServiceName"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Orcl_Talend_IPT_Schema"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.Orcl_Talend_IPT_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kucwy9zHj7bMB0Lrydp4r4taQmIiTpKOHxW9aIVgrSvvDg=="/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_yiRzgD8yEea6uKGJangeXg - CLIENT"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;CLIENT&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#13;&#10;  CLIENT.PARTY_ID, &#13;&#10;  CLIENT.CLIENT_NUMBER, &#13;&#10;  CLIENT.ETA_GRACE_TIME, &#13;&#10;  CLIENT.EMERGENCY_RESPONSE_TIME, &#13;&#10;  CLIENT.NON_EMERGENCY_RESPONSE_TIME, &#13;&#10;  CLIENT.ASSIGNED_COORDINATOR_PERSON_ID, &#13;&#10;  CLIENT.LUCENT_CLIENT_NUMBER, &#13;&#10;  CLIENT.LUCENT_SURVEY_CLIENT_NUMBER, &#13;&#10;  CLIENT.MACHINE_ID, &#13;&#10;  CLIENT.UPDATED_DATE, &#13;&#10;  CLIENT.UPDATED_USER_ID, &#13;&#10;  CLIENT.ACTIVE_YN, &#13;&#10;  CLIENT.START_DATE, &#13;&#10;  CLIENT.END_DATE, &#13;&#10;  CLIENT.SAP_COST_CENTER, &#13;&#10;  CLIENT.SAP_PROFIT_CENTER, &#13;&#10;  CLIENT.SAP_GL_CODE, &#13;&#10;  CLIENT.PMC_CONTRACT_TYPE_ID, &#13;&#10;  CLIENT.OLD_GL_CODE, &#13;&#10;  CLIENT.GL_CODE_START_DATE, &#13;&#10;  CLIENT.FISCAL_YEAR, &#13;&#10;  CLIENT.FISCAL_YEAR_START_DATE, &#13;&#10;  CLIENT.IPT_INTERNAL_YN, &#13;&#10;  CLIENT.GL_SETUP_COMPLETE, &#13;&#10;  CLIENT.BILL_TO_CLIENT_ID, &#13;&#10;  CLIENT.CLIENT_CALL_TREE_TAG, &#13;&#10;  CLIENT.CLIENT_NUMBER_NORMAL, &#13;&#10;  CLIENT.CLIENT_NUMBER_EMERGENCY&#13;&#10;FROM IPT.CLIENT&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.Orcl_Talend_IPT_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="PARTY_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ETA_GRACE_TIME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMERGENCY_RESPONSE_TIME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NON_EMERGENCY_RESPONSE_TIME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ASSIGNED_COORDINATOR_PERSON_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LUCENT_CLIENT_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LUCENT_SURVEY_CLIENT_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MACHINE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATED_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATED_USER_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACTIVE_YN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="START_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="END_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SAP_COST_CENTER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SAP_PROFIT_CENTER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SAP_GL_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PMC_CONTRACT_TYPE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OLD_GL_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GL_CODE_START_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FISCAL_YEAR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FISCAL_YEAR_START_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_INTERNAL_YN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GL_SETUP_COMPLETE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BILL_TO_CLIENT_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_CALL_TREE_TAG"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_NUMBER_NORMAL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_NUMBER_EMERGENCY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="CLIENT" name="tOracleInput_2">
+      <column comment="A system-generated unique id for the party." key="true" length="12" name="PARTY_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="A system-generated unique id for the party."/>
+      </column>
+      <column comment="A unique, user assigned number that identifies the client as an IPT customer.  This may be used as an account number when sending bills." key="false" length="12" name="CLIENT_NUMBER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="A unique, user assigned number that identifies the client as an IPT customer.  This may be used as an account number when sending bills."/>
+      </column>
+      <column comment="This is how much time, in minutes, is allowed to elapse for any RFS until an ETA is provided by a service vendor.  This applies to all CLIENT LOCATIONS." key="false" length="6" name="ETA_GRACE_TIME" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is how much time, in minutes, is allowed to elapse for any RFS until an ETA is provided by a service vendor.  This applies to all CLIENT LOCATIONS."/>
+      </column>
+      <column comment="This is how much time, in minutes, is allowed to elapse until a service arrives for an emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden." key="false" length="6" name="EMERGENCY_RESPONSE_TIME" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is how much time, in minutes, is allowed to elapse until a service arrives for an emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden."/>
+      </column>
+      <column comment="This is how much time, in minutes, is allowed to elapse until a service arrives for a non-emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden." key="false" length="6" name="NON_EMERGENCY_RESPONSE_TIME" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is how much time, in minutes, is allowed to elapse until a service arrives for a non-emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden."/>
+      </column>
+      <column comment="Which IPT Coordinator is assigned to support this CLIENT?  This needs to be validated via the PARTY/PERSON/CONTACT ROLE (Party=IPT, Contact Role=&quot;IPT Coordinator&quot;)." key="false" length="12" name="ASSIGNED_COORDINATOR_PERSON_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which IPT Coordinator is assigned to support this CLIENT?  This needs to be validated via the PARTY/PERSON/CONTACT ROLE (Party=IPT, Contact Role=&quot;IPT Coordinator&quot;)."/>
+      </column>
+      <column comment="This is the toll-free number that the client is dialing into the Lucent box with.  The ID that Lucent uses to identify a user.  &#13;&#10;" key="false" length="20" name="LUCENT_CLIENT_NUMBER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is the toll-free number that the client is dialing into the Lucent box with.  The ID that Lucent uses to identify a user.  &#13;&#10;"/>
+      </column>
+      <column comment="This will identify the VDN (?) that the client''s 800 number is coming in on for a survey.  This is not the phone number." key="false" length="20" name="LUCENT_SURVEY_CLIENT_NUMBER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This will identify the VDN (?) that the client''s 800 number is coming in on for a survey.  This is not the phone number."/>
+      </column>
+      <column comment="Which LUCENT box do the 800 numbers come in on?" key="false" length="12" name="MACHINE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which LUCENT box do the 800 numbers come in on?"/>
+      </column>
+      <column comment="When, in GMT, the record was modified." key="false" length="7" name="UPDATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When, in GMT, the record was modified."/>
+      </column>
+      <column comment="The ORACLE username that updated the record last." key="false" length="12" name="UPDATED_USER_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="The ORACLE username that updated the record last."/>
+      </column>
+      <column comment="is this client active in our system" defaultValue="'Y'" key="false" length="1" name="ACTIVE_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="is this client active in our system"/>
+      </column>
+      <column comment="date this client is to become (was) activated" key="false" length="7" name="START_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="date this client is to become (was) activated"/>
+      </column>
+      <column comment="date this client is to become (was) deactivated" key="false" length="7" name="END_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="date this client is to become (was) deactivated"/>
+      </column>
+      <column comment="Accounting system cost center for this client" key="false" length="20" name="SAP_COST_CENTER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Accounting system cost center for this client"/>
+      </column>
+      <column comment="Accounting system profit center for this client" key="false" length="20" name="SAP_PROFIT_CENTER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Accounting system profit center for this client"/>
+      </column>
+      <column comment="newest general ledger code for this client" key="false" length="20" name="SAP_GL_CODE" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="newest general ledger code for this client"/>
+      </column>
+      <column comment="type of contract applied to this client" key="false" length="12" name="PMC_CONTRACT_TYPE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="type of contract applied to this client"/>
+      </column>
+      <column comment="former general ledger account for this client" key="false" length="20" name="OLD_GL_CODE" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="former general ledger account for this client"/>
+      </column>
+      <column comment="When did this GL code get applied to this client" key="false" length="7" name="GL_CODE_START_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When did this GL code get applied to this client"/>
+      </column>
+      <column comment="Which fiscal year is this for the client (not used?)" key="false" length="4" name="FISCAL_YEAR" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which fiscal year is this for the client (not used?)"/>
+      </column>
+      <column comment="What date did this fiscal year begin for the client (not used?)" key="false" length="7" name="FISCAL_YEAR_START_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="What date did this fiscal year begin for the client (not used?)"/>
+      </column>
+      <column comment="is this an internal(IPT) or external client" defaultValue="'N'" key="false" length="1" name="IPT_INTERNAL_YN" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="is this an internal(IPT) or external client"/>
+      </column>
+      <column comment="Is the client in the GL, N = Not Setup - do not send to GL, Y = GL Setup, send to GL (Old System/Surebridge), X = De-activated client, do not send to GL, O = GK Setup, send to GL (New Mgmt Fee System/Interteq)" defaultValue="'N'" key="false" length="1" name="GL_SETUP_COMPLETE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Is the client in the GL, N = Not Setup - do not send to GL, Y = GL Setup, send to GL (Old System/Surebridge), X = De-activated client, do not send to GL, O = GK Setup, send to GL (New Mgmt Fee System/Interteq)"/>
+      </column>
+      <column comment="This can default to client.party_id (role_type_id = 2) or a company.party_id (role_type_id = 1) for multi-client/brands for a company.  GP does not care as long as it is unique for each company." key="false" length="12" name="BILL_TO_CLIENT_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This can default to client.party_id (role_type_id = 2) or a company.party_id (role_type_id = 1) for multi-client/brands for a company.  GP does not care as long as it is unique for each company."/>
+      </column>
+      <column comment="Used by UCN Call-Tree for the initial welcoming greeting for client toll-free numbers.  This is the name of a WAV file recorded on the UCN system.  If this is NULL or the file is not found then the default greeting is played." key="false" length="30" name="CLIENT_CALL_TREE_TAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Used by UCN Call-Tree for the initial welcoming greeting for client toll-free numbers.  This is the name of a WAV file recorded on the UCN system.  If this is NULL or the file is not found then the default greeting is played."/>
+      </column>
+      <column comment="VDN to transfer call to from UCN for Normal calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping." key="false" length="12" name="CLIENT_NUMBER_NORMAL" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="VDN to transfer call to from UCN for Normal calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping."/>
+      </column>
+      <column comment="VDN to transfer call to from UCN for Emergency calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping." key="false" length="12" name="CLIENT_NUMBER_EMERGENCY" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="VDN to transfer call to from UCN for Emergency calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping."/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="384" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_V08r4FjaEeabd9oAnXJ-LA-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="IPT_CLIENT" name="Tgt_Ipt_Client">
+      <column comment="A system-generated unique id for the party." key="false" length="12" name="PARTY_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="A system-generated unique id for the party."/>
+      </column>
+      <column comment="A unique, user assigned number that identifies the client as an IPT customer.  This may be used as an account number when sending bills." key="false" length="12" name="CLIENT_NUMBER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="A unique, user assigned number that identifies the client as an IPT customer.  This may be used as an account number when sending bills."/>
+      </column>
+      <column comment="This is how much time, in minutes, is allowed to elapse for any RFS until an ETA is provided by a service vendor.  This applies to all CLIENT LOCATIONS." key="false" length="6" name="ETA_GRACE_TIME" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is how much time, in minutes, is allowed to elapse for any RFS until an ETA is provided by a service vendor.  This applies to all CLIENT LOCATIONS."/>
+      </column>
+      <column comment="This is how much time, in minutes, is allowed to elapse until a service arrives for an emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden." key="false" length="6" name="EMERGENCY_RESPONSE_TIME" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is how much time, in minutes, is allowed to elapse until a service arrives for an emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden."/>
+      </column>
+      <column comment="This is how much time, in minutes, is allowed to elapse until a service arrives for a non-emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden." key="false" length="6" name="NON_EMERGENCY_RESPONSE_TIME" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is how much time, in minutes, is allowed to elapse until a service arrives for a non-emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden."/>
+      </column>
+      <column comment="Which IPT Coordinator is assigned to support this CLIENT?  This needs to be validated via the PARTY/PERSON/CONTACT ROLE (Party=IPT, Contact Role=&quot;IPT Coordinator&quot;)." key="false" length="12" name="ASSIGNED_COORDINATOR_PERSON_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which IPT Coordinator is assigned to support this CLIENT?  This needs to be validated via the PARTY/PERSON/CONTACT ROLE (Party=IPT, Contact Role=&quot;IPT Coordinator&quot;)."/>
+      </column>
+      <column comment="This is the toll-free number that the client is dialing into the Lucent box with.  The ID that Lucent uses to identify a user.  &#10;" key="false" length="20" name="LUCENT_CLIENT_NUMBER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is the toll-free number that the client is dialing into the Lucent box with.  The ID that Lucent uses to identify a user.  &#10;"/>
+      </column>
+      <column comment="This will identify the VDN (?) that the client''s 800 number is coming in on for a survey.  This is not the phone number." key="false" length="20" name="LUCENT_SURVEY_CLIENT_NUMBER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This will identify the VDN (?) that the client''s 800 number is coming in on for a survey.  This is not the phone number."/>
+      </column>
+      <column comment="Which LUCENT box do the 800 numbers come in on?" key="false" length="12" name="MACHINE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which LUCENT box do the 800 numbers come in on?"/>
+      </column>
+      <column comment="When, in GMT, the record was modified." key="false" length="7" name="UPDATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When, in GMT, the record was modified."/>
+      </column>
+      <column comment="The ORACLE username that updated the record last." key="false" length="12" name="UPDATED_USER_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="The ORACLE username that updated the record last."/>
+      </column>
+      <column comment="is this client active in our system" defaultValue="'Y'" key="false" length="1" name="ACTIVE_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="is this client active in our system"/>
+      </column>
+      <column comment="date this client is to become (was) activated" key="false" length="7" name="START_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="date this client is to become (was) activated"/>
+      </column>
+      <column comment="date this client is to become (was) deactivated" key="false" length="7" name="END_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="date this client is to become (was) deactivated"/>
+      </column>
+      <column comment="Accounting system cost center for this client" key="false" length="20" name="SAP_COST_CENTER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Accounting system cost center for this client"/>
+      </column>
+      <column comment="Accounting system profit center for this client" key="false" length="20" name="SAP_PROFIT_CENTER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Accounting system profit center for this client"/>
+      </column>
+      <column comment="newest general ledger code for this client" key="false" length="20" name="SAP_GL_CODE" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="newest general ledger code for this client"/>
+      </column>
+      <column comment="type of contract applied to this client" key="false" length="12" name="PMC_CONTRACT_TYPE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="type of contract applied to this client"/>
+      </column>
+      <column comment="former general ledger account for this client" key="false" length="20" name="OLD_GL_CODE" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="former general ledger account for this client"/>
+      </column>
+      <column comment="When did this GL code get applied to this client" key="false" length="7" name="GL_CODE_START_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When did this GL code get applied to this client"/>
+      </column>
+      <column comment="Which fiscal year is this for the client (not used?)" key="false" length="4" name="FISCAL_YEAR" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which fiscal year is this for the client (not used?)"/>
+      </column>
+      <column comment="What date did this fiscal year begin for the client (not used?)" key="false" length="7" name="FISCAL_YEAR_START_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="What date did this fiscal year begin for the client (not used?)"/>
+      </column>
+      <column comment="is this an internal(IPT) or external client" defaultValue="'N'" key="false" length="1" name="IPT_INTERNAL_YN" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="is this an internal(IPT) or external client"/>
+      </column>
+      <column comment="Is the client in the GL, N = Not Setup - do not send to GL, Y = GL Setup, send to GL (Old System/Surebridge), X = De-activated client, do not send to GL, O = GK Setup, send to GL (New Mgmt Fee System/Interteq)" defaultValue="'N'" key="false" length="1" name="GL_SETUP_COMPLETE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Is the client in the GL, N = Not Setup - do not send to GL, Y = GL Setup, send to GL (Old System/Surebridge), X = De-activated client, do not send to GL, O = GK Setup, send to GL (New Mgmt Fee System/Interteq)"/>
+      </column>
+      <column comment="This can default to client.party_id (role_type_id = 2) or a company.party_id (role_type_id = 1) for multi-client/brands for a company.  GP does not care as long as it is unique for each company." key="false" length="12" name="BILL_TO_CLIENT_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This can default to client.party_id (role_type_id = 2) or a company.party_id (role_type_id = 1) for multi-client/brands for a company.  GP does not care as long as it is unique for each company."/>
+      </column>
+      <column comment="Used by UCN Call-Tree for the initial welcoming greeting for client toll-free numbers.  This is the name of a WAV file recorded on the UCN system.  If this is NULL or the file is not found then the default greeting is played." key="false" length="30" name="CLIENT_CALL_TREE_TAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Used by UCN Call-Tree for the initial welcoming greeting for client toll-free numbers.  This is the name of a WAV file recorded on the UCN system.  If this is NULL or the file is not found then the default greeting is played."/>
+      </column>
+      <column comment="VDN to transfer call to from UCN for Normal calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping." key="false" length="12" name="CLIENT_NUMBER_NORMAL" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="VDN to transfer call to from UCN for Normal calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping."/>
+      </column>
+      <column comment="VDN to transfer call to from UCN for Emergency calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping." key="false" length="12" name="CLIENT_NUMBER_EMERGENCY" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="VDN to transfer call to from UCN for Emergency calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping."/>
+      </column>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="Tgt_Ipt_Client" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="Src_Client.PARTY_ID" name="PARTY_ID" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.CLIENT_NUMBER" name="CLIENT_NUMBER" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.ETA_GRACE_TIME" name="ETA_GRACE_TIME" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.EMERGENCY_RESPONSE_TIME" name="EMERGENCY_RESPONSE_TIME" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.NON_EMERGENCY_RESPONSE_TIME" name="NON_EMERGENCY_RESPONSE_TIME" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.ASSIGNED_COORDINATOR_PERSON_ID" name="ASSIGNED_COORDINATOR_PERSON_ID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.LUCENT_CLIENT_NUMBER" name="LUCENT_CLIENT_NUMBER" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.LUCENT_SURVEY_CLIENT_NUMBER" name="LUCENT_SURVEY_CLIENT_NUMBER" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.MACHINE_ID" name="MACHINE_ID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.UPDATED_DATE" name="UPDATED_DATE" type="id_Date"/>
+        <mapperTableEntries expression="Src_Client.UPDATED_USER_ID" name="UPDATED_USER_ID" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.ACTIVE_YN" name="ACTIVE_YN" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Src_Client.START_DATE" name="START_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="Src_Client.END_DATE" name="END_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="Src_Client.SAP_COST_CENTER" name="SAP_COST_CENTER" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.SAP_PROFIT_CENTER" name="SAP_PROFIT_CENTER" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.SAP_GL_CODE" name="SAP_GL_CODE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.PMC_CONTRACT_TYPE_ID" name="PMC_CONTRACT_TYPE_ID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.OLD_GL_CODE" name="OLD_GL_CODE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.GL_CODE_START_DATE" name="GL_CODE_START_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="Src_Client.FISCAL_YEAR" name="FISCAL_YEAR" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.FISCAL_YEAR_START_DATE" name="FISCAL_YEAR_START_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="Src_Client.IPT_INTERNAL_YN" name="IPT_INTERNAL_YN" type="id_String"/>
+        <mapperTableEntries expression="Src_Client.GL_SETUP_COMPLETE" name="GL_SETUP_COMPLETE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Src_Client.BILL_TO_CLIENT_ID" name="BILL_TO_CLIENT_ID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.CLIENT_CALL_TREE_TAG" name="CLIENT_CALL_TREE_TAG" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Src_Client.CLIENT_NUMBER_NORMAL" name="CLIENT_NUMBER_NORMAL" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_Client.CLIENT_NUMBER_EMERGENCY" name="CLIENT_NUMBER_EMERGENCY" nullable="true" type="id_BigDecimal"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="Src_Client" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="PARTY_ID" type="id_BigDecimal"/>
+        <mapperTableEntries name="CLIENT_NUMBER" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="ETA_GRACE_TIME" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="EMERGENCY_RESPONSE_TIME" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="NON_EMERGENCY_RESPONSE_TIME" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="ASSIGNED_COORDINATOR_PERSON_ID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="LUCENT_CLIENT_NUMBER" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="LUCENT_SURVEY_CLIENT_NUMBER" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="MACHINE_ID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="UPDATED_DATE" type="id_Date"/>
+        <mapperTableEntries name="UPDATED_USER_ID" type="id_BigDecimal"/>
+        <mapperTableEntries name="ACTIVE_YN" nullable="true" type="id_String"/>
+        <mapperTableEntries name="START_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="END_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="SAP_COST_CENTER" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="SAP_PROFIT_CENTER" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="SAP_GL_CODE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="PMC_CONTRACT_TYPE_ID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="OLD_GL_CODE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="GL_CODE_START_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="FISCAL_YEAR" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="FISCAL_YEAR_START_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="IPT_INTERNAL_YN" type="id_String"/>
+        <mapperTableEntries name="GL_SETUP_COMPLETE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="BILL_TO_CLIENT_ID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="CLIENT_CALL_TREE_TAG" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CLIENT_NUMBER_NORMAL" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="CLIENT_NUMBER_EMERGENCY" nullable="true" type="id_BigDecimal"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleOutput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_JfvQUEH9EeaMtKM_IVCTwA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_3"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="context.Orcl_Talend_Stage_Server"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.Orcl_Talend_Stage_Server"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.Orcl_Talend_Stage_Port"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.Orcl_Talend_Stage_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.Orcl_Talend_Stage_ServiceName"/>
+    <elementParameter field="TEXT" name="TABLESCHEMA" show="false" value="context.Orcl_Talend_Stage_Schema"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.Orcl_Talend_Stage_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kucwy9zHj7bMBzjxDKhx6aN1LQ0VuOj7F9DqOHA7p3j3WQ=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;IPT_CLIENT&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+    <elementParameter field="LABEL" name="NOTE" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_JfvQUEH9EeaMtKM_IVCTwA - IPT_CLIENT"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.Orcl_Talend_Stage_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="PARTY_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_NUMBER"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ETA_GRACE_TIME"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMERGENCY_RESPONSE_TIME"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NON_EMERGENCY_RESPONSE_TIME"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ASSIGNED_COORDINATOR_PERSON_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LUCENT_CLIENT_NUMBER"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LUCENT_SURVEY_CLIENT_NUMBER"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MACHINE_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATED_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATED_USER_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACTIVE_YN"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="START_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="END_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SAP_COST_CENTER"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SAP_PROFIT_CENTER"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SAP_GL_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PMC_CONTRACT_TYPE_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OLD_GL_CODE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GL_CODE_START_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FISCAL_YEAR"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FISCAL_YEAR_START_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_INTERNAL_YN"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GL_SETUP_COMPLETE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BILL_TO_CLIENT_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_CALL_TREE_TAG"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_NUMBER_NORMAL"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_NUMBER_EMERGENCY"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_UPPERCASE" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="USE_BATCH_AND_USE_CONN" value="false"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" show="false" value="10000"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
+    <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="IPT_CLIENT" name="tOracleOutput_1">
+      <column comment="A system-generated unique id for the party." key="false" length="12" name="PARTY_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="A system-generated unique id for the party."/>
+      </column>
+      <column comment="A unique, user assigned number that identifies the client as an IPT customer.  This may be used as an account number when sending bills." key="false" length="12" name="CLIENT_NUMBER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="A unique, user assigned number that identifies the client as an IPT customer.  This may be used as an account number when sending bills."/>
+      </column>
+      <column comment="This is how much time, in minutes, is allowed to elapse for any RFS until an ETA is provided by a service vendor.  This applies to all CLIENT LOCATIONS." key="false" length="6" name="ETA_GRACE_TIME" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is how much time, in minutes, is allowed to elapse for any RFS until an ETA is provided by a service vendor.  This applies to all CLIENT LOCATIONS."/>
+      </column>
+      <column comment="This is how much time, in minutes, is allowed to elapse until a service arrives for an emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden." key="false" length="6" name="EMERGENCY_RESPONSE_TIME" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is how much time, in minutes, is allowed to elapse until a service arrives for an emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden."/>
+      </column>
+      <column comment="This is how much time, in minutes, is allowed to elapse until a service arrives for a non-emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden." key="false" length="6" name="NON_EMERGENCY_RESPONSE_TIME" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is how much time, in minutes, is allowed to elapse until a service arrives for a non-emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden."/>
+      </column>
+      <column comment="Which IPT Coordinator is assigned to support this CLIENT?  This needs to be validated via the PARTY/PERSON/CONTACT ROLE (Party=IPT, Contact Role=&quot;IPT Coordinator&quot;)." key="false" length="12" name="ASSIGNED_COORDINATOR_PERSON_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which IPT Coordinator is assigned to support this CLIENT?  This needs to be validated via the PARTY/PERSON/CONTACT ROLE (Party=IPT, Contact Role=&quot;IPT Coordinator&quot;)."/>
+      </column>
+      <column comment="This is the toll-free number that the client is dialing into the Lucent box with.  The ID that Lucent uses to identify a user.  &#10;" key="false" length="20" name="LUCENT_CLIENT_NUMBER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is the toll-free number that the client is dialing into the Lucent box with.  The ID that Lucent uses to identify a user.  &#10;"/>
+      </column>
+      <column comment="This will identify the VDN (?) that the client''s 800 number is coming in on for a survey.  This is not the phone number." key="false" length="20" name="LUCENT_SURVEY_CLIENT_NUMBER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This will identify the VDN (?) that the client''s 800 number is coming in on for a survey.  This is not the phone number."/>
+      </column>
+      <column comment="Which LUCENT box do the 800 numbers come in on?" key="false" length="12" name="MACHINE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which LUCENT box do the 800 numbers come in on?"/>
+      </column>
+      <column comment="When, in GMT, the record was modified." key="false" length="7" name="UPDATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When, in GMT, the record was modified."/>
+      </column>
+      <column comment="The ORACLE username that updated the record last." key="false" length="12" name="UPDATED_USER_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="The ORACLE username that updated the record last."/>
+      </column>
+      <column comment="is this client active in our system" defaultValue="'Y'" key="false" length="1" name="ACTIVE_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="is this client active in our system"/>
+      </column>
+      <column comment="date this client is to become (was) activated" key="false" length="7" name="START_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="date this client is to become (was) activated"/>
+      </column>
+      <column comment="date this client is to become (was) deactivated" key="false" length="7" name="END_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="date this client is to become (was) deactivated"/>
+      </column>
+      <column comment="Accounting system cost center for this client" key="false" length="20" name="SAP_COST_CENTER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Accounting system cost center for this client"/>
+      </column>
+      <column comment="Accounting system profit center for this client" key="false" length="20" name="SAP_PROFIT_CENTER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Accounting system profit center for this client"/>
+      </column>
+      <column comment="newest general ledger code for this client" key="false" length="20" name="SAP_GL_CODE" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="newest general ledger code for this client"/>
+      </column>
+      <column comment="type of contract applied to this client" key="false" length="12" name="PMC_CONTRACT_TYPE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="type of contract applied to this client"/>
+      </column>
+      <column comment="former general ledger account for this client" key="false" length="20" name="OLD_GL_CODE" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="former general ledger account for this client"/>
+      </column>
+      <column comment="When did this GL code get applied to this client" key="false" length="7" name="GL_CODE_START_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When did this GL code get applied to this client"/>
+      </column>
+      <column comment="Which fiscal year is this for the client (not used?)" key="false" length="4" name="FISCAL_YEAR" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which fiscal year is this for the client (not used?)"/>
+      </column>
+      <column comment="What date did this fiscal year begin for the client (not used?)" key="false" length="7" name="FISCAL_YEAR_START_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="What date did this fiscal year begin for the client (not used?)"/>
+      </column>
+      <column comment="is this an internal(IPT) or external client" defaultValue="'N'" key="false" length="1" name="IPT_INTERNAL_YN" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="is this an internal(IPT) or external client"/>
+      </column>
+      <column comment="Is the client in the GL, N = Not Setup - do not send to GL, Y = GL Setup, send to GL (Old System/Surebridge), X = De-activated client, do not send to GL, O = GK Setup, send to GL (New Mgmt Fee System/Interteq)" defaultValue="'N'" key="false" length="1" name="GL_SETUP_COMPLETE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Is the client in the GL, N = Not Setup - do not send to GL, Y = GL Setup, send to GL (Old System/Surebridge), X = De-activated client, do not send to GL, O = GK Setup, send to GL (New Mgmt Fee System/Interteq)"/>
+      </column>
+      <column comment="This can default to client.party_id (role_type_id = 2) or a company.party_id (role_type_id = 1) for multi-client/brands for a company.  GP does not care as long as it is unique for each company." key="false" length="12" name="BILL_TO_CLIENT_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This can default to client.party_id (role_type_id = 2) or a company.party_id (role_type_id = 1) for multi-client/brands for a company.  GP does not care as long as it is unique for each company."/>
+      </column>
+      <column comment="Used by UCN Call-Tree for the initial welcoming greeting for client toll-free numbers.  This is the name of a WAV file recorded on the UCN system.  If this is NULL or the file is not found then the default greeting is played." key="false" length="30" name="CLIENT_CALL_TREE_TAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Used by UCN Call-Tree for the initial welcoming greeting for client toll-free numbers.  This is the name of a WAV file recorded on the UCN system.  If this is NULL or the file is not found then the default greeting is played."/>
+      </column>
+      <column comment="VDN to transfer call to from UCN for Normal calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping." key="false" length="12" name="CLIENT_NUMBER_NORMAL" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="VDN to transfer call to from UCN for Normal calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping."/>
+      </column>
+      <column comment="VDN to transfer call to from UCN for Emergency calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping." key="false" length="12" name="CLIENT_NUMBER_EMERGENCY" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="VDN to transfer call to from UCN for Emergency calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping."/>
+      </column>
+    </metadata>
+    <metadata connector="REJECT" label="IPT_CLIENT" name="REJECT">
+      <column comment="A system-generated unique id for the party." key="false" length="12" name="PARTY_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="A system-generated unique id for the party."/>
+      </column>
+      <column comment="A unique, user assigned number that identifies the client as an IPT customer.  This may be used as an account number when sending bills." key="false" length="12" name="CLIENT_NUMBER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="A unique, user assigned number that identifies the client as an IPT customer.  This may be used as an account number when sending bills."/>
+      </column>
+      <column comment="This is how much time, in minutes, is allowed to elapse for any RFS until an ETA is provided by a service vendor.  This applies to all CLIENT LOCATIONS." key="false" length="6" name="ETA_GRACE_TIME" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is how much time, in minutes, is allowed to elapse for any RFS until an ETA is provided by a service vendor.  This applies to all CLIENT LOCATIONS."/>
+      </column>
+      <column comment="This is how much time, in minutes, is allowed to elapse until a service arrives for an emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden." key="false" length="6" name="EMERGENCY_RESPONSE_TIME" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is how much time, in minutes, is allowed to elapse until a service arrives for an emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden."/>
+      </column>
+      <column comment="This is how much time, in minutes, is allowed to elapse until a service arrives for a non-emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden." key="false" length="6" name="NON_EMERGENCY_RESPONSE_TIME" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is how much time, in minutes, is allowed to elapse until a service arrives for a non-emergency RFS All new CLIENT LOCATIONS inherit this value as a default value, but can be over-ridden."/>
+      </column>
+      <column comment="Which IPT Coordinator is assigned to support this CLIENT?  This needs to be validated via the PARTY/PERSON/CONTACT ROLE (Party=IPT, Contact Role=&quot;IPT Coordinator&quot;)." key="false" length="12" name="ASSIGNED_COORDINATOR_PERSON_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which IPT Coordinator is assigned to support this CLIENT?  This needs to be validated via the PARTY/PERSON/CONTACT ROLE (Party=IPT, Contact Role=&quot;IPT Coordinator&quot;)."/>
+      </column>
+      <column comment="This is the toll-free number that the client is dialing into the Lucent box with.  The ID that Lucent uses to identify a user.  &#10;" key="false" length="20" name="LUCENT_CLIENT_NUMBER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This is the toll-free number that the client is dialing into the Lucent box with.  The ID that Lucent uses to identify a user.  &#10;"/>
+      </column>
+      <column comment="This will identify the VDN (?) that the client''s 800 number is coming in on for a survey.  This is not the phone number." key="false" length="20" name="LUCENT_SURVEY_CLIENT_NUMBER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This will identify the VDN (?) that the client''s 800 number is coming in on for a survey.  This is not the phone number."/>
+      </column>
+      <column comment="Which LUCENT box do the 800 numbers come in on?" key="false" length="12" name="MACHINE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which LUCENT box do the 800 numbers come in on?"/>
+      </column>
+      <column comment="When, in GMT, the record was modified." key="false" length="7" name="UPDATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When, in GMT, the record was modified."/>
+      </column>
+      <column comment="The ORACLE username that updated the record last." key="false" length="12" name="UPDATED_USER_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="The ORACLE username that updated the record last."/>
+      </column>
+      <column comment="is this client active in our system" defaultValue="'Y'" key="false" length="1" name="ACTIVE_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="is this client active in our system"/>
+      </column>
+      <column comment="date this client is to become (was) activated" key="false" length="7" name="START_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="date this client is to become (was) activated"/>
+      </column>
+      <column comment="date this client is to become (was) deactivated" key="false" length="7" name="END_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="date this client is to become (was) deactivated"/>
+      </column>
+      <column comment="Accounting system cost center for this client" key="false" length="20" name="SAP_COST_CENTER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Accounting system cost center for this client"/>
+      </column>
+      <column comment="Accounting system profit center for this client" key="false" length="20" name="SAP_PROFIT_CENTER" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Accounting system profit center for this client"/>
+      </column>
+      <column comment="newest general ledger code for this client" key="false" length="20" name="SAP_GL_CODE" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="newest general ledger code for this client"/>
+      </column>
+      <column comment="type of contract applied to this client" key="false" length="12" name="PMC_CONTRACT_TYPE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="type of contract applied to this client"/>
+      </column>
+      <column comment="former general ledger account for this client" key="false" length="20" name="OLD_GL_CODE" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="former general ledger account for this client"/>
+      </column>
+      <column comment="When did this GL code get applied to this client" key="false" length="7" name="GL_CODE_START_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When did this GL code get applied to this client"/>
+      </column>
+      <column comment="Which fiscal year is this for the client (not used?)" key="false" length="4" name="FISCAL_YEAR" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which fiscal year is this for the client (not used?)"/>
+      </column>
+      <column comment="What date did this fiscal year begin for the client (not used?)" key="false" length="7" name="FISCAL_YEAR_START_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="What date did this fiscal year begin for the client (not used?)"/>
+      </column>
+      <column comment="is this an internal(IPT) or external client" defaultValue="'N'" key="false" length="1" name="IPT_INTERNAL_YN" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="is this an internal(IPT) or external client"/>
+      </column>
+      <column comment="Is the client in the GL, N = Not Setup - do not send to GL, Y = GL Setup, send to GL (Old System/Surebridge), X = De-activated client, do not send to GL, O = GK Setup, send to GL (New Mgmt Fee System/Interteq)" defaultValue="'N'" key="false" length="1" name="GL_SETUP_COMPLETE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Is the client in the GL, N = Not Setup - do not send to GL, Y = GL Setup, send to GL (Old System/Surebridge), X = De-activated client, do not send to GL, O = GK Setup, send to GL (New Mgmt Fee System/Interteq)"/>
+      </column>
+      <column comment="This can default to client.party_id (role_type_id = 2) or a company.party_id (role_type_id = 1) for multi-client/brands for a company.  GP does not care as long as it is unique for each company." key="false" length="12" name="BILL_TO_CLIENT_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="This can default to client.party_id (role_type_id = 2) or a company.party_id (role_type_id = 1) for multi-client/brands for a company.  GP does not care as long as it is unique for each company."/>
+      </column>
+      <column comment="Used by UCN Call-Tree for the initial welcoming greeting for client toll-free numbers.  This is the name of a WAV file recorded on the UCN system.  If this is NULL or the file is not found then the default greeting is played." key="false" length="30" name="CLIENT_CALL_TREE_TAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Used by UCN Call-Tree for the initial welcoming greeting for client toll-free numbers.  This is the name of a WAV file recorded on the UCN system.  If this is NULL or the file is not found then the default greeting is played."/>
+      </column>
+      <column comment="VDN to transfer call to from UCN for Normal calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping." key="false" length="12" name="CLIENT_NUMBER_NORMAL" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="VDN to transfer call to from UCN for Normal calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping."/>
+      </column>
+      <column comment="VDN to transfer call to from UCN for Emergency calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping." key="false" length="12" name="CLIENT_NUMBER_EMERGENCY" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="VDN to transfer call to from UCN for Emergency calls.  Should always be 999350xxxx.  See VDN Plan.xls for Client/VDN mapping."/>
+      </column>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tOracleConnection_2" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tOracleConnection_2" target="tOracleConnection_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tOracleConnection_2" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tOracleConnection_2" target="tOracleInput_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk3"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleCommit_1" offsetLabelX="0" offsetLabelY="0" source="tOracleCommit_1" target="tOracleCommit_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="FLOW" label="Src_Client" lineStyle="0" metaname="tOracleInput_2" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_2" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Src_Client"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleInput_2" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_2" target="tOracleCommit_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="Tgt_Ipt_Client" lineStyle="0" metaname="Tgt_Ipt_Client" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tOracleOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Tgt_Ipt_Client"/>
+  </connection>
+  <note opaque="false" posX="192" posY="32" sizeHeight="129" sizeWidth="449" text="Developed By: Lee Rygiel&#13;&#10;Company : FYI Solutions&#13;&#10;Developed Date : 08-02-2016&#13;&#10;Changed By: &#13;&#10;Changed Log:&#13;&#10;Changed Date:&#13;&#10;">
+    <elementParameter field="COLOR" name="NOTE_COLOR" value="225;225;135"/>
+  </note>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleInput_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0558d265-17c1-4afd-9c59-7a0b4b56fa5d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>MyAVh01fEXD8HjYqZYT0FvDVwU/3SvSIk+zENhePeFZNBqenz5gpQMDymH3kCxcKhxDRj7sDZtHy
+CkJeUhj42w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_39cc5ad5-124c-4f2f-bbf9-ca03f3efc5f6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>E41X1c6kumrIiqZreJgbfKIcFlH5ovc9X4GFNLOSLuTjOxKo0W+Uj1BIGp7nFWeG/GKbrvOhKR0v
+wDTxPqS15w==</DigestValue></Reference></SignedInfo><SignatureValue>Aw50K8VdZVV0BnmnCL2QTb05nDcTjnV9FiJ9rZX0G7HWp+DpnZG/p00xNB/YZpGtIcn75ZsroB+k
+gEbkNJwsjdqp0qDtN7XpHRmALitKqoWjmfAfx3DrwojfaIoyfC3VdnVwrhHusS1WuVl518vpIjtr
+ZMxmWFxO5HQMsEQIjI8N/4wfTIqCXk9FwG9nT4KgpXccQjWljZ5PQpSGb4geDkUqeZouL8R1hOM2
+AxcU2XrnS5gHAUD1aF8c7VYsGbx7Y1xhRyyb3EOdZeaouR3soK7EwtyhaEQRyj2cIWOIa+mfT690
+y5iq0uNZYRMdyHLHcNe1R5mszpNO18mXNfwfbQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_39cc5ad5-124c-4f2f-bbf9-ca03f3efc5f6" Target="#_0558d265-17c1-4afd-9c59-7a0b4b56fa5d"><Timestamp>2019-05-10 18:13:35</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

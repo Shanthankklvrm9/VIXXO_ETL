@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_HZhiQHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_ServiceName" prompt="Orcl_Talend_CUST_BILL_ServiceName?" promptNeeded="false" type="id_String" value="DWDEV" xmi:id="_HZhiQXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_AdditionalParams" prompt="Orcl_Talend_CUST_BILL_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HZhiQnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_Login" prompt="Orcl_Talend_CUST_BILL_Login?" promptNeeded="false" type="id_String" value="TALEND_CUSTOMER_BILLING" xmi:id="_HZhiQ3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_Schema" prompt="Orcl_Talend_CUST_BILL_Schema?" promptNeeded="false" type="id_String" value="CUSTOMER_BILLING" xmi:id="_HZhiRHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_Password" prompt="Orcl_Talend_CUST_BILL_Password?" promptNeeded="false" type="id_Password" value="KSLTDRt+ICupZGSmVDS+xA==" xmi:id="_HZhiRXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_Server" prompt="Orcl_Talend_CUST_BILL_Server?" promptNeeded="false" type="id_String" value="bos-odapr-scan" xmi:id="_HZhiRnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_Port" prompt="Orcl_Talend_CUST_BILL_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HZhiR3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_HZhiSHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_ServiceName" prompt="Orcl_Talend_CUST_BILL_ServiceName?" promptNeeded="false" type="id_String" value="DWPRD_PRD" xmi:id="_HZhiSXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_AdditionalParams" prompt="Orcl_Talend_CUST_BILL_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HZhiSnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_Login" prompt="Orcl_Talend_CUST_BILL_Login?" promptNeeded="false" type="id_String" value="CUSTOMER_BILLING" xmi:id="_HZhiS3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_Schema" prompt="Orcl_Talend_CUST_BILL_Schema?" promptNeeded="false" type="id_String" value="CUSTOMER_BILLING" xmi:id="_HZhiTHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_Password" prompt="Orcl_Talend_CUST_BILL_Password?" promptNeeded="false" type="id_Password" value="VWq8fQuwAJXaJzOnNMrUpw==" xmi:id="_HZhiTXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_Server" prompt="Orcl_Talend_CUST_BILL_Server?" promptNeeded="false" type="id_String" value="bos-odaprd-scan" xmi:id="_HZhiTnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_Port" prompt="Orcl_Talend_CUST_BILL_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HZhiT3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_HZhiUHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_ServiceName" prompt="Orcl_Talend_CUST_BILL_ServiceName?" promptNeeded="false" type="id_String" value="DWDEV" xmi:id="_HZhiUXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_AdditionalParams" prompt="Orcl_Talend_CUST_BILL_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HZhiUnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_Login" prompt="Orcl_Talend_CUST_BILL_Login?" promptNeeded="false" type="id_String" value="TALEND_CUSTOMER_BILLING" xmi:id="_HZhiU3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_Schema" prompt="Orcl_Talend_CUST_BILL_Schema?" promptNeeded="false" type="id_String" value="CUSTOMER_BILLING" xmi:id="_HZhiVHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_Password" prompt="Orcl_Talend_CUST_BILL_Password?" promptNeeded="false" type="id_Password" value="KSLTDRt+ICupZGSmVDS+xA==" xmi:id="_HZhiVXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_Server" prompt="Orcl_Talend_CUST_BILL_Server?" promptNeeded="false" type="id_String" value="bos-odapr-scan" xmi:id="_HZhiVnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CUST_BILL_Port" prompt="Orcl_Talend_CUST_BILL_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HZhiV3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2bef4ed1-9dfd-4df5-b49f-11a5c55d4b7e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rPZSqEAEsIGDZGvyyO0n575svvevj+fmvO3hgiJKVOPbKv5d37hXLLOmZDOqYunfWxSFMLaZEuRQ
+wf3y5TwjEg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_471b7851-1279-4733-b494-aadf3696f28b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ihf/AyVGhtvaLdVz1ZJ+OrzhoJiu2x1nUBy7+ou5G2sumGBsi+q6sAIDjJ/gO9B0+QutXU7owDJh
+eeym9ToMEQ==</DigestValue></Reference></SignedInfo><SignatureValue>g17lS39dohDixvMfBktx4ivLn+fAoHFq4pU0618CknjUgehC3jQdXOzNiQUV20udjC1T0yYQ4eYY
+J4RWzdcBjBF3blTrrHqTgsDcC0i+gyu2kvZ70jjVkLLkMY0RIxj4aoWxK3PjyBiSp/RRX7MnSps4
+0/rlY0kyrLkLvHuVJCqVkfKcIRToWikRzPJqrxD8+6BajTjZSeadFZO7YXYCiki0WT5DPA3YqPk0
+ZFVQ1TbS8Blvcz/niZOmI6SzOcs3rmdY2Qkm2GRuD13vU/4ab7V2h12e26WFZrYSd3ueXppcRQ2Z
+fCChS7RCfMBM0lP8FVHJ72DML6g9TilGGz4SKA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_471b7851-1279-4733-b494-aadf3696f28b" Target="#_2bef4ed1-9dfd-4df5-b49f-11a5c55d4b7e"><Timestamp>2019-05-10 18:04:55</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

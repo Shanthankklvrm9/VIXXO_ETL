@@ -1,0 +1,1762 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns="http://www.talend.org/dbmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Dev" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Prod">
+    <contextParameter comment="" name="Orcl_Talend_EDW_AdditionalParams" prompt="Orcl_Talend_EDW_AdditionalParams?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Login" prompt="Orcl_Talend_EDW_Login?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="EDW"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Password" prompt="Orcl_Talend_EDW_Password?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_Password" value="jCbPVm+On0GQ4cMihYDvag=="/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Port" prompt="Orcl_Talend_EDW_Port?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Schema" prompt="Orcl_Talend_EDW_Schema?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Server" prompt="Orcl_Talend_EDW_Server?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="bos-odaprd-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_ServiceName" prompt="Orcl_Talend_EDW_ServiceName?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="DWPRD_PRD"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_AdditionalParams" prompt="Orcl_Talend_IPT_AdditionalParams?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Login" prompt="Orcl_Talend_IPT_Login?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="DW_SQLSERVER"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Password" prompt="Orcl_Talend_IPT_Password?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_Password" value="PB0LYQZA+17y7VyiQ6RPdg=="/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Port" prompt="Orcl_Talend_IPT_Port?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Schema" prompt="Orcl_Talend_IPT_Schema?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Server" prompt="Orcl_Talend_IPT_Server?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="bos-odaha-scan.ip-tech.com"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_ServiceName" prompt="Orcl_Talend_IPT_ServiceName?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="fmprd_ha"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_AdditionalParams" prompt="Orcl_Talend_Siebel_AdditionalParams?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Login" prompt="Orcl_Talend_Siebel_Login?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="TALEND_PROD"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Password" prompt="Orcl_Talend_Siebel_Password?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w=="/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Port" prompt="Orcl_Talend_Siebel_Port?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Schema" prompt="Orcl_Talend_Siebel_Schema?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Server" prompt="Orcl_Talend_Siebel_Server?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="BOS-ODAPRD-SCAN"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_ServiceName" prompt="Orcl_Talend_Siebel_ServiceName?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="FSNPRD_PRD"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="STAGE"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_Password" value="ABIaQdAQRn7oVJEmlDB/Ig=="/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="bos-odaprd-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="DWPRD_PRD"/>
+  </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" name="Orcl_Talend_EDW_AdditionalParams" prompt="Orcl_Talend_EDW_AdditionalParams?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Login" prompt="Orcl_Talend_EDW_Login?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="EDW"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Password" prompt="Orcl_Talend_EDW_Password?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_Password" value="GygX1M01G8xpP1qvP6fdYA=="/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Port" prompt="Orcl_Talend_EDW_Port?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Schema" prompt="Orcl_Talend_EDW_Schema?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Server" prompt="Orcl_Talend_EDW_Server?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="bos-odapr-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_ServiceName" prompt="Orcl_Talend_EDW_ServiceName?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="DWDEV"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_AdditionalParams" prompt="Orcl_Talend_IPT_AdditionalParams?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Login" prompt="Orcl_Talend_IPT_Login?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="DW_SQLSERVER"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Password" prompt="Orcl_Talend_IPT_Password?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_Password" value="PB0LYQZA+17y7VyiQ6RPdg=="/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Port" prompt="Orcl_Talend_IPT_Port?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Schema" prompt="Orcl_Talend_IPT_Schema?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Server" prompt="Orcl_Talend_IPT_Server?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="bos-odaha-scan.ip-tech.com"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_ServiceName" prompt="Orcl_Talend_IPT_ServiceName?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="fmprd_ha"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_AdditionalParams" prompt="Orcl_Talend_Siebel_AdditionalParams?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Login" prompt="Orcl_Talend_Siebel_Login?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="TALEND_PROD"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Password" prompt="Orcl_Talend_Siebel_Password?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w=="/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Port" prompt="Orcl_Talend_Siebel_Port?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Schema" prompt="Orcl_Talend_Siebel_Schema?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Server" prompt="Orcl_Talend_Siebel_Server?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="BOS-ODAPRD-SCAN"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_ServiceName" prompt="Orcl_Talend_Siebel_ServiceName?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="FSNPRD_PRD"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="STAGE"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_Password" value="gNPPthtkvecbhGi6X0f4lw=="/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="bos-odapr-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="DWDEV"/>
+  </context>
+  <context confirmationNeeded="false" name="Test">
+    <contextParameter comment="" name="Orcl_Talend_EDW_AdditionalParams" prompt="Orcl_Talend_EDW_AdditionalParams?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Login" prompt="Orcl_Talend_EDW_Login?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="EDW"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Password" prompt="Orcl_Talend_EDW_Password?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_Password" value="eIhuYjVBG5fm9nO+IrTvww=="/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Port" prompt="Orcl_Talend_EDW_Port?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Schema" prompt="Orcl_Talend_EDW_Schema?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Server" prompt="Orcl_Talend_EDW_Server?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="bos-odaha-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_ServiceName" prompt="Orcl_Talend_EDW_ServiceName?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="DWTST"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_AdditionalParams" prompt="Orcl_Talend_IPT_AdditionalParams?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Login" prompt="Orcl_Talend_IPT_Login?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="DW_SQLSERVER"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Password" prompt="Orcl_Talend_IPT_Password?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_Password" value="PB0LYQZA+17y7VyiQ6RPdg=="/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Port" prompt="Orcl_Talend_IPT_Port?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Schema" prompt="Orcl_Talend_IPT_Schema?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Server" prompt="Orcl_Talend_IPT_Server?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="bos-odaha-scan.ip-tech.com"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_ServiceName" prompt="Orcl_Talend_IPT_ServiceName?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="fmprd_ha"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_AdditionalParams" prompt="Orcl_Talend_Siebel_AdditionalParams?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Login" prompt="Orcl_Talend_Siebel_Login?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="TALEND_PROD"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Password" prompt="Orcl_Talend_Siebel_Password?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w=="/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Port" prompt="Orcl_Talend_Siebel_Port?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Schema" prompt="Orcl_Talend_Siebel_Schema?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Server" prompt="Orcl_Talend_Siebel_Server?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="BOS-ODAPRD-SCAN"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_ServiceName" prompt="Orcl_Talend_Siebel_ServiceName?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="FSNPRD_PRD"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="STAGE"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_Password" value="GfMTl5G6nMtFYhG2Or1aZA=="/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="bos-odaha-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="DWTST"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx8192M&quot;]}"/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" show="false" value="true"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="64"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend/6.1.1/studio/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_ERrOEEPAEea89POvfNdmyA" name="DQTechnical"/>
+    <routinesParameter id="_Drc7kEPAEea89POvfNdmyA" name="DataOperation"/>
+    <routinesParameter id="_EJ8OYEPAEea89POvfNdmyA" name="DataQualityDependencies"/>
+    <routinesParameter id="_EHxEIEPAEea89POvfNdmyA" name="DataQuality"/>
+    <routinesParameter id="_EMFjcEPAEea89POvfNdmyA" name="DqStringHandling"/>
+    <routinesParameter id="_Du1mwEPAEea89POvfNdmyA" name="Mathematical"/>
+    <routinesParameter id="_DxJ68EPAEea89POvfNdmyA" name="Numeric"/>
+    <routinesParameter id="_D7sXAEPAEea89POvfNdmyA" name="Relational"/>
+    <routinesParameter id="_DkafcEPAEea89POvfNdmyA" name="SQLike"/>
+    <routinesParameter id="_D-kE0EPAEea89POvfNdmyA" name="StringHandling"/>
+    <routinesParameter id="_EBD_MEPAEea89POvfNdmyA" name="TalendDataGenerator"/>
+    <routinesParameter id="_EDPwgEPAEea89POvfNdmyA" name="TalendDate"/>
+    <routinesParameter id="_EFfMMEPAEea89POvfNdmyA" name="TalendString"/>
+  </parameters>
+  <node componentName="tOracleCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="896">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_2"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleCommit_1"/>
+  </node>
+  <node componentName="tOracleCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="896">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_2"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_2"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleCommit_2"/>
+  </node>
+  <node componentName="tOracleConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_2"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_H9jRQErDEeatIfibPbkZPg"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_TNS_FILE" value="false"/>
+    <elementParameter field="FILE" name="TNS_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TNS_EDITOR" name="TNS_EDITOR" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.Orcl_Talend_EDW_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" value="context.Orcl_Talend_EDW_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.Orcl_Talend_EDW_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Orcl_Talend_EDW_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.Orcl_Talend_EDW_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kucwy9zHj7bMB9iQBKug57icO1I/cLWI1w4UOooK2V2d2Q=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.Orcl_Talend_EDW_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:thin:USER/MDP@server&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Orcl_Talend_EDW"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tOracleConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_JfvQUEH9EeaMtKM_IVCTwA"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_TNS_FILE" value="false"/>
+    <elementParameter field="FILE" name="TNS_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TNS_EDITOR" name="TNS_EDITOR" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.Orcl_Talend_Stage_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" value="context.Orcl_Talend_Stage_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.Orcl_Talend_Stage_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Orcl_Talend_Stage_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.Orcl_Talend_Stage_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kucwy9zHj7bMBzjxDKhx6aN1LQ0VuOj7F9DqOHA7p3j3WQ=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.Orcl_Talend_Stage_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:thin:USER/MDP@server&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Orcl_Talend_Stage"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tELTOracleMap" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1056" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleMap_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_2"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11-6"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1521&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_7K94QABsEeeV7I5GzqZrEQ-tELTOracleMap_1-PREVIEW.bmp"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="TABLE" label="DIM_SERVICE_REQUEST_ONEOFF" name="table3">
+      <column comment="" key="false" length="38" name="SERVICE_REQUEST_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="SERVICE_PROVIDER_LOCATION_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="CLIENT_LOCATION_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="SERVICE_TYPE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="LINE_OF_SERVICE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="SUBSTATUS_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="CALENDAR_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SERVICE_REQUEST_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="IPT_TRACKING_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="IPT_RFS_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="IPT_PM_PARENT_TRACKING_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SERVICE_REQUEST_STATUS" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="PRIORITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="SERVICE_REQUEST_NETWORK" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="CREATE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="CREATED_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="UPDATE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="UPDATE_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="SERVICE_REQUEST_COMPLETE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="SERVICE_COMPLETION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="22" name="CLIENT_LIMIT" nullable="true" pattern="" precision="7" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="22" name="SERVICE_PROVIDER_LIMIT" nullable="true" pattern="" precision="7" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="REQUESTOR_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="FLEX_BILLLING_FLAG_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="OVERTIME_ALLOWED_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="GL_ACCOUNT_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="25" name="PURCHASE_ORDER_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="JOB_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SPEND_CATEGORY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="SHORT_DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="PROBLEM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="CAUSE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="RESOLUTION_CATEGORY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="RESOLUTION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="CLIENT_CANCELLED_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="CLIENT_CANCELLED_NOTE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="SERVICE_PROVIDER_DECLINED_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="SERVICE_PROVIDER_DECLINED_BY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="SERVICE_PROVIDER_DECLINED_NOTE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="ACTUAL_TIME_OF_ARRIVAL_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="ESTIMATED_TIME_ARRIVAL_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="PARTS_ETA_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="SURVEY_DONE_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="INVOICE_EXPECTED_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="PREBILL_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="NEW_PM_MODEL_PM_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="22" name="PM_PLAN_PRICE" nullable="true" pattern="" precision="7" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="22" name="PM_CLIENT_PRICE" nullable="true" pattern="" precision="7" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="PM_EXP_COMPLETION_MONTH" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="PM_FREQUENCY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="CATEGORY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="BILLING_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="LABOR_RATE_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="2000" name="SERVICE_REQUEST_DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="SR_OVERTIME_ALLOWED_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="SR_CREATED_SERVER_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="WORK_ORDER_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SERVICE_REQUEST_WBS_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="SERVICE_REQUEST_REGION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="SERVICE_REQUEST_AREA" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="SERVICE_REQUEST_SUBAREA" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="SERVICE_REQUEST_WORK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="SERVICE_REQUEST_CLOSE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="22" name="SR_CLIENT_LOCATION_LIMIT" nullable="true" pattern="" precision="7" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="22" name="SP_CLIENT_LOCATION_LIMIT" nullable="true" pattern="" precision="7" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SERVICE_REQUEST_CALLER_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="SERVICE_REQUEST_OPENED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="FOLLOW_UP_SR_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="PARENT_SR_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="SYSTEM_OF_RECORD" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="15" name="SIEBEL_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="IPT_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="HPSP_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="CREATED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="UPDATED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="PM_ACTION_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <nodeData xsi:type="DBMapData">
+      <InputTables joinType="NO_JOIN" name="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST" tableName="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST">
+        <DBMapperTableEntries name="SERVICE_REQUEST_KEY" operator=""/>
+        <DBMapperTableEntries name="SP_LOCATION_KEY"/>
+        <DBMapperTableEntries expression="" name="CLIENT_LOCATION_KEY" operator=""/>
+        <DBMapperTableEntries name="SERVICE_TYPE_NAME"/>
+        <DBMapperTableEntries join="true" name="LINE_OF_SERVICE_NAME"/>
+        <DBMapperTableEntries join="true" name="SUBSTATUS_NAME"/>
+        <DBMapperTableEntries name="CALENDAR_KEY"/>
+        <DBMapperTableEntries name="SERVICE_REQUEST_NUMBER"/>
+        <DBMapperTableEntries name="IPT_TRACKING_NUMBER"/>
+        <DBMapperTableEntries name="IPT_RFS_NUMBER"/>
+        <DBMapperTableEntries name="IPT_PM_PARENT_TRACKING_NUMBER"/>
+        <DBMapperTableEntries name="SERVICE_REQUEST_STATUS"/>
+        <DBMapperTableEntries name="PRIORITY"/>
+        <DBMapperTableEntries name="SERVICE_REQUEST_NETWORK"/>
+        <DBMapperTableEntries name="CREATE_DATE"/>
+        <DBMapperTableEntries name="CREATED_USER_ID"/>
+        <DBMapperTableEntries name="UPDATE_DATE"/>
+        <DBMapperTableEntries name="UPDATE_USER_ID"/>
+        <DBMapperTableEntries name="SERVICE_REQUEST_COMPLETE"/>
+        <DBMapperTableEntries name="SERVICE_COMPLETION_DATE"/>
+        <DBMapperTableEntries name="CLIENT_LIMIT"/>
+        <DBMapperTableEntries name="SERVICE_PROVIDER_LIMIT"/>
+        <DBMapperTableEntries name="REQUESTOR_NAME"/>
+        <DBMapperTableEntries name="FLEX_BILLING_FLAG_YN"/>
+        <DBMapperTableEntries name="OVERTIME_ALLOWED_YN"/>
+        <DBMapperTableEntries name="GL_ACCOUNT_CODE"/>
+        <DBMapperTableEntries name="PURCHASE_ORDER_NUMBER"/>
+        <DBMapperTableEntries name="JOB_CODE"/>
+        <DBMapperTableEntries name="SPEND_CATEGORY"/>
+        <DBMapperTableEntries name="SHORT_DESCRIPTION"/>
+        <DBMapperTableEntries name="PROBLEM"/>
+        <DBMapperTableEntries name="CAUSE"/>
+        <DBMapperTableEntries name="RESOLUTION_CATEGORY"/>
+        <DBMapperTableEntries name="RESOLUTION_CODE"/>
+        <DBMapperTableEntries name="CLIENT_CANCELLED_YN"/>
+        <DBMapperTableEntries name="CLIENT_CANCELLED_NOTE"/>
+        <DBMapperTableEntries name="SERVICE_PROVIDER_DECLINED_YN"/>
+        <DBMapperTableEntries name="SERVICE_PROVIDER_DECLINED_BY"/>
+        <DBMapperTableEntries name="SERVICE_PROVIDER_DECLINED_NOTE"/>
+        <DBMapperTableEntries name="ACTUAL_TIME_OF_ARRIVAL_DATE"/>
+        <DBMapperTableEntries name="ESTIMATED_TIME_ARRIVAL_DATE"/>
+        <DBMapperTableEntries name="PARTS_ETA_DATE"/>
+        <DBMapperTableEntries name="SURVEY_DONE_YN"/>
+        <DBMapperTableEntries name="INVOICE_EXPECTED_YN"/>
+        <DBMapperTableEntries name="PREBILL_YN"/>
+        <DBMapperTableEntries name="NEW_PM_MODEL_PM_YN"/>
+        <DBMapperTableEntries name="PM_PLAN_PRICE"/>
+        <DBMapperTableEntries name="PM_CLIENT_PRICE"/>
+        <DBMapperTableEntries name="PM_EXP_COMPLETION_MONTH"/>
+        <DBMapperTableEntries name="PM_FREQUENCY"/>
+        <DBMapperTableEntries name="CATEGORY"/>
+        <DBMapperTableEntries name="BILLING_TYPE"/>
+        <DBMapperTableEntries name="LABOR_RATE_TYPE"/>
+        <DBMapperTableEntries name="SERVICE_REQUEST_DESCRIPTION"/>
+        <DBMapperTableEntries name="SR_OVERTIME_ALLOWED_YN"/>
+        <DBMapperTableEntries name="SR_CREATED_SERVER_DATE"/>
+        <DBMapperTableEntries name="WORK_ORDER_NUMBER"/>
+        <DBMapperTableEntries name="SERVICE_REQUEST_WBS_NUMBER"/>
+        <DBMapperTableEntries name="SERVICE_REQUEST_REGION"/>
+        <DBMapperTableEntries name="SERVICE_REQUEST_AREA"/>
+        <DBMapperTableEntries name="SERVICE_REQUEST_SUBAREA"/>
+        <DBMapperTableEntries name="SERVICE_REQUEST_WORK_DATE"/>
+        <DBMapperTableEntries name="SERVICE_REQUEST_CLOSE_DATE"/>
+        <DBMapperTableEntries name="SR_CLIENT_LOCATION_LIMIT"/>
+        <DBMapperTableEntries name="SP_CLIENT_LOCATION_LIMIT"/>
+        <DBMapperTableEntries name="SERVICE_REQUEST_CALLER_NAME"/>
+        <DBMapperTableEntries name="SERVICE_REQUEST_OPENED_DATE"/>
+        <DBMapperTableEntries name="FOLLOW_UP_SR_ID"/>
+        <DBMapperTableEntries name="PARENT_SR_NUMBER"/>
+        <DBMapperTableEntries name="SYSTEM_OF_RECORD"/>
+        <DBMapperTableEntries name="SIEBEL_KEY"/>
+        <DBMapperTableEntries expression="" name="IPT_KEY" operator=""/>
+        <DBMapperTableEntries name="HPSP_CODE"/>
+        <DBMapperTableEntries expression="" name="CREATED_DATE" operator=""/>
+        <DBMapperTableEntries expression="" name="UPDATED_DATE" operator=""/>
+        <DBMapperTableEntries join="true" name="PM_ACTION_CODE"/>
+      </InputTables>
+      <InputTables alias="LKUP_Calendar" joinType="INNER_JOIN" name="LKUP_Calendar" tableName="context.Orcl_Talend_Stage_Schema.DIM_CALENDAR">
+        <DBMapperTableEntries expression="" name="CALENDAR_ID" operator=""/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.CALENDAR_KEY " join="true" name="DATE_ID" operator="="/>
+      </InputTables>
+      <InputTables alias="LKUP_PM_ACTION" joinType="LEFT_OUTER_JOIN" name="LKUP_PM_ACTION" tableName="context.Orcl_Talend_EDW_Schema.DIM_PM_ACTION">
+        <DBMapperTableEntries name="PM_ACTION_ID"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.PM_ACTION_CODE " join="true" name="SIEBEL_KEY" operator="="/>
+      </InputTables>
+      <InputTables alias="LKUP_SS" joinType="LEFT_OUTER_JOIN" name="LKUP_SS" tableName="context.Orcl_Talend_EDW_Schema.DIM_SUBSTATUS">
+        <DBMapperTableEntries name="SUBSTATUS_ID"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SUBSTATUS_NAME " join="true" name="SUBSTATUS_NAME" operator="="/>
+      </InputTables>
+      <InputTables alias="LKUP_LOS" joinType="LEFT_OUTER_JOIN" name="LKUP_LOS" tableName="context.Orcl_Talend_EDW_Schema.DIM_LINE_OF_SERVICE">
+        <DBMapperTableEntries name="LINE_OF_SERVICE_ID"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.LINE_OF_SERVICE_NAME " join="true" name="LINE_OF_SERVICE_NAME" operator="="/>
+      </InputTables>
+      <InputTables alias="LKUP_ST" joinType="LEFT_OUTER_JOIN" name="LKUP_ST" tableName="context.Orcl_Talend_EDW_Schema.DIM_SERVICE_TYPE">
+        <DBMapperTableEntries name="SERVICE_TYPE_ID"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_TYPE_NAME " join="true" name="SERVICE_TYPE_NAME" operator="="/>
+        <DBMapperTableEntries name="SYSTEM_OF_RECORD"/>
+      </InputTables>
+      <InputTables alias="LKUP_CL" joinType="NO_JOIN" name="LKUP_CL" tableName="context.Orcl_Talend_EDW_Schema.DIM_CLIENT_LOCATION">
+        <DBMapperTableEntries name="CLIENT_LOCATION_ID"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.CLIENT_LOCATION_KEY " name="SIEBEL_KEY" operator="="/>
+      </InputTables>
+      <InputTables alias="LKUP_SPL" joinType="NO_JOIN" name="LKUP_SPL" tableName="context.Orcl_Talend_EDW_Schema.DIM_SERVICE_PROVIDER_LOCATION">
+        <DBMapperTableEntries name="SERVICE_PROVIDER_LOCATION_ID"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.CLIENT_LOCATION_KEY " name="SIEBEL_KEY" operator="="/>
+      </InputTables>
+      <OutputTables name="table3" tableName="Tgt_Dim_Service_Request">
+        <DBMapperTableEntries expression="1234567 " name="SERVICE_REQUEST_ID"/>
+        <DBMapperTableEntries expression="CASE WHEN LKUP_SPL.SERVICE_PROVIDER_LOCATION_ID IS NULL THEN -1 ELSE LKUP_SPL.SERVICE_PROVIDER_LOCATION_ID END" name="SERVICE_PROVIDER_LOCATION_ID"/>
+        <DBMapperTableEntries expression="CASE WHEN LKUP_CL.CLIENT_LOCATION_ID IS NULL THEN -1 ELSE LKUP_CL.CLIENT_LOCATION_ID END" name="CLIENT_LOCATION_ID"/>
+        <DBMapperTableEntries expression="CASE WHEN LKUP_ST.SERVICE_TYPE_ID  IS NULL THEN -1 ELSE LKUP_ST.SERVICE_TYPE_ID END" name="SERVICE_TYPE_ID"/>
+        <DBMapperTableEntries expression="NVL(LKUP_LOS.LINE_OF_SERVICE_ID, -1)" name="LINE_OF_SERVICE_ID"/>
+        <DBMapperTableEntries expression="NVL(LKUP_SS.SUBSTATUS_ID IS, -1)" name="SUBSTATUS_ID"/>
+        <DBMapperTableEntries expression="LKUP_Calendar.CALENDAR_ID " name="CALENDAR_ID"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_REQUEST_NUMBER " name="SERVICE_REQUEST_NUMBER"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.IPT_TRACKING_NUMBER" name="IPT_TRACKING_NUMBER"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.IPT_RFS_NUMBER" name="IPT_RFS_NUMBER"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.IPT_PM_PARENT_TRACKING_NUMBER" name="IPT_PM_PARENT_TRACKING_NUMBER"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_REQUEST_STATUS" name="SERVICE_REQUEST_STATUS"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.PRIORITY" name="PRIORITY"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_REQUEST_NETWORK" name="SERVICE_REQUEST_NETWORK"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.CREATE_DATE" name="CREATE_DATE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.CREATED_USER_ID" name="CREATED_USER_ID"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.UPDATE_DATE" name="UPDATE_DATE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.UPDATE_USER_ID" name="UPDATE_USER_ID"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_REQUEST_COMPLETE" name="SERVICE_REQUEST_COMPLETE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_COMPLETION_DATE" name="SERVICE_COMPLETION_DATE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.CLIENT_LIMIT" name="CLIENT_LIMIT"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_PROVIDER_LIMIT" name="SERVICE_PROVIDER_LIMIT"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.REQUESTOR_NAME" name="REQUESTOR_NAME"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.FLEX_BILLLING_FLAG_YN" name="FLEX_BILLLING_FLAG_YN"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.OVERTIME_ALLOWED_YN" name="OVERTIME_ALLOWED_YN"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.GL_ACCOUNT_CODE" name="GL_ACCOUNT_CODE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.PURCHASE_ORDER_NUMBER" name="PURCHASE_ORDER_NUMBER"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.JOB_CODE" name="JOB_CODE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SPEND_CATEGORY" name="SPEND_CATEGORY"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SHORT_DESCRIPTION" name="SHORT_DESCRIPTION"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.PROBLEM" name="PROBLEM"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.CAUSE" name="CAUSE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.RESOLUTION_CATEGORY" name="RESOLUTION_CATEGORY"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.RESOLUTION_CODE" name="RESOLUTION_CODE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.CLIENT_CANCELLED_YN" name="CLIENT_CANCELLED_YN"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.CLIENT_CANCELLED_NOTE" name="CLIENT_CANCELLED_NOTE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_PROVIDER_DECLINED_YN" name="SERVICE_PROVIDER_DECLINED_YN"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_PROVIDER_DECLINED_BY" name="SERVICE_PROVIDER_DECLINED_BY"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_PROVIDER_DECLINED_NOTE" name="SERVICE_PROVIDER_DECLINED_NOTE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.ACTUAL_TIME_OF_ARRIVAL_DATE" name="ACTUAL_TIME_OF_ARRIVAL_DATE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.ESTIMATED_TIME_ARRIVAL_DATE" name="ESTIMATED_TIME_ARRIVAL_DATE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.PARTS_ETA_DATE" name="PARTS_ETA_DATE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SURVEY_DONE_YN" name="SURVEY_DONE_YN"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.INVOICE_EXPECTED_YN" name="INVOICE_EXPECTED_YN"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.PREBILL_YN" name="PREBILL_YN"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.NEW_PM_MODEL_PM_YN" name="NEW_PM_MODEL_PM_YN"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.PM_PLAN_PRICE" name="PM_PLAN_PRICE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.PM_CLIENT_PRICE" name="PM_CLIENT_PRICE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.PM_EXP_COMPLETION_MONTH" name="PM_EXP_COMPLETION_MONTH"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.PM_FREQUENCY" name="PM_FREQUENCY"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.CATEGORY" name="CATEGORY"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.BILLING_TYPE" name="BILLING_TYPE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.LABOR_RATE_TYPE" name="LABOR_RATE_TYPE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_REQUEST_DESCRIPTION" name="SERVICE_REQUEST_DESCRIPTION"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SR_OVERTIME_ALLOWED_YN" name="SR_OVERTIME_ALLOWED_YN"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SR_CREATED_SERVER_DATE" name="SR_CREATED_SERVER_DATE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.WORK_ORDER_NUMBER" name="WORK_ORDER_NUMBER"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_REQUEST_WBS_NUMBER" name="SERVICE_REQUEST_WBS_NUMBER"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_REQUEST_REGION" name="SERVICE_REQUEST_REGION"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_REQUEST_AREA" name="SERVICE_REQUEST_AREA"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_REQUEST_SUBAREA" name="SERVICE_REQUEST_SUBAREA"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_REQUEST_WORK_DATE" name="SERVICE_REQUEST_WORK_DATE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_REQUEST_CLOSE_DATE" name="SERVICE_REQUEST_CLOSE_DATE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SR_CLIENT_LOCATION_LIMIT" name="SR_CLIENT_LOCATION_LIMIT"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SP_CLIENT_LOCATION_LIMIT" name="SP_CLIENT_LOCATION_LIMIT"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_REQUEST_CALLER_NAME" name="SERVICE_REQUEST_CALLER_NAME"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SERVICE_REQUEST_OPENED_DATE" name="SERVICE_REQUEST_OPENED_DATE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.FOLLOW_UP_SR_ID" name="FOLLOW_UP_SR_ID"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.PARENT_SR_NUMBER" name="PARENT_SR_NUMBER"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SYSTEM_OF_RECORD" name="SYSTEM_OF_RECORD"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.SIEBEL_KEY" name="SIEBEL_KEY"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.IPT_KEY" name="IPT_KEY"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.HPSP_CODE" name="HPSP_CODE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.CREATED_DATE" name="CREATED_DATE"/>
+        <DBMapperTableEntries expression="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST.UPDATED_DATE" name="UPDATED_DATE"/>
+        <DBMapperTableEntries expression="CASE WHEN LKUP_PM_ACTION.PM_ACTION_ID IS NULL THEN -1 ELSE LKUP_PM_ACTION.PM_ACTION_ID END " name="PM_ACTION_ID"/>
+      </OutputTables>
+    </nodeData>
+  </node>
+  <node componentName="tELTOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="512">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_2"/>
+    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;DIM_CALENDAR&quot;"/>
+    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="context.Orcl_Talend_Stage_Schema"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="LABEL" value="__ELT_TABLE_NAME__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="TABLE" label="DIM_CALENDAR" name="tELTOracleInput_2">
+      <column comment="" key="false" length="38" name="CALENDAR_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="DATE_ID" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tELTOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="608">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_3"/>
+    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;DIM_PM_ACTION&quot;"/>
+    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="context.Orcl_Talend_EDW_Schema"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="LABEL" value="__ELT_TABLE_NAME__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="TABLE" label="DIM_PM_ACTION" name="tELTOracleInput_3">
+      <column comment="Surrogate for PM Action&#10;" key="false" length="38" name="PM_ACTION_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Surrogate for PM Action&#10;"/>
+      </column>
+      <column comment="SIEBEL Native Key for PM Action " key="false" length="15" name="SIEBEL_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="SIEBEL Native Key for PM Action "/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tELTOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="704">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_4"/>
+    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;DIM_SUBSTATUS&quot;"/>
+    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="context.Orcl_Talend_EDW_Schema"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="LABEL" value="__ELT_TABLE_NAME__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="TABLE" label="DIM_SUBSTATUS" name="tELTOracleInput_4">
+      <column comment="Surrogate Key for Substatus" key="false" length="38" name="SUBSTATUS_ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Substatus Name" key="false" length="50" name="SUBSTATUS_NAME" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tELTOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_5"/>
+    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;DIM_LINE_OF_SERVICE&quot;"/>
+    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="context.Orcl_Talend_EDW_Schema"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="LABEL" value="__ELT_TABLE_NAME__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="TABLE" label="DIM_LINE_OF_SERVICE" name="tELTOracleInput_5">
+      <column comment="Native Key Unique Identifier from IPT" key="false" length="38" name="LINE_OF_SERVICE_ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Timestamp when row created" key="false" length="100" name="LINE_OF_SERVICE_NAME" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tELTOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="800" posY="672">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_6"/>
+    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;DIM_SERVICE_TYPE&quot;"/>
+    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="context.Orcl_Talend_EDW_Schema"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="LABEL" value="__ELT_TABLE_NAME__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="TABLE" label="DIM_SERVICE_TYPE" name="tELTOracleInput_6">
+      <column comment="Surrogate Key for Service Type" key="false" length="38" name="SERVICE_TYPE_ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Type Name" key="false" length="15" name="SERVICE_TYPE_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Source System of Originating Native Key" key="false" length="30" name="SYSTEM_OF_RECORD" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tELTOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_1"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_JfvQUEH9EeaMtKM_IVCTwA - CSL_SERVICE_REQUEST"/>
+    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;CSL_SERVICE_REQUEST&quot;"/>
+    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="context.Orcl_Talend_Stage_Schema"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="LABEL" value="__ELT_TABLE_NAME__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="TABLE" label="CSL_SERVICE_REQUEST" name="tELTOracleInput_1">
+      <column comment="" key="false" length="15" name="SERVICE_REQUEST_KEY" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="SP_LOCATION_KEY" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="CLIENT_LOCATION_KEY" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="SERVICE_TYPE_NAME" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="LINE_OF_SERVICE_NAME" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="SUBSTATUS_NAME" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="CALENDAR_KEY" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SERVICE_REQUEST_NUMBER" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="IPT_TRACKING_NUMBER" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="IPT_RFS_NUMBER" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Native Key for PM Action Code" key="false" length="0" name="IPT_PM_PARENT_TRACKING_NUMBER" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Client Cancelled (Y/N)" key="false" length="50" name="SERVICE_REQUEST_STATUS" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Client Cancelled Reason" key="false" length="30" name="PRIORITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Provider Declined (Y/N)" key="false" length="100" name="SERVICE_REQUEST_NETWORK" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Provider Declined By" key="false" length="7" name="CREATE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Provider Declined Note" key="false" length="15" name="CREATED_USER_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Actual Time of Arrival" key="false" length="7" name="UPDATE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Estimated Time of Arrival" key="false" length="15" name="UPDATE_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="ETA Date for Part Availability" key="false" length="15" name="SERVICE_REQUEST_COMPLETE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Was survey done?" key="false" length="7" name="SERVICE_COMPLETION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Invoice Expected (Y/N)" key="false" length="22" name="CLIENT_LIMIT" nullable="true" pattern="" precision="7" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Prebill (Y/N)" key="false" length="22" name="SERVICE_PROVIDER_LIMIT" nullable="true" pattern="" precision="7" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="New PM Model (YN)" key="false" length="50" name="REQUESTOR_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="PM Plan Price" key="false" length="1" name="FLEX_BILLING_FLAG_YN" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="PM Client Price" key="false" length="1" name="OVERTIME_ALLOWED_YN" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="PM Expected Completion Month" key="false" length="50" name="GL_ACCOUNT_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="PM Frequency" key="false" length="25" name="PURCHASE_ORDER_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Request Category" key="false" length="30" name="JOB_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Billing Type" key="false" length="50" name="SPEND_CATEGORY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Request Labor Rate Type" key="false" length="100" name="SHORT_DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Request Description" key="false" length="100" name="PROBLEM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Request Overtime Allowed (Y/N)" key="false" length="100" name="CAUSE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Request Server Date (Server Time)" key="false" length="100" name="RESOLUTION_CATEGORY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service request work order number" key="false" length="50" name="RESOLUTION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Specific for Petsmart invoice file" key="false" length="1" name="CLIENT_CANCELLED_YN" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Customer Site Region" key="false" length="100" name="CLIENT_CANCELLED_NOTE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Request Area" key="false" length="1" name="SERVICE_PROVIDER_DECLINED_YN" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Request Subarea" key="false" length="30" name="SERVICE_PROVIDER_DECLINED_BY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Request Work Date" key="false" length="100" name="SERVICE_PROVIDER_DECLINED_NOTE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Request Close Date" key="false" length="7" name="ACTUAL_TIME_OF_ARRIVAL_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Customer site/LOS spending limit maximum" key="false" length="7" name="ESTIMATED_TIME_ARRIVAL_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service provider expense limit maximum" key="false" length="7" name="PARTS_ETA_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Request Placed by Person" key="false" length="1" name="SURVEY_DONE_YN" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Customer Site Time" key="false" length="1" name="INVOICE_EXPECTED_YN" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Parent service request containing child SR" key="false" length="1" name="PREBILL_YN" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Child SR containing parent SR number" key="false" length="1" name="NEW_PM_MODEL_PM_YN" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Source System of Originating Native Key" key="false" length="22" name="PM_PLAN_PRICE" nullable="true" pattern="" precision="7" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Native Key Unique Identifier from Siebel" key="false" length="22" name="PM_CLIENT_PRICE" nullable="true" pattern="" precision="7" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Native Key Unique Identifier from IPT" key="false" length="15" name="PM_EXP_COMPLETION_MONTH" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="indicates if the service provider is hpsp" key="false" length="100" name="PM_FREQUENCY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Timestamp when row created" key="false" length="100" name="CATEGORY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Timestamp when row was modified" key="false" length="30" name="BILLING_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="LABOR_RATE_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Native Key for Service Request" key="false" length="2000" name="SERVICE_REQUEST_DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Native Key for  Service Provider Location" key="false" length="1" name="SR_OVERTIME_ALLOWED_YN" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Natural Key for Client Location" key="false" length="7" name="SR_CREATED_SERVER_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Literal forService Type" key="false" length="50" name="WORK_ORDER_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Literal for Line of Service" key="false" length="50" name="SERVICE_REQUEST_WBS_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Literal for Substatus" key="false" length="30" name="SERVICE_REQUEST_REGION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Date" key="false" length="30" name="SERVICE_REQUEST_AREA" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Visible Published Identifier" key="false" length="30" name="SERVICE_REQUEST_SUBAREA" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="IPT Tracking Number" key="false" length="7" name="SERVICE_REQUEST_WORK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="IPT RFS Number" key="false" length="7" name="SERVICE_REQUEST_CLOSE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="IPT PM Parent Tracking Number" key="false" length="22" name="SR_CLIENT_LOCATION_LIMIT" nullable="true" pattern="" precision="7" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Request Status" key="false" length="22" name="SP_CLIENT_LOCATION_LIMIT" nullable="true" pattern="" precision="7" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Request Priority" key="false" length="50" name="SERVICE_REQUEST_CALLER_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Request Network" key="false" length="7" name="SERVICE_REQUEST_OPENED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Date Service Request Created (Same as Date Key)" key="false" length="15" name="FOLLOW_UP_SR_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service request created by login" key="false" length="100" name="PARENT_SR_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Update Date for Service Request" key="false" length="30" name="SYSTEM_OF_RECORD" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service request last updated by login" key="false" length="15" name="SIEBEL_KEY" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Complete" key="false" length="15" name="IPT_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Complete Date" key="false" length="1" name="HPSP_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Client Limit" key="false" length="6" name="CREATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Service Provider Limit" key="false" length="6" name="UPDATED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Requestor Name" key="false" length="15" name="PM_ACTION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Flexible Billing Flag" key="false" length="7" name="CAPITAL_SUBMISSION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Overtime Allowed (Y/N)" key="false" length="7" name="PARTS_RECEIVED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="General Ledger Account Code" key="false" length="100" name="RFS_RESPONSIBILITY_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Purchase Order Number" key="false" length="10" name="MOBILE_ONLY_PM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Job Code" key="false" length="50" name="CLIENT_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Spend Cateogry Bucket" key="false" length="7" name="TEMPORARY_FIX_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Short Description" key="false" length="100" name="PROBLEM_CLASS" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Problem for which service request was created" key="false" length="100" name="PROBLEM_SUBCLASS" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Problem Cause" key="false" length="100" name="PROBLEM_SUBSUBCLASS" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Resolution category" key="false" length="35" name="JOB_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Resolution Code" key="false" length="100" name="COST_CATEGORY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tELTOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="896" posY="768">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_7"/>
+    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;DIM_CLIENT_LOCATION&quot;"/>
+    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="context.Orcl_Talend_EDW_Schema"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="LABEL" value="__ELT_TABLE_NAME__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="TABLE" label="DIM_CLIENT_LOCATION" name="tELTOracleInput_7">
+      <column comment="Surrogate Key for Client" key="false" length="38" name="CLIENT_LOCATION_ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Native Key Unique Identifier from Siebel" key="false" length="15" name="SIEBEL_KEY" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tELTOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleOutput_1"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="MERGE"/>
+    <elementParameter field="MEMO" name="WHERE_CLAUSE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_MERGE_UPDATE" value="true"/>
+    <elementParameter field="TABLE" name="SCHEMA_UPDATE">
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER_LOCATION_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_LOCATION_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_TYPE_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LINE_OF_SERVICE_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SUBSTATUS_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CALENDAR_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_NUMBER"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_TRACKING_NUMBER"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_RFS_NUMBER"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_PM_PARENT_TRACKING_NUMBER"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_STATUS"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRIORITY"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_NETWORK"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATE_DATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATED_USER_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATE_DATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATE_USER_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_COMPLETE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_COMPLETION_DATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_LIMIT"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER_LIMIT"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REQUESTOR_NAME"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FLEX_BILLLING_FLAG_YN"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OVERTIME_ALLOWED_YN"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GL_ACCOUNT_CODE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PURCHASE_ORDER_NUMBER"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JOB_CODE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SPEND_CATEGORY"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SHORT_DESCRIPTION"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROBLEM"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CAUSE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RESOLUTION_CATEGORY"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RESOLUTION_CODE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_CANCELLED_YN"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_CANCELLED_NOTE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER_DECLINED_YN"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER_DECLINED_BY"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER_DECLINED_NOTE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACTUAL_TIME_OF_ARRIVAL_DATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ESTIMATED_TIME_ARRIVAL_DATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PARTS_ETA_DATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SURVEY_DONE_YN"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INVOICE_EXPECTED_YN"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PREBILL_YN"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NEW_PM_MODEL_PM_YN"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PM_PLAN_PRICE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PM_CLIENT_PRICE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PM_EXP_COMPLETION_MONTH"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PM_FREQUENCY"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CATEGORY"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BILLING_TYPE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LABOR_RATE_TYPE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_DESCRIPTION"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SR_OVERTIME_ALLOWED_YN"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SR_CREATED_SERVER_DATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WORK_ORDER_NUMBER"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_WBS_NUMBER"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_REGION"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_AREA"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_SUBAREA"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_WORK_DATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_CLOSE_DATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SR_CLIENT_LOCATION_LIMIT"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SP_CLIENT_LOCATION_LIMIT"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_CALLER_NAME"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_OPENED_DATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FOLLOW_UP_SR_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PARENT_SR_NUMBER"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SYSTEM_OF_RECORD"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SIEBEL_KEY"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_KEY"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HPSP_CODE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATED_DATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATED_DATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PM_ACTION_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_MERGE_UPDATE_WHERE" value="false"/>
+    <elementParameter field="TEXT" name="MERGE_UPDATE_WHERE_STRING" show="false" value="&quot; &quot;"/>
+    <elementParameter field="CHECK" name="USE_MERGE_UPDATE_DELETE_WHERE" value="false"/>
+    <elementParameter field="TEXT" name="MERGE_UPDATE_DELETE_WHERE_STRING" show="false" value="&quot; &quot;"/>
+    <elementParameter field="CHECK" name="USE_MERGE_INSERT" value="true"/>
+    <elementParameter field="TABLE" name="SCHEMA_INSERT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER_LOCATION_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_LOCATION_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_TYPE_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LINE_OF_SERVICE_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SUBSTATUS_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CALENDAR_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_NUMBER"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_TRACKING_NUMBER"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_RFS_NUMBER"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_PM_PARENT_TRACKING_NUMBER"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_STATUS"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRIORITY"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_NETWORK"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATE_DATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATED_USER_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATE_DATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATE_USER_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_COMPLETE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_COMPLETION_DATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_LIMIT"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER_LIMIT"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REQUESTOR_NAME"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FLEX_BILLLING_FLAG_YN"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OVERTIME_ALLOWED_YN"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GL_ACCOUNT_CODE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PURCHASE_ORDER_NUMBER"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JOB_CODE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SPEND_CATEGORY"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SHORT_DESCRIPTION"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROBLEM"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CAUSE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RESOLUTION_CATEGORY"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RESOLUTION_CODE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_CANCELLED_YN"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_CANCELLED_NOTE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER_DECLINED_YN"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER_DECLINED_BY"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER_DECLINED_NOTE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACTUAL_TIME_OF_ARRIVAL_DATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ESTIMATED_TIME_ARRIVAL_DATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PARTS_ETA_DATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SURVEY_DONE_YN"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INVOICE_EXPECTED_YN"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PREBILL_YN"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NEW_PM_MODEL_PM_YN"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PM_PLAN_PRICE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PM_CLIENT_PRICE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PM_EXP_COMPLETION_MONTH"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PM_FREQUENCY"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CATEGORY"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BILLING_TYPE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LABOR_RATE_TYPE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_DESCRIPTION"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SR_OVERTIME_ALLOWED_YN"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SR_CREATED_SERVER_DATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WORK_ORDER_NUMBER"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_WBS_NUMBER"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_REGION"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_AREA"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_SUBAREA"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_WORK_DATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_CLOSE_DATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SR_CLIENT_LOCATION_LIMIT"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SP_CLIENT_LOCATION_LIMIT"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_CALLER_NAME"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_REQUEST_OPENED_DATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FOLLOW_UP_SR_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PARENT_SR_NUMBER"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SYSTEM_OF_RECORD"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SIEBEL_KEY"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_KEY"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HPSP_CODE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATED_DATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATED_DATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PM_ACTION_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_MERGE_INSERT_WHERE" value="false"/>
+    <elementParameter field="TEXT" name="MERGE_INSERT_WHERE_STRING" show="false" value="&quot; &quot;"/>
+    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;DIM_SERVICE_REQUEST_ONEOFF&quot;"/>
+    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="context.Orcl_Talend_EDW_Schema"/>
+    <elementParameter field="CHECK" name="USE_DIFFERENT_TABLE" value="false"/>
+    <elementParameter field="TEXT" name="DIFFERENT_TABLE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" show="false" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__ELT_TABLE_NAME__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="TABLE" label="DIM_SERVICE_REQUEST_ONEOFF" name="tELTOracleOutput_1">
+      <column comment="" key="false" length="38" name="SERVICE_REQUEST_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="SERVICE_PROVIDER_LOCATION_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="CLIENT_LOCATION_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="SERVICE_TYPE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="LINE_OF_SERVICE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="SUBSTATUS_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="CALENDAR_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SERVICE_REQUEST_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="IPT_TRACKING_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="IPT_RFS_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="IPT_PM_PARENT_TRACKING_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SERVICE_REQUEST_STATUS" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="PRIORITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="SERVICE_REQUEST_NETWORK" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="CREATE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="CREATED_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="UPDATE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="UPDATE_USER_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="SERVICE_REQUEST_COMPLETE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="SERVICE_COMPLETION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="22" name="CLIENT_LIMIT" nullable="true" pattern="" precision="7" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="22" name="SERVICE_PROVIDER_LIMIT" nullable="true" pattern="" precision="7" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="REQUESTOR_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="FLEX_BILLLING_FLAG_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="OVERTIME_ALLOWED_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="GL_ACCOUNT_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="25" name="PURCHASE_ORDER_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="JOB_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SPEND_CATEGORY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="SHORT_DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="PROBLEM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="CAUSE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="RESOLUTION_CATEGORY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="RESOLUTION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="CLIENT_CANCELLED_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="CLIENT_CANCELLED_NOTE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="SERVICE_PROVIDER_DECLINED_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="SERVICE_PROVIDER_DECLINED_BY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="SERVICE_PROVIDER_DECLINED_NOTE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="ACTUAL_TIME_OF_ARRIVAL_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="ESTIMATED_TIME_ARRIVAL_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="PARTS_ETA_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="SURVEY_DONE_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="INVOICE_EXPECTED_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="PREBILL_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="NEW_PM_MODEL_PM_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="22" name="PM_PLAN_PRICE" nullable="true" pattern="" precision="7" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="22" name="PM_CLIENT_PRICE" nullable="true" pattern="" precision="7" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="PM_EXP_COMPLETION_MONTH" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="PM_FREQUENCY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="CATEGORY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="BILLING_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="LABOR_RATE_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="2000" name="SERVICE_REQUEST_DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="SR_OVERTIME_ALLOWED_YN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="SR_CREATED_SERVER_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="WORK_ORDER_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SERVICE_REQUEST_WBS_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="SERVICE_REQUEST_REGION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="SERVICE_REQUEST_AREA" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="SERVICE_REQUEST_SUBAREA" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="SERVICE_REQUEST_WORK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="SERVICE_REQUEST_CLOSE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="22" name="SR_CLIENT_LOCATION_LIMIT" nullable="true" pattern="" precision="7" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="22" name="SP_CLIENT_LOCATION_LIMIT" nullable="true" pattern="" precision="7" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SERVICE_REQUEST_CALLER_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="SERVICE_REQUEST_OPENED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="FOLLOW_UP_SR_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="PARENT_SR_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="SYSTEM_OF_RECORD" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="15" name="SIEBEL_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="IPT_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="HPSP_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="CREATED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="UPDATED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="PM_ACTION_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tELTOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="832">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_8"/>
+    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;DIM_SERVICE_PROVIDER_LOCATION&quot;"/>
+    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="context.Orcl_Talend_EDW_Schema"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="LABEL" value="__ELT_TABLE_NAME__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="TABLE" label="DIM_SERVICE_PROVIDER_LOCATION" name="tELTOracleInput_8">
+      <column comment="Surrogate Key for Service Provider Location" key="false" length="38" name="SERVICE_PROVIDER_LOCATION_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Surrogate Key for Service Provider Location"/>
+      </column>
+      <column comment="Native Key Unique Identifier from Siebel" key="false" length="15" name="SIEBEL_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Native Key Unique Identifier from Siebel"/>
+      </column>
+    </metadata>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleCommit_1" offsetLabelX="0" offsetLabelY="0" source="tOracleCommit_1" target="tOracleCommit_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tOracleConnection_2" offsetLabelX="0" offsetLabelY="0" source="tOracleConnection_2" target="tOracleConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tOracleConnection_1" offsetLabelX="0" offsetLabelY="0" source="tOracleConnection_1" target="tELTOracleMap_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk3"/>
+  </connection>
+  <connection connectorName="TABLE" label="Tgt_Dim_Service_Request" lineStyle="9" metaname="table3" offsetLabelX="0" offsetLabelY="0" source="tELTOracleMap_1" target="tELTOracleOutput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="table3"/>
+  </connection>
+  <connection connectorName="TABLE" label="context.Orcl_Talend_Stage_Schema.DIM_CALENDAR" lineStyle="9" metaname="tELTOracleInput_2" offsetLabelX="0" offsetLabelY="0" source="tELTOracleInput_2" target="tELTOracleMap_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_2"/>
+  </connection>
+  <connection connectorName="TABLE" label="context.Orcl_Talend_EDW_Schema.DIM_PM_ACTION" lineStyle="9" metaname="tELTOracleInput_3" offsetLabelX="1" offsetLabelY="-22" source="tELTOracleInput_3" target="tELTOracleMap_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_3"/>
+  </connection>
+  <connection connectorName="TABLE" label="context.Orcl_Talend_EDW_Schema.DIM_SUBSTATUS" lineStyle="9" metaname="tELTOracleInput_4" offsetLabelX="0" offsetLabelY="0" source="tELTOracleInput_4" target="tELTOracleMap_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_4"/>
+  </connection>
+  <connection connectorName="TABLE" label="context.Orcl_Talend_EDW_Schema.DIM_LINE_OF_SERVICE" lineStyle="9" metaname="tELTOracleInput_5" offsetLabelX="0" offsetLabelY="0" source="tELTOracleInput_5" target="tELTOracleMap_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_5"/>
+  </connection>
+  <connection connectorName="TABLE" label="context.Orcl_Talend_EDW_Schema.DIM_SERVICE_TYPE" lineStyle="9" metaname="tELTOracleInput_6" offsetLabelX="0" offsetLabelY="0" source="tELTOracleInput_6" target="tELTOracleMap_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_6"/>
+  </connection>
+  <connection connectorName="TABLE" label="context.Orcl_Talend_Stage_Schema.CSL_SERVICE_REQUEST" lineStyle="9" metaname="tELTOracleInput_1" offsetLabelX="0" offsetLabelY="0" source="tELTOracleInput_1" target="tELTOracleMap_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tELTOracleInput_1" offsetLabelX="0" offsetLabelY="0" source="tELTOracleInput_1" target="tOracleCommit_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="TABLE" label="context.Orcl_Talend_EDW_Schema.DIM_CLIENT_LOCATION" lineStyle="9" metaname="tELTOracleInput_7" offsetLabelX="0" offsetLabelY="0" source="tELTOracleInput_7" target="tELTOracleMap_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_7"/>
+  </connection>
+  <connection connectorName="TABLE" label="context.Orcl_Talend_EDW_Schema.DIM_SERVICE_PROVIDER_LOCATION" lineStyle="9" metaname="tELTOracleInput_8" offsetLabelX="0" offsetLabelY="0" source="tELTOracleInput_8" target="tELTOracleMap_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_8"/>
+  </connection>
+  <note opaque="true" posX="128" posY="-64" sizeHeight="161" sizeWidth="513" text="Developed By: Lee Rygiel&#13;&#10;Company : FYI Solutions&#13;&#10;Developed Date : 08-31-2016&#13;&#10;Changed By: &#13;&#10;Changed Log:&#13;&#10;Changed Date:&#13;&#10;">
+    <elementParameter field="COLOR" name="NOTE_COLOR" value="225;225;135"/>
+  </note>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6690314f-09ef-4517-ba9d-7c9b1163c833"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>n7KKcZrLJ4FQqtyUmKCUcWjZrrAuuNI58uJAuRDOctvack+q4x+x5I1Tj5JYNCo9xST7P1cBTafT
+qMZMr3OQ+Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_769f791e-b706-4562-9e6d-eb37992e61f4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RwpKAW158Ddps9j3cxYzjg4KG31ZselHAr8Hv6Wy902m6urB1ngiBB4SJuzdrfPuZTbMUjGNFyYo
+mD7ceNRJ9w==</DigestValue></Reference></SignedInfo><SignatureValue>FjsRwvaahwxr+0E7bQcnL+0c14qM4eEKoDVnyP4q+CkDPw2GWIZ1vbtTYR3G5PEOAaxLYKSFa2p3
+8PVmPWxcY9AiYwj0KTmwBb2RGQavl7O3dJlPmJIv9orY3wjR65DtZRJbiu6JjEWZXywtxzig9WZH
+bpriRztwjrUl4y2wAhIHfRPvcyE65X7Z70Rp+yYBRh/9D5pIr8MkVS2lWKpfJwKlhSbCWG3Cm5m1
+doW5b8LaiP0Yymi6U20xtSd+s8X3T7b+LkLo9JWSzZ/pKp2uq5o9VFrnIcWmXW3/VYQmx3VU1lHo
+NUfNrJClMpnhwv2LzSTvDDbX8y0tNGeIlJ1VlQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_769f791e-b706-4562-9e6d-eb37992e61f4" Target="#_6690314f-09ef-4517-ba9d-7c9b1163c833"><Timestamp>2019-05-10 18:07:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

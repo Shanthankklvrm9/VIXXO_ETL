@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms1024M&quot;,&quot;-Xmx10240M&quot;]}"/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" show="false" value="true"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend/6.1.1/studio/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_Hokt4EO_EealmtJnTMF-GQ" name="DQTechnical"/>
+    <routinesParameter id="_HbTt8EO_EealmtJnTMF-GQ" name="DataOperation"/>
+    <routinesParameter id="_HmRAwEO_EealmtJnTMF-GQ" name="DataQualityDependencies"/>
+    <routinesParameter id="_HlKNgEO_EealmtJnTMF-GQ" name="DataQuality"/>
+    <routinesParameter id="_HnXM8EO_EealmtJnTMF-GQ" name="DqStringHandling"/>
+    <routinesParameter id="_HcpKsEO_EealmtJnTMF-GQ" name="Mathematical"/>
+    <routinesParameter id="_HeAcoEO_EealmtJnTMF-GQ" name="Numeric"/>
+    <routinesParameter id="_HfV5YEO_EealmtJnTMF-GQ" name="Relational"/>
+    <routinesParameter id="_HX9fAEO_EealmtJnTMF-GQ" name="SQLike"/>
+    <routinesParameter id="_Hgfv8EO_EealmtJnTMF-GQ" name="StringHandling"/>
+    <routinesParameter id="_HhrbsEO_EealmtJnTMF-GQ" name="TalendDataGenerator"/>
+    <routinesParameter id="_Hi15UEO_EealmtJnTMF-GQ" name="TalendDate"/>
+    <routinesParameter id="_Hj96sEO_EealmtJnTMF-GQ" name="TalendString"/>
+  </parameters>
+  <node componentName="tAccessInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAccessInput_1"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tAccessInput"/>
+    <elementParameter field="TEXT" name="VERSION" show="false" value="0.102 (ALPHA)"/>
+    <elementParameter field="TEXT" name="FAMILY" show="false" value="Databases/Access"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="true"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HELP" show="false" value="org.talend.help.tAccessInput"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" show="false" value="C:\apps\Talend\6.1.1\studio\configuration\lib\java"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ACCESS"/>
+    <elementParameter field="FILE" name="DBNAME" value="&quot;T:/01 - Customer Operations/Customer Programs/7-Eleven/Analyst Files/Kupovics/711 2015 Billiing DB.accdb&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE="/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_MjPxoD6eEeiiqaNEwYNB4g - Z_2009_INVOICES"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Z_2009 INVOICES&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  [Z_2009 INVOICES].[ID], &#10;  [Z_2009 INVOICES].DIVISION, &#10;  [Z_2009 INVOICES].[BALANCING SEGMENT], &#10;  [Z_2009 INVOICES].[STORE _], &#10;  [Z_2009 INVOICES].[ORIGINAL STORE], &#10;  [Z_2009 INVOICES].[PRIMARY FSR], &#10;  [Z_2009 INVOICES].[SERVICE PROVIDER], &#10;  [Z_2009 INVOICES].[EQUIPMENT CODE], &#10;  [Z_2009 INVOICES].[COST CENTER], &#10;  [Z_2009 INVOICES].ACCOUNT, &#10;  [Z_2009 INVOICES].[SUB ACCOUNT], &#10;  [Z_2009 INVOICES].MATERIALS, &#10;  [Z_2009 INVOICES].TRAVEL, &#10;  [Z_2009 INVOICES].LABOR, &#10;  [Z_2009 INVOICES].[SVCE FEE], &#10;  [Z_2009 INVOICES].MISC, &#10;  [Z_2009 INVOICES].[SUB CONTRACTOR], &#10;  [Z_2009 INVOICES].ADJUSTMENT, &#10;  [Z_2009 INVOICES].[SHIPPING AND HANDLING], &#10;  [Z_2009 INVOICES].FREIGHT, &#10;  [Z_2009 INVOICES].TAX, &#10;  [Z_2009 INVOICES].TOTAL, &#10;  [Z_2009 INVOICES].[REPAIR NOTE], &#10;  [Z_2009 INVOICES].[REPAIR NOTE 1], &#10;  [Z_2009 INVOICES].[SERVICE DATE], &#10;  [Z_2009 INVOICES].PROBLEM, &#10;  [Z_2009 INVOICES].TRADE, &#10;  [Z_2009 INVOICES].[PROBLEM CLASS], &#10;  [Z_2009 INVOICES].[PROBLEM SUBCLASS], &#10;  [Z_2009 INVOICES].[PROBLEM SUBSUBCLASS], &#10;  [Z_2009 INVOICES].[PO NUMBER], &#10;  [Z_2009 INVOICES].[QUOTE ID], &#10;  [Z_2009 INVOICES].[RFS OR PM], &#10;  [Z_2009 INVOICES].[TRACKING ID], &#10;  [Z_2009 INVOICES].[IPT INVOICE NUMBER], &#10;  [Z_2009 INVOICES].[IPT INVOICE DATE], &#10;  [Z_2009 INVOICES].[IPT VIID], &#10;  [Z_2009 INVOICES].[DFM CMNT], &#10;  [Z_2009 INVOICES].[ORGNL DFM CMNT], &#10;  [Z_2009 INVOICES].[FSR COMMENTS], &#10;  [Z_2009 INVOICES].[CORP OR FRAN], &#10;  [Z_2009 INVOICES].BUCKET, &#10;  [Z_2009 INVOICES].[COST CATEGORY], &#10;  [Z_2009 INVOICES].[POST DATE], &#10;  [Z_2009 INVOICES].REPLACEMENT, &#10;  [Z_2009 INVOICES].[GST TAX], &#10;  [Z_2009 INVOICES].[PST TAX], &#10;  [Z_2009 INVOICES].[HST TAX], &#10;  [Z_2009 INVOICES].[THOMS FIELD], &#10;  [Z_2009 INVOICES].[TEMP DESC FIELD], &#10;  [Z_2009 INVOICES].URGENCY, &#10;  [Z_2009 INVOICES].[CREATED AT DATE], &#10;  [Z_2009 INVOICES].MARKET&#10;FROM [Z_2009 INVOICES]&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="access_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DIVISION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BALANCING_SEGMENT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STORE__"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ORIGINAL_STORE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRIMARY_FSR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EQUIPMENT_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COST_CENTER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACCOUNT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SUB_ACCOUNT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MATERIALS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRAVEL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LABOR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SVCE_FEE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MISC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SUB_CONTRACTOR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADJUSTMENT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SHIPPING_AND_HANDLING"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FREIGHT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TAX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TOTAL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REPAIR_NOTE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REPAIR_NOTE_1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROBLEM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRADE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROBLEM_CLASS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROBLEM_SUBCLASS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROBLEM_SUBSUBCLASS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PO_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="QUOTE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RFS_OR_PM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRACKING_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_INVOICE_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_INVOICE_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_VIID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DFM_CMNT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ORGNL_DFM_CMNT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FSR_COMMENTS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CORP_OR_FRAN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BUCKET"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COST_CATEGORY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="POST_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REPLACEMENT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GST_TAX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PST_TAX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HST_TAX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="THOMS_FIELD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TEMP_DESC_FIELD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="URGENCY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATED_AT_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MARKET"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="Z_2009_INVOICES" name="tAccessInput_1">
+      <column comment="" key="true" length="32" name="ID" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="DIVISION" nullable="true" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="BALANCING_SEGMENT" nullable="true" originalDbColumnName="BALANCING SEGMENT" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="STORE__" nullable="true" originalDbColumnName="STORE _" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="ORIGINAL_STORE" nullable="true" originalDbColumnName="ORIGINAL STORE" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PRIMARY_FSR" nullable="true" originalDbColumnName="PRIMARY FSR" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="SERVICE_PROVIDER" nullable="true" originalDbColumnName="SERVICE PROVIDER" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="EQUIPMENT_CODE" nullable="true" originalDbColumnName="EQUIPMENT CODE" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="COST_CENTER" nullable="true" originalDbColumnName="COST CENTER" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="ACCOUNT" nullable="true" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="SUB_ACCOUNT" nullable="true" originalDbColumnName="SUB ACCOUNT" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="MATERIALS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="TRAVEL" nullable="true" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="LABOR" nullable="true" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="SVCE_FEE" nullable="true" originalDbColumnName="SVCE FEE" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="MISC" nullable="true" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="SUB_CONTRACTOR" nullable="true" originalDbColumnName="SUB CONTRACTOR" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="ADJUSTMENT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="SHIPPING_AND_HANDLING" nullable="true" originalDbColumnName="SHIPPING AND HANDLING" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="FREIGHT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="TAX" nullable="true" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="TOTAL" nullable="true" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="16777216" name="REPAIR_NOTE" nullable="true" originalDbColumnName="REPAIR NOTE" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="REPAIR_NOTE_1" nullable="true" originalDbColumnName="REPAIR NOTE 1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="SERVICE_DATE" nullable="true" originalDbColumnName="SERVICE DATE" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PROBLEM" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="TRADE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PROBLEM_CLASS" nullable="true" originalDbColumnName="PROBLEM CLASS" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PROBLEM_SUBCLASS" nullable="true" originalDbColumnName="PROBLEM SUBCLASS" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PROBLEM_SUBSUBCLASS" nullable="true" originalDbColumnName="PROBLEM SUBSUBCLASS" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PO_NUMBER" nullable="true" originalDbColumnName="PO NUMBER" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="32" name="QUOTE_ID" nullable="true" originalDbColumnName="QUOTE ID" pattern="" precision="0" sourceType="INTEGER" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="RFS_OR_PM" nullable="true" originalDbColumnName="RFS OR PM" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="TRACKING_ID" nullable="true" originalDbColumnName="TRACKING ID" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="IPT_INVOICE_NUMBER" nullable="true" originalDbColumnName="IPT INVOICE NUMBER" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="IPT_INVOICE_DATE" nullable="true" originalDbColumnName="IPT INVOICE DATE" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="IPT_VIID" nullable="true" originalDbColumnName="IPT VIID" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="DFM_CMNT" nullable="true" originalDbColumnName="DFM CMNT" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="ORGNL_DFM_CMNT" nullable="true" originalDbColumnName="ORGNL DFM CMNT" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="FSR_COMMENTS" nullable="true" originalDbColumnName="FSR COMMENTS" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="CORP_OR_FRAN" nullable="true" originalDbColumnName="CORP OR FRAN" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="BUCKET" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="COST_CATEGORY" nullable="true" originalDbColumnName="COST CATEGORY" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="POST_DATE" nullable="true" originalDbColumnName="POST DATE" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="REPLACEMENT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="GST_TAX" nullable="true" originalDbColumnName="GST TAX" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PST_TAX" nullable="true" originalDbColumnName="PST TAX" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="HST_TAX" nullable="true" originalDbColumnName="HST TAX" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="THOMS_FIELD" nullable="true" originalDbColumnName="THOMS FIELD" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="TEMP_DESC_FIELD" nullable="true" originalDbColumnName="TEMP DESC FIELD" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="URGENCY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="CREATED_AT_DATE" nullable="true" originalDbColumnName="CREATED AT DATE" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="MARKET" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="544" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_JaByYD6oEeip2tLHZETWPQ-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out1">
+      <column comment="" key="true" length="32" name="ID" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="DIVISION" nullable="true" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="BALANCING_SEGMENT" nullable="true" originalDbColumnName="BALANCING SEGMENT" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="STORE__" nullable="true" originalDbColumnName="STORE _" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="ORIGINAL_STORE" nullable="true" originalDbColumnName="ORIGINAL STORE" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PRIMARY_FSR" nullable="true" originalDbColumnName="PRIMARY FSR" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="SERVICE_PROVIDER" nullable="true" originalDbColumnName="SERVICE PROVIDER" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="EQUIPMENT_CODE" nullable="true" originalDbColumnName="EQUIPMENT CODE" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="COST_CENTER" nullable="true" originalDbColumnName="COST CENTER" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="ACCOUNT" nullable="true" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="SUB_ACCOUNT" nullable="true" originalDbColumnName="SUB ACCOUNT" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="MATERIALS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="TRAVEL" nullable="true" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="LABOR" nullable="true" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="SVCE_FEE" nullable="true" originalDbColumnName="SVCE FEE" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="MISC" nullable="true" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="SUB_CONTRACTOR" nullable="true" originalDbColumnName="SUB CONTRACTOR" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="ADJUSTMENT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="SHIPPING_AND_HANDLING" nullable="true" originalDbColumnName="SHIPPING AND HANDLING" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="FREIGHT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="TAX" nullable="true" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="TOTAL" nullable="true" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="16777216" name="REPAIR_NOTE" nullable="true" originalDbColumnName="REPAIR NOTE" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="REPAIR_NOTE_1" nullable="true" originalDbColumnName="REPAIR NOTE 1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="SERVICE_DATE" nullable="true" originalDbColumnName="SERVICE DATE" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PROBLEM" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="TRADE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PROBLEM_CLASS" nullable="true" originalDbColumnName="PROBLEM CLASS" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PROBLEM_SUBCLASS" nullable="true" originalDbColumnName="PROBLEM SUBCLASS" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PROBLEM_SUBSUBCLASS" nullable="true" originalDbColumnName="PROBLEM SUBSUBCLASS" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PO_NUMBER" nullable="true" originalDbColumnName="PO NUMBER" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="32" name="QUOTE_ID" nullable="true" originalDbColumnName="QUOTE ID" pattern="" precision="0" sourceType="INTEGER" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="RFS_OR_PM" nullable="true" originalDbColumnName="RFS OR PM" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="TRACKING_ID" nullable="true" originalDbColumnName="TRACKING ID" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="IPT_INVOICE_NUMBER" nullable="true" originalDbColumnName="IPT INVOICE NUMBER" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="IPT_INVOICE_DATE" nullable="true" originalDbColumnName="IPT INVOICE DATE" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="IPT_VIID" nullable="true" originalDbColumnName="IPT VIID" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="DFM_CMNT" nullable="true" originalDbColumnName="DFM CMNT" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="ORGNL_DFM_CMNT" nullable="true" originalDbColumnName="ORGNL DFM CMNT" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="FSR_COMMENTS" nullable="true" originalDbColumnName="FSR COMMENTS" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="CORP_OR_FRAN" nullable="true" originalDbColumnName="CORP OR FRAN" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="BUCKET" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="COST_CATEGORY" nullable="true" originalDbColumnName="COST CATEGORY" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="POST_DATE" nullable="true" originalDbColumnName="POST DATE" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="REPLACEMENT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="GST_TAX" nullable="true" originalDbColumnName="GST TAX" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PST_TAX" nullable="true" originalDbColumnName="PST TAX" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="HST_TAX" nullable="true" originalDbColumnName="HST TAX" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="THOMS_FIELD" nullable="true" originalDbColumnName="THOMS FIELD" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="TEMP_DESC_FIELD" nullable="true" originalDbColumnName="TEMP DESC FIELD" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="URGENCY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="CREATED_AT_DATE" nullable="true" originalDbColumnName="CREATED AT DATE" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="MARKET" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="out1" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.ID " name="ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries expression="row1.DIVISION " name="DIVISION" nullable="true" type="id_Double"/>
+        <mapperTableEntries expression="row1.BALANCING_SEGMENT " name="BALANCING_SEGMENT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.STORE__ " name="STORE__" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ORIGINAL_STORE " name="ORIGINAL_STORE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PRIMARY_FSR " name="PRIMARY_FSR" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.SERVICE_PROVIDER " name="SERVICE_PROVIDER" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.EQUIPMENT_CODE " name="EQUIPMENT_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.COST_CENTER " name="COST_CENTER" nullable="true" type="id_Double"/>
+        <mapperTableEntries expression="row1.ACCOUNT " name="ACCOUNT" nullable="true" type="id_Double"/>
+        <mapperTableEntries expression="row1.SUB_ACCOUNT " name="SUB_ACCOUNT" nullable="true" type="id_Double"/>
+        <mapperTableEntries expression="row1.MATERIALS " name="MATERIALS" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.TRAVEL " name="TRAVEL" nullable="true" type="id_Double"/>
+        <mapperTableEntries expression="row1.LABOR " name="LABOR" nullable="true" type="id_Double"/>
+        <mapperTableEntries expression="row1.SVCE_FEE " name="SVCE_FEE" nullable="true" type="id_Double"/>
+        <mapperTableEntries expression="row1.MISC " name="MISC" nullable="true" type="id_Double"/>
+        <mapperTableEntries expression="row1.SUB_CONTRACTOR " name="SUB_CONTRACTOR" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ADJUSTMENT " name="ADJUSTMENT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.SHIPPING_AND_HANDLING " name="SHIPPING_AND_HANDLING" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.FREIGHT " name="FREIGHT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.TAX " name="TAX" nullable="true" type="id_Double"/>
+        <mapperTableEntries expression="row1.TOTAL " name="TOTAL" nullable="true" type="id_Double"/>
+        <mapperTableEntries expression="row1.REPAIR_NOTE " name="REPAIR_NOTE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.REPAIR_NOTE_1 " name="REPAIR_NOTE_1" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.SERVICE_DATE " name="SERVICE_DATE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PROBLEM " name="PROBLEM" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.TRADE " name="TRADE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PROBLEM_CLASS " name="PROBLEM_CLASS" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PROBLEM_SUBCLASS " name="PROBLEM_SUBCLASS" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PROBLEM_SUBSUBCLASS " name="PROBLEM_SUBSUBCLASS" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PO_NUMBER " name="PO_NUMBER" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.QUOTE_ID " name="QUOTE_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries expression="row1.RFS_OR_PM " name="RFS_OR_PM" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.TRACKING_ID " name="TRACKING_ID" nullable="true" type="id_Double"/>
+        <mapperTableEntries expression="row1.IPT_INVOICE_NUMBER " name="IPT_INVOICE_NUMBER" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.IPT_INVOICE_DATE " name="IPT_INVOICE_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.IPT_VIID " name="IPT_VIID" nullable="true" type="id_Double"/>
+        <mapperTableEntries expression="row1.DFM_CMNT " name="DFM_CMNT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ORGNL_DFM_CMNT " name="ORGNL_DFM_CMNT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.FSR_COMMENTS " name="FSR_COMMENTS" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.CORP_OR_FRAN " name="CORP_OR_FRAN" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.BUCKET " name="BUCKET" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.COST_CATEGORY " name="COST_CATEGORY" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.POST_DATE " name="POST_DATE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.REPLACEMENT " name="REPLACEMENT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.GST_TAX " name="GST_TAX" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PST_TAX " name="PST_TAX" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.HST_TAX " name="HST_TAX" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.THOMS_FIELD " name="THOMS_FIELD" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.TEMP_DESC_FIELD " name="TEMP_DESC_FIELD" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.URGENCY " name="URGENCY" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.CREATED_AT_DATE " name="CREATED_AT_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.MARKET " name="MARKET" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="DIVISION" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="BALANCING_SEGMENT" nullable="true" type="id_String"/>
+        <mapperTableEntries name="STORE__" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ORIGINAL_STORE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PRIMARY_FSR" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SERVICE_PROVIDER" nullable="true" type="id_String"/>
+        <mapperTableEntries name="EQUIPMENT_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="COST_CENTER" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="ACCOUNT" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="SUB_ACCOUNT" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="MATERIALS" nullable="true" type="id_String"/>
+        <mapperTableEntries name="TRAVEL" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="LABOR" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="SVCE_FEE" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="MISC" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="SUB_CONTRACTOR" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ADJUSTMENT" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SHIPPING_AND_HANDLING" nullable="true" type="id_String"/>
+        <mapperTableEntries name="FREIGHT" nullable="true" type="id_String"/>
+        <mapperTableEntries name="TAX" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="TOTAL" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="REPAIR_NOTE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="REPAIR_NOTE_1" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SERVICE_DATE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PROBLEM" nullable="true" type="id_String"/>
+        <mapperTableEntries name="TRADE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PROBLEM_CLASS" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PROBLEM_SUBCLASS" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PROBLEM_SUBSUBCLASS" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PO_NUMBER" nullable="true" type="id_String"/>
+        <mapperTableEntries name="QUOTE_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="RFS_OR_PM" nullable="true" type="id_String"/>
+        <mapperTableEntries name="TRACKING_ID" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="IPT_INVOICE_NUMBER" nullable="true" type="id_String"/>
+        <mapperTableEntries name="IPT_INVOICE_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="IPT_VIID" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="DFM_CMNT" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ORGNL_DFM_CMNT" nullable="true" type="id_String"/>
+        <mapperTableEntries name="FSR_COMMENTS" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CORP_OR_FRAN" nullable="true" type="id_String"/>
+        <mapperTableEntries name="BUCKET" nullable="true" type="id_String"/>
+        <mapperTableEntries name="COST_CATEGORY" nullable="true" type="id_String"/>
+        <mapperTableEntries name="POST_DATE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="REPLACEMENT" nullable="true" type="id_String"/>
+        <mapperTableEntries name="GST_TAX" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PST_TAX" nullable="true" type="id_String"/>
+        <mapperTableEntries name="HST_TAX" nullable="true" type="id_String"/>
+        <mapperTableEntries name="THOMS_FIELD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="TEMP_DESC_FIELD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="URGENCY" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CREATED_AT_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="MARKET" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="true"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DIVISION"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BALANCING_SEGMENT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STORE__"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ORIGINAL_STORE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRIMARY_FSR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EQUIPMENT_CODE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COST_CENTER"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACCOUNT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SUB_ACCOUNT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MATERIALS"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRAVEL"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LABOR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SVCE_FEE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MISC"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SUB_CONTRACTOR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADJUSTMENT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SHIPPING_AND_HANDLING"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FREIGHT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TAX"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TOTAL"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REPAIR_NOTE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REPAIR_NOTE_1"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_DATE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROBLEM"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRADE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROBLEM_CLASS"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROBLEM_SUBCLASS"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROBLEM_SUBSUBCLASS"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PO_NUMBER"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="QUOTE_ID"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RFS_OR_PM"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRACKING_ID"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_INVOICE_NUMBER"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_INVOICE_DATE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IPT_VIID"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DFM_CMNT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ORGNL_DFM_CMNT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FSR_COMMENTS"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CORP_OR_FRAN"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BUCKET"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COST_CATEGORY"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="POST_DATE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REPLACEMENT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GST_TAX"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PST_TAX"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HST_TAX"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="THOMS_FIELD"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TEMP_DESC_FIELD"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="URGENCY"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATED_AT_DATE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MARKET"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column comment="" key="true" length="32" name="ID" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="DIVISION" nullable="true" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="BALANCING_SEGMENT" nullable="true" originalDbColumnName="BALANCING SEGMENT" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="STORE__" nullable="true" originalDbColumnName="STORE _" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="ORIGINAL_STORE" nullable="true" originalDbColumnName="ORIGINAL STORE" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PRIMARY_FSR" nullable="true" originalDbColumnName="PRIMARY FSR" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="SERVICE_PROVIDER" nullable="true" originalDbColumnName="SERVICE PROVIDER" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="EQUIPMENT_CODE" nullable="true" originalDbColumnName="EQUIPMENT CODE" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="COST_CENTER" nullable="true" originalDbColumnName="COST CENTER" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="ACCOUNT" nullable="true" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="SUB_ACCOUNT" nullable="true" originalDbColumnName="SUB ACCOUNT" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="MATERIALS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="TRAVEL" nullable="true" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="LABOR" nullable="true" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="SVCE_FEE" nullable="true" originalDbColumnName="SVCE FEE" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="MISC" nullable="true" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="SUB_CONTRACTOR" nullable="true" originalDbColumnName="SUB CONTRACTOR" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="ADJUSTMENT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="SHIPPING_AND_HANDLING" nullable="true" originalDbColumnName="SHIPPING AND HANDLING" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="FREIGHT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="TAX" nullable="true" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="TOTAL" nullable="true" pattern="" precision="4" sourceType="DECIMAL" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="16777216" name="REPAIR_NOTE" nullable="true" originalDbColumnName="REPAIR NOTE" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="REPAIR_NOTE_1" nullable="true" originalDbColumnName="REPAIR NOTE 1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="SERVICE_DATE" nullable="true" originalDbColumnName="SERVICE DATE" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PROBLEM" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="TRADE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PROBLEM_CLASS" nullable="true" originalDbColumnName="PROBLEM CLASS" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PROBLEM_SUBCLASS" nullable="true" originalDbColumnName="PROBLEM SUBCLASS" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PROBLEM_SUBSUBCLASS" nullable="true" originalDbColumnName="PROBLEM SUBSUBCLASS" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PO_NUMBER" nullable="true" originalDbColumnName="PO NUMBER" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="32" name="QUOTE_ID" nullable="true" originalDbColumnName="QUOTE ID" pattern="" precision="0" sourceType="INTEGER" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="RFS_OR_PM" nullable="true" originalDbColumnName="RFS OR PM" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="TRACKING_ID" nullable="true" originalDbColumnName="TRACKING ID" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="IPT_INVOICE_NUMBER" nullable="true" originalDbColumnName="IPT INVOICE NUMBER" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="IPT_INVOICE_DATE" nullable="true" originalDbColumnName="IPT INVOICE DATE" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="IPT_VIID" nullable="true" originalDbColumnName="IPT VIID" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="DFM_CMNT" nullable="true" originalDbColumnName="DFM CMNT" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="ORGNL_DFM_CMNT" nullable="true" originalDbColumnName="ORGNL DFM CMNT" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="FSR_COMMENTS" nullable="true" originalDbColumnName="FSR COMMENTS" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="CORP_OR_FRAN" nullable="true" originalDbColumnName="CORP OR FRAN" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="BUCKET" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="COST_CATEGORY" nullable="true" originalDbColumnName="COST CATEGORY" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="POST_DATE" nullable="true" originalDbColumnName="POST DATE" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="REPLACEMENT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="GST_TAX" nullable="true" originalDbColumnName="GST TAX" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PST_TAX" nullable="true" originalDbColumnName="PST TAX" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="HST_TAX" nullable="true" originalDbColumnName="HST TAX" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="THOMS_FIELD" nullable="true" originalDbColumnName="THOMS FIELD" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="TEMP_DESC_FIELD" nullable="true" originalDbColumnName="TEMP DESC FIELD" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="URGENCY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="CREATED_AT_DATE" nullable="true" originalDbColumnName="CREATED AT DATE" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="MARKET" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tAccessInput_1" offsetLabelX="0" offsetLabelY="0" source="tAccessInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAccessInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_47df02c8-7ef0-4722-b98b-923a2d7f510e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rSvuE9vl83RV8/w6IFd0c0n1m8tU3syCpAh7PuWJ8cGf1bPS36mD2mohnrXGT2yxM7ArIlNxOlyd
+6CRjk+kQ/A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_38e0e13d-c47a-4a3d-ab76-90b6aab63059"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mwV8UyOLoCV1/PlHJFWFAM1ilCpEWstez3cypoWb3I0idH1QJnE2ZcCLr2ZG9e7UVd7wiqAEPQk9
+ZIqDL0zNTg==</DigestValue></Reference></SignedInfo><SignatureValue>KS6LDKs6XBpJyF2fXPjWE1IbypH1gYx6qzU9O2AUiL6V72cyFouPpABHBAx8KmF7/RqiFN0hUjOI
+FFUruGVVj8eozdXG5bYAs0aK0RUZuxdlpDQnZh/aUUTb6n3MZMn8vT22pnltv40EvDYdQ0qSoOfz
+Vecos9O0OZmkPZ3r4t7XCogbejumZSk0KpStwyROMGaR8xIHiSkFkQUuSGn9AwJ6YDGBf4GVig8n
+8+sz+gZrNLoLrZK7A/w2HqJtvIZ+kZObe98QFvVAqVVSAeR64ROzke4TJQZXG8/APfDPaMvgF5v7
+R9frT3RTCdMrZdUKszV6IDJTsbhK+7WFd3nbfw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_38e0e13d-c47a-4a3d-ab76-90b6aab63059" Target="#_47df02c8-7ef0-4722-b98b-923a2d7f510e"><Timestamp>2019-05-10 18:14:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

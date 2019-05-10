@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_HjUXcHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="talend_ormb_AdditionalParams" prompt="talend_ormb_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HjUXcXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_ServiceName" prompt="talend_ormb_ServiceName?" promptNeeded="false" type="id_String" value="ORMALP" xmi:id="_HjUXcnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_Password" prompt="talend_ormb_Password?" promptNeeded="false" type="id_Password" value="PKig+LGBCGxNhmzbuZyQkg==" xmi:id="_HjUXc3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_Port" prompt="talend_ormb_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HjUXdHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_Login" prompt="talend_ormb_Login?" promptNeeded="false" type="id_String" value="talend_ormb" xmi:id="_HjUXdXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_Server" prompt="talend_ormb_Server?" promptNeeded="false" type="id_String" value="bos-odapr-scan" xmi:id="_HjUXdnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_Schema" prompt="talend_ormb_Schema?" promptNeeded="false" type="id_String" value="CISADM" xmi:id="_HjUXd3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_HjUXeHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="talend_ormb_AdditionalParams" prompt="talend_ormb_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HjUXeXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_ServiceName" prompt="talend_ormb_ServiceName?" promptNeeded="false" type="id_String" value="RMBPRD_PRD" xmi:id="_HjUXenNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_Password" prompt="talend_ormb_Password?" promptNeeded="false" type="id_Password" value="PKig+LGBCGxNhmzbuZyQkg==" xmi:id="_HjUXe3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_Port" prompt="talend_ormb_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HjUXfHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_Login" prompt="talend_ormb_Login?" promptNeeded="false" type="id_String" value="talend_ormb" xmi:id="_HjUXfXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_Server" prompt="talend_ormb_Server?" promptNeeded="false" type="id_String" value="bos-odaprd-scan" xmi:id="_HjUXfnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_Schema" prompt="talend_ormb_Schema?" promptNeeded="false" type="id_String" value="CISADM" xmi:id="_HjUXf3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_HjUXgHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="talend_ormb_AdditionalParams" prompt="talend_ormb_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HjUXgXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_ServiceName" prompt="talend_ormb_ServiceName?" promptNeeded="false" type="id_String" value="RMBPRD_PRD" xmi:id="_HjUXgnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_Password" prompt="talend_ormb_Password?" promptNeeded="false" type="id_Password" value="PKig+LGBCGxNhmzbuZyQkg==" xmi:id="_HjUXg3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_Port" prompt="talend_ormb_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HjUXhHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_Login" prompt="talend_ormb_Login?" promptNeeded="false" type="id_String" value="talend_ormb" xmi:id="_HjUXhXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_Server" prompt="talend_ormb_Server?" promptNeeded="false" type="id_String" value="bos-odaprd-scan" xmi:id="_HjUXhnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="talend_ormb_Schema" prompt="talend_ormb_Schema?" promptNeeded="false" type="id_String" value="CISADM" xmi:id="_HjUXh3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f8714641-6873-4a49-998e-a61b4b695254"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Jvxfsh4VqEbI4txdkFPowTFVu55/3cR3aZl99oD/+vbhMJ1RYfPzeRf6XwaUKeOMwFTVtsWmNmhg
+RYNw4FYW5w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_dcfaee07-7e67-459f-b8f3-3f46e88e8efe"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>XSJPEcqmOVLcdEmutMgnfAcXGUzIYHFBhJzvlH4fkurFweJUr8WYPFasVSNoXLHrqBBsTER3MeTo
+a1KSN57YNA==</DigestValue></Reference></SignedInfo><SignatureValue>O+vr+sl8r1gcBesHT6MR8I/jH5NPtkomevKTeTJ5DVttJiAhUKgosdCIzkoo8vilNJVohq4UdikX
+1XS4Yxrka4zrVk+DVpXOr3hATNtz45+XKMcu48Tskw/41B4HW9ZSpJZTLirb5+BOHCQcvgzPGYqs
+sNKKo4aif8NjpjA8M7+BzLFDaeAx4fM1tnKrlfJqAwg1BEagwLMTL0GWcpeGaEqjDnD+tUhO4bnO
+pwBTJbC+L3PSUlAHZFb+tR7exYCaMAPSl8WHyhWeZhhVhvO7Z9cO1dENC8SQpF9dQz8UUy+8Qo6x
+Op6buB4I+ZcYVptTqp8AjD5AF5K30z19DmryHw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_dcfaee07-7e67-459f-b8f3-3f46e88e8efe" Target="#_f8714641-6873-4a49-998e-a61b4b695254"><Timestamp>2019-05-10 18:04:56</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="context.Orcl_ODS_CDC_Monitor_AdditionalParams" ContextId="_yx95AK6fEeeBwr-sS2r9Ig" ContextMode="true" DBRootPath="" DatabaseType="Oracle with service name" DatasourceName="" DbmsId="oracle_id" DriverClass="oracle.jdbc.OracleDriver" DriverJarPath="" FileFieldName="" Password="context.Orcl_ODS_CDC_Monitor_Password" Port="context.Orcl_ODS_CDC_Monitor_Port" ProductId="ORACLE" SID="context.Orcl_ODS_CDC_Monitor_ServiceName" SQLMode="false" ServerName="context.Orcl_ODS_CDC_Monitor_Server" SqlSynthax="SQL Syntax" StandardSQL="true" URL="jdbc:oracle:thin:@(description=(address=(protocol=tcp)(host=bos-odaprd-scan)(port=1521))(connect_data=(service_name=ODSPRD_PRD)))" UiSchema="context.Orcl_ODS_CDC_Monitor_Schema" Username="context.Orcl_ODS_CDC_Monitor_Login" contextName="Dev" dataPackage="_nyVqMLbYEee4tJy0jibp-g" dbVersionString="ORACLE_11" id="_fPK-IK33EeeOieiyX1sTqA" label="Orcl_ODS_CDC_Monitor" name="Orcl_ODS_CDC_Monitor" xmi:id="_fPvl4K33EeeOieiyX1sTqA">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_MKWsYZy_EeeoFqeudkOFGg"/>
+    <taggedValue tag="package filter" value="" xmi:id="_MRl80Jy_EeeoFqeudkOFGg"/>
+    <taggedValue tag="Status" value="" xmi:id="_MRvt0Jy_EeeoFqeudkOFGg"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_MRvt0Zy_EeeoFqeudkOFGg"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_MRvt0py_EeeoFqeudkOFGg"/>
+    <taggedValue tag="Description" value="" xmi:id="_MRvt05y_EeeoFqeudkOFGg"/>
+    <taggedValue tag="Author" value="" xmi:id="_MRvt1Jy_EeeoFqeudkOFGg"/>
+    <taggedValue tag="otherParameter" xmi:id="_MRvt1Zy_EeeoFqeudkOFGg"/>
+    <taggedValue tag="DB ProductName" value="Oracle" xmi:id="_MZetgJy_EeeoFqeudkOFGg"/>
+    <taggedValue tag="DB ProductVersion" value="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, Real Application Clusters, OLAP, Data Mining&#10;and Real Application Testing options" xmi:id="_MZetgZy_EeeoFqeudkOFGg"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_MZetgpy_EeeoFqeudkOFGg"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="context.Orcl_ODS_CDC_Monitor_Login" xmi:id="_MKWsYpy_EeeoFqeudkOFGg"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema dataManager="_fPvl4K33EeeOieiyX1sTqA" name="TALEND_PROD" xmi:id="_nyVqMLbYEee4tJy0jibp-g"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_53f5da40-f91e-4f67-9244-e17d7dd22aac"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>czOf7p1Vdwbv6lQkKIBiSV4GB8Juj97vQsXIbYgxLM2+MPCOFKdGBkiTynr4ll6MWQFvUntnl+wc
+XMB8imBZyA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a913edca-48e9-4673-b5ee-3c8cade664a5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wx+SmI8sNC51QwJbRJM4BFUhO9A8YEIPJz7rXQiifzIL4AS1Hpwgb7hR6TDPc8KwH99n1agBsUZY
+pGNcV9moow==</DigestValue></Reference></SignedInfo><SignatureValue>mbIU6KjVXH4YnxwN5hc298tLa93l3fp4kALoJPkl+yDexooGTU89rrc0Me+X8LeddBMkGX/JdFAi
+jcbYedBoI7JYmjG6myLY58QMwSiiIcTz/Rqh3Qtzc0OmdJWdmMxXi/TYkzmz1BCFf51dze7dhV6B
+xbIeMCRerOylRoFaFP1xQUxLu/GuBBqSLAfuoIgL6JvPI01sgT0rmHyvXXn6sEC1MTfsBoXZG4iy
+166ILVwPjvqU7daaEqMD9OAMSVNtE242Z9SkzT2hA8xNDeoimNWLT+4NrNjapGb+il5krnuV1ZIe
+sw3IkL0M0fxzqiQLqOzddfMSdOTayidRAY9yCQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a913edca-48e9-4673-b5ee-3c8cade664a5" Target="#_53f5da40-f91e-4f67-9244-e17d7dd22aac"><Timestamp>2019-05-10 18:14:17</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

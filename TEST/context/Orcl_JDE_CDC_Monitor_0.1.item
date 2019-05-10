@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_HSMyQHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_Schema" prompt="Orcl_JDE_CDC_Monitor_Schema?" promptNeeded="false" type="id_String" value="TALEND_PROD" xmi:id="_HSMyQXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_Password" prompt="Orcl_JDE_CDC_Monitor_Password?" promptNeeded="false" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w==" xmi:id="_HSMyQnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_Server" prompt="Orcl_JDE_CDC_Monitor_Server?" promptNeeded="false" type="id_String" value="bos-odapr-scan" xmi:id="_HSMyQ3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_AdditionalParams" prompt="Orcl_JDE_CDC_Monitor_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HSMyRHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_Login" prompt="Orcl_JDE_CDC_Monitor_Login?" promptNeeded="false" type="id_String" value="TALEND_PROD" xmi:id="_HSMyRXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_Port" prompt="Orcl_JDE_CDC_Monitor_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HSMyRnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_ServiceName" prompt="Orcl_JDE_CDC_Monitor_ServiceName?" promptNeeded="false" type="id_String" value="JDEPRD_PR" xmi:id="_HSMyR3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_HSMySHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_Schema" prompt="Orcl_JDE_CDC_Monitor_Schema?" promptNeeded="false" type="id_String" value="TALEND_PROD" xmi:id="_HSMySXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_Password" prompt="Orcl_JDE_CDC_Monitor_Password?" promptNeeded="false" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w==" xmi:id="_HSMySnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_Server" prompt="Orcl_JDE_CDC_Monitor_Server?" promptNeeded="false" type="id_String" value="bos-odapr-scan" xmi:id="_HSMyS3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_AdditionalParams" prompt="Orcl_JDE_CDC_Monitor_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HSMyTHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_Login" prompt="Orcl_JDE_CDC_Monitor_Login?" promptNeeded="false" type="id_String" value="TALEND_PROD" xmi:id="_HSMyTXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_Port" prompt="Orcl_JDE_CDC_Monitor_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HSMyTnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_ServiceName" prompt="Orcl_JDE_CDC_Monitor_ServiceName?" promptNeeded="false" type="id_String" value="JDEPRD_PR" xmi:id="_HSMyT3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_HSMyUHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_Schema" prompt="Orcl_JDE_CDC_Monitor_Schema?" promptNeeded="false" type="id_String" value="TALEND_PROD" xmi:id="_HSMyUXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_Password" prompt="Orcl_JDE_CDC_Monitor_Password?" promptNeeded="false" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w==" xmi:id="_HSMyUnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_Server" prompt="Orcl_JDE_CDC_Monitor_Server?" promptNeeded="false" type="id_String" value="bos-odapr-scan" xmi:id="_HSMyU3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_AdditionalParams" prompt="Orcl_JDE_CDC_Monitor_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HSMyVHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_Login" prompt="Orcl_JDE_CDC_Monitor_Login?" promptNeeded="false" type="id_String" value="TALEND_PROD" xmi:id="_HSMyVXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_Port" prompt="Orcl_JDE_CDC_Monitor_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HSMyVnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_JDE_CDC_Monitor_ServiceName" prompt="Orcl_JDE_CDC_Monitor_ServiceName?" promptNeeded="false" type="id_String" value="JDEPRD_PR" xmi:id="_HSMyV3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6d33fb16-077c-4d2d-80ec-0338edf10969"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>W54X/9PJU8dZD6JJEOchj5QDx5rolBDiZSnMFIZ6mIy4AAJS+nLIRxMNWd7DKfDVuNpfNvzkkXs4
+mLMBRy3LAQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e741aae7-5333-4ac1-9c19-140ae1c4dd48"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Uz3Cfpz3ZCJYKSMmJu7qoYDTxyMMemWjNNwTQaFiPQ9RDWb1byFvVJpQXyXC0x1gFKOL6ili5nsh
+aXU584p8bw==</DigestValue></Reference></SignedInfo><SignatureValue>KW61r3l1FagbvlQmMdiCtUual7qoGC4csuZ8daBm94XbuPXiVHjxS9l9JPgd7SMbwbjoZSbrY19S
++1AhZCFTQjSzKWy1rYud3W+6HorF1FiKI6XP6wHdGkeCn16SEhOZYx1AFR0ddlP7W76u8Wb2L8jC
+csW+WXV6GhmBQNfHAWqYfTYk3Ar9IoiRFjiQ6pEoXI3a1Sw+tq5Z1fPVyyQjAjkCdUc/ikSV8ipm
+1/V4UMlgNjtUPlm9PAfY99msfI5rU8dQOvENpSENm7gn1EukNPGy2dz2/XSfzibeTUWrgcCvKRDy
+hxv86JGApuBHOAOT0gKICRIMKx+xJ92V3ThLUQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e741aae7-5333-4ac1-9c19-140ae1c4dd48" Target="#_6d33fb16-077c-4d2d-80ec-0338edf10969"><Timestamp>2019-05-10 18:04:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

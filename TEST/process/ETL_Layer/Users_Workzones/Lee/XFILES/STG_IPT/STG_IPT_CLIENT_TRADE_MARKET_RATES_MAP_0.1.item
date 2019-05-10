@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Dev" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Prod">
+    <contextParameter comment="" name="Orcl_Talend_IPT_AdditionalParams" prompt="Orcl_Talend_IPT_AdditionalParams?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Login" prompt="Orcl_Talend_IPT_Login?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="DW_SQLSERVER"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Password" prompt="Orcl_Talend_IPT_Password?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_Password" value="PB0LYQZA+17y7VyiQ6RPdg=="/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Port" prompt="Orcl_Talend_IPT_Port?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Schema" prompt="Orcl_Talend_IPT_Schema?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Server" prompt="Orcl_Talend_IPT_Server?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="bos-odaha-scan.ip-tech.com"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_ServiceName" prompt="Orcl_Talend_IPT_ServiceName?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="fmprd_ha"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_AdditionalParams" prompt="Orcl_Talend_Siebel_AdditionalParams?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Login" prompt="Orcl_Talend_Siebel_Login?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="TALEND_PROD"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Password" prompt="Orcl_Talend_Siebel_Password?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w=="/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Port" prompt="Orcl_Talend_Siebel_Port?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Schema" prompt="Orcl_Talend_Siebel_Schema?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Server" prompt="Orcl_Talend_Siebel_Server?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="BOS-ODAPRD-SCAN"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_ServiceName" prompt="Orcl_Talend_Siebel_ServiceName?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="FSNPRD_PRD"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="STAGE"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_Password" value="ABIaQdAQRn7oVJEmlDB/Ig=="/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="bos-odaprd-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="DWPRD_PRD"/>
+  </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" name="Orcl_Talend_IPT_AdditionalParams" prompt="Orcl_Talend_IPT_AdditionalParams?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Login" prompt="Orcl_Talend_IPT_Login?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="DW_SQLSERVER"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Password" prompt="Orcl_Talend_IPT_Password?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_Password" value="PB0LYQZA+17y7VyiQ6RPdg=="/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Port" prompt="Orcl_Talend_IPT_Port?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Schema" prompt="Orcl_Talend_IPT_Schema?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Server" prompt="Orcl_Talend_IPT_Server?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="bos-odaha-scan.ip-tech.com"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_ServiceName" prompt="Orcl_Talend_IPT_ServiceName?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="fmprd_ha"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_AdditionalParams" prompt="Orcl_Talend_Siebel_AdditionalParams?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Login" prompt="Orcl_Talend_Siebel_Login?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="TALEND_PROD"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Password" prompt="Orcl_Talend_Siebel_Password?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w=="/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Port" prompt="Orcl_Talend_Siebel_Port?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Schema" prompt="Orcl_Talend_Siebel_Schema?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Server" prompt="Orcl_Talend_Siebel_Server?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="BOS-ODAPRD-SCAN"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_ServiceName" prompt="Orcl_Talend_Siebel_ServiceName?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="FSNPRD_PRD"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="STAGE"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_Password" value="gNPPthtkvecbhGi6X0f4lw=="/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="bos-odapr-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="DWDEV"/>
+  </context>
+  <context confirmationNeeded="false" name="Test">
+    <contextParameter comment="" name="Orcl_Talend_IPT_AdditionalParams" prompt="Orcl_Talend_IPT_AdditionalParams?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Login" prompt="Orcl_Talend_IPT_Login?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="DW_SQLSERVER"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Password" prompt="Orcl_Talend_IPT_Password?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_Password" value="PB0LYQZA+17y7VyiQ6RPdg=="/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Port" prompt="Orcl_Talend_IPT_Port?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Schema" prompt="Orcl_Talend_IPT_Schema?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Server" prompt="Orcl_Talend_IPT_Server?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="bos-odaha-scan.ip-tech.com"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_ServiceName" prompt="Orcl_Talend_IPT_ServiceName?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="fmprd_ha"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_AdditionalParams" prompt="Orcl_Talend_Siebel_AdditionalParams?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Login" prompt="Orcl_Talend_Siebel_Login?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="TALEND_PROD"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Password" prompt="Orcl_Talend_Siebel_Password?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w=="/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Port" prompt="Orcl_Talend_Siebel_Port?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Schema" prompt="Orcl_Talend_Siebel_Schema?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Server" prompt="Orcl_Talend_Siebel_Server?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="BOS-ODAPRD-SCAN"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_ServiceName" prompt="Orcl_Talend_Siebel_ServiceName?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="FSNPRD_PRD"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="STAGE"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_Password" value="GfMTl5G6nMtFYhG2Or1aZA=="/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="bos-odaha-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="DWTST"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value=""/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend/6.1.1/studio/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_mdGMED4OEeaDz8Fpp_ootA" name="DQTechnical"/>
+    <routinesParameter id="_mZ-moD4OEeaDz8Fpp_ootA" name="DataOperation"/>
+    <routinesParameter id="_mcqHMD4OEeaDz8Fpp_ootA" name="DataQualityDependencies"/>
+    <routinesParameter id="_mcgWMD4OEeaDz8Fpp_ootA" name="DataQuality"/>
+    <routinesParameter id="_mc9CID4OEeaDz8Fpp_ootA" name="DqStringHandling"/>
+    <routinesParameter id="_maRhkD4OEeaDz8Fpp_ootA" name="Mathematical"/>
+    <routinesParameter id="_makcgD4OEeaDz8Fpp_ootA" name="Numeric"/>
+    <routinesParameter id="_mauNgD4OEeaDz8Fpp_ootA" name="Relational"/>
+    <routinesParameter id="_mYMd8D4OEeaDz8Fpp_ootA" name="SQLike"/>
+    <routinesParameter id="_mbK5cD4OEeaDz8Fpp_ootA" name="StringHandling"/>
+    <routinesParameter id="_mbUDYD4OEeaDz8Fpp_ootA" name="TalendDataGenerator"/>
+    <routinesParameter id="_mbm-UD4OEeaDz8Fpp_ootA" name="TalendDate"/>
+    <routinesParameter id="_mb6gUD4OEeaDz8Fpp_ootA" name="TalendString"/>
+  </parameters>
+  <node componentName="tOracleConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_2"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_yiRzgD8yEea6uKGJangeXg"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_TNS_FILE" value="false"/>
+    <elementParameter field="FILE" name="TNS_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TNS_EDITOR" name="TNS_EDITOR" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.Orcl_Talend_IPT_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" value="context.Orcl_Talend_IPT_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.Orcl_Talend_IPT_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Orcl_Talend_IPT_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.Orcl_Talend_IPT_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kucwy9zHj7bMB0Lrydp4r4taQmIiTpKOHxW9aIVgrSvvDg=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.Orcl_Talend_IPT_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:thin:USER/MDP@server&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Orcl_Talend_IPT"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tOracleConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_3"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_JfvQUEH9EeaMtKM_IVCTwA"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_TNS_FILE" value="false"/>
+    <elementParameter field="FILE" name="TNS_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TNS_EDITOR" name="TNS_EDITOR" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.Orcl_Talend_Stage_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" value="context.Orcl_Talend_Stage_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.Orcl_Talend_Stage_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Orcl_Talend_Stage_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.Orcl_Talend_Stage_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kucwy9zHj7bMBzjxDKhx6aN1LQ0VuOj7F9DqOHA7p3j3WQ=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.Orcl_Talend_Stage_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:thin:USER/MDP@server&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Orcl_Talend_Stage"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tOracleCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_2"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleCommit_1"/>
+  </node>
+  <node componentName="tOracleCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_2"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_3"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleCommit_2"/>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleInput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_yiRzgD8yEea6uKGJangeXg"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="context.Orcl_Talend_IPT_Server"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.Orcl_Talend_IPT_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.Orcl_Talend_IPT_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.Orcl_Talend_IPT_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.Orcl_Talend_IPT_ServiceName"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Orcl_Talend_IPT_Schema"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.Orcl_Talend_IPT_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kucwy9zHj7bMB0Lrydp4r4taQmIiTpKOHxW9aIVgrSvvDg=="/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_yiRzgD8yEea6uKGJangeXg - CLIENT_TRADE_MARKET_RATES"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;CLIENT$TRADE$MARKET$RATES&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#13;&#10;  CLIENT_PARTY_ID, &#13;&#10;  TRADE_TYPE_ID, &#13;&#10;  MARKET_ID, &#13;&#10;  CONTRACT_ID, &#13;&#10;  NORMAL_LABOR_RATE1, &#13;&#10;  NORMAL_LABOR_RATE2, &#13;&#10;  NORMAL_LABOR_RATE3, &#13;&#10;  OVERTIME_LABOR_RATE1, &#13;&#10;  OVERTIME_LABOR_RATE2, &#13;&#10;  OVERTIME_LABOR_RATE3, &#13;&#10;  HOLIDAY_LABOR_RATE1, &#13;&#10;  HOLIDAY_LABOR_RATE2, &#13;&#10;  HOLIDAY_LABOR_RATE3, &#13;&#10;  NORMAL_TRIP_CHARGE, &#13;&#10;  OVERTIME_TRIP_CHARGE, &#13;&#10;  HOLIDAY_TRIP_CHARGE, &#13;&#10;  MATERIAL_MARK_UP1, &#13;&#10;  MATERIAL_MARK_UP2, &#13;&#10;  MATERIAL_MARK_UP3, &#13;&#10;  MATERIAL_MARK_UP4, &#13;&#10;  MATERIAL_MARK_UP5, &#13;&#10;  LABOR_DESCRIPTION1, &#13;&#10;  LABOR_DESCRIPTION2, &#13;&#10;  LABOR_DESCRIPTION3, &#13;&#10;  CREATED_AT_DATE, &#13;&#10;  CREATED_USER_ID, &#13;&#10;  UPDATED_DATE, &#13;&#10;  UPDATED_USER_ID, &#13;&#10;  EFFECTIVE_DATE, &#13;&#10;  PROJECTED_RFS_COST, &#13;&#10;  ADMINISTRATIVE_FEE_LABOR_ONLY, &#13;&#10;  MINIMUM_HOURS, &#13;&#10;  HOURS_INCREMENT, &#13;&#10;  CLIENT_RATE_ID&#13;&#10;FROM IPT.CLIENT$TRADE$MARKET$RATES&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.Orcl_Talend_IPT_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_PARTY_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRADE_TYPE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MARKET_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CONTRACT_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NORMAL_LABOR_RATE1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NORMAL_LABOR_RATE2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NORMAL_LABOR_RATE3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OVERTIME_LABOR_RATE1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OVERTIME_LABOR_RATE2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OVERTIME_LABOR_RATE3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HOLIDAY_LABOR_RATE1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HOLIDAY_LABOR_RATE2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HOLIDAY_LABOR_RATE3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NORMAL_TRIP_CHARGE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OVERTIME_TRIP_CHARGE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HOLIDAY_TRIP_CHARGE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MATERIAL_MARK_UP1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MATERIAL_MARK_UP2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MATERIAL_MARK_UP3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MATERIAL_MARK_UP4"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MATERIAL_MARK_UP5"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LABOR_DESCRIPTION1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LABOR_DESCRIPTION2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LABOR_DESCRIPTION3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATED_AT_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATED_USER_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATED_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATED_USER_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EFFECTIVE_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROJECTED_RFS_COST"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADMINISTRATIVE_FEE_LABOR_ONLY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MINIMUM_HOURS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HOURS_INCREMENT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_RATE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="CLIENT_TRADE_MARKET_RATES" name="tOracleInput_1">
+      <column comment="which client is this for?" key="false" length="12" name="CLIENT_PARTY_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="which client is this for?"/>
+      </column>
+      <column comment="Which trade is this for?" key="false" length="12" name="TRADE_TYPE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which trade is this for?"/>
+      </column>
+      <column comment="Which market is this for?" key="false" length="12" name="MARKET_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which market is this for?"/>
+      </column>
+      <column comment="Contract id attached to this record." key="false" length="12" name="CONTRACT_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Contract id attached to this record."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION1." key="false" length="6" name="NORMAL_LABOR_RATE1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION1."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION2." key="false" length="6" name="NORMAL_LABOR_RATE2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION2."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION3." key="false" length="6" name="NORMAL_LABOR_RATE3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION3."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1." key="false" length="6" name="OVERTIME_LABOR_RATE1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2." key="false" length="6" name="OVERTIME_LABOR_RATE2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3." key="false" length="6" name="OVERTIME_LABOR_RATE3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1." key="false" length="6" name="HOLIDAY_LABOR_RATE1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2." key="false" length="6" name="HOLIDAY_LABOR_RATE2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3." key="false" length="6" name="HOLIDAY_LABOR_RATE3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each normal time trip." key="false" length="6" name="NORMAL_TRIP_CHARGE" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each normal time trip."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each overtime trip." key="false" length="6" name="OVERTIME_TRIP_CHARGE" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each overtime trip."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each holiday time trip." key="false" length="6" name="HOLIDAY_TRIP_CHARGE" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each holiday time trip."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 1 material markup." key="false" length="6" name="MATERIAL_MARK_UP1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 1 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 3 material markup." key="false" length="6" name="MATERIAL_MARK_UP2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 3 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 3 material markup." key="false" length="6" name="MATERIAL_MARK_UP3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 3 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 4 material markup." key="false" length="6" name="MATERIAL_MARK_UP4" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 4 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 5 material markup." key="false" length="6" name="MATERIAL_MARK_UP5" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 5 material markup."/>
+      </column>
+      <column comment="What type of worker is a type 1 worker (master mechanic, technician, apprentice, etc.)." key="false" length="20" name="LABOR_DESCRIPTION1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="What type of worker is a type 1 worker (master mechanic, technician, apprentice, etc.)."/>
+      </column>
+      <column comment="What type of worker is a type 2 worker (master mechanic, technician, apprentice, etc.)." key="false" length="20" name="LABOR_DESCRIPTION2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="What type of worker is a type 2 worker (master mechanic, technician, apprentice, etc.)."/>
+      </column>
+      <column comment="What type of worker is a type 3 worker (master mechanic, technician, apprentice, etc.)." key="false" length="20" name="LABOR_DESCRIPTION3" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="What type of worker is a type 3 worker (master mechanic, technician, apprentice, etc.)."/>
+      </column>
+      <column comment="When, in GMT, the record was created." key="false" length="7" name="CREATED_AT_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When, in GMT, the record was created."/>
+      </column>
+      <column comment="Who created this record?" key="false" length="12" name="CREATED_USER_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Who created this record?"/>
+      </column>
+      <column comment="When, in GMT, the record was modified." key="false" length="7" name="UPDATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When, in GMT, the record was modified."/>
+      </column>
+      <column comment="Who last updated this record?" key="false" length="12" name="UPDATED_USER_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Who last updated this record?"/>
+      </column>
+      <column comment="When do these rates become effective?" key="false" length="7" name="EFFECTIVE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When do these rates become effective?"/>
+      </column>
+      <column comment="projected amount of future invoices for this type of work" key="false" length="6" name="PROJECTED_RFS_COST" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="projected amount of future invoices for this type of work"/>
+      </column>
+      <column comment="Additional fee [percentage] that can be added to the client's bill for labor performed" key="false" length="5" name="ADMINISTRATIVE_FEE_LABOR_ONLY" nullable="true" pattern="" precision="1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Additional fee [percentage] that can be added to the client's bill for labor performed"/>
+      </column>
+      <column comment="lowest amount of billable time (decmal - hour)  ex 1.0 means the lowest hours we bill is 1 hour" key="false" length="12" name="MINIMUM_HOURS" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="lowest amount of billable time (decmal - hour)  ex 1.0 means the lowest hours we bill is 1 hour"/>
+      </column>
+      <column comment="Lowest increment of billable time (decimal - hour) ex: 0.25 = means 15 minute increments." key="false" length="4" name="HOURS_INCREMENT" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Lowest increment of billable time (decimal - hour) ex: 0.25 = means 15 minute increments."/>
+      </column>
+      <column comment="A Unique key for each record. From a sequence." key="true" length="12" name="CLIENT_RATE_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="A Unique key for each record. From a sequence."/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_PtYTwFf1Eeadt81BsKVhZw-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="IPT_CLIENT_TRADE_MARKET_RATES" name="tgt_stg_CLIENT_TRADE_MARKET_RATES">
+      <column comment="which client is this for?" key="false" length="12" name="CLIENT_PARTY_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="which client is this for?"/>
+      </column>
+      <column comment="Which trade is this for?" key="false" length="12" name="TRADE_TYPE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which trade is this for?"/>
+      </column>
+      <column comment="Which market is this for?" key="false" length="12" name="MARKET_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which market is this for?"/>
+      </column>
+      <column comment="Contract id attached to this record." key="false" length="12" name="CONTRACT_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Contract id attached to this record."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION1." key="false" length="6" name="NORMAL_LABOR_RATE1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION1."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION2." key="false" length="6" name="NORMAL_LABOR_RATE2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION2."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION3." key="false" length="6" name="NORMAL_LABOR_RATE3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION3."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1." key="false" length="6" name="OVERTIME_LABOR_RATE1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2." key="false" length="6" name="OVERTIME_LABOR_RATE2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3." key="false" length="6" name="OVERTIME_LABOR_RATE3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1." key="false" length="6" name="HOLIDAY_LABOR_RATE1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2." key="false" length="6" name="HOLIDAY_LABOR_RATE2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3." key="false" length="6" name="HOLIDAY_LABOR_RATE3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each normal time trip." key="false" length="6" name="NORMAL_TRIP_CHARGE" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each normal time trip."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each overtime trip." key="false" length="6" name="OVERTIME_TRIP_CHARGE" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each overtime trip."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each holiday time trip." key="false" length="6" name="HOLIDAY_TRIP_CHARGE" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each holiday time trip."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 1 material markup." key="false" length="6" name="MATERIAL_MARK_UP1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 1 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 3 material markup." key="false" length="6" name="MATERIAL_MARK_UP2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 3 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 3 material markup." key="false" length="6" name="MATERIAL_MARK_UP3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 3 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 4 material markup." key="false" length="6" name="MATERIAL_MARK_UP4" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 4 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 5 material markup." key="false" length="6" name="MATERIAL_MARK_UP5" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 5 material markup."/>
+      </column>
+      <column comment="What type of worker is a type 1 worker (master mechanic, technician, apprentice, etc.)." key="false" length="20" name="LABOR_DESCRIPTION1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="What type of worker is a type 1 worker (master mechanic, technician, apprentice, etc.)."/>
+      </column>
+      <column comment="What type of worker is a type 2 worker (master mechanic, technician, apprentice, etc.)." key="false" length="20" name="LABOR_DESCRIPTION2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="What type of worker is a type 2 worker (master mechanic, technician, apprentice, etc.)."/>
+      </column>
+      <column comment="What type of worker is a type 3 worker (master mechanic, technician, apprentice, etc.)." key="false" length="20" name="LABOR_DESCRIPTION3" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="What type of worker is a type 3 worker (master mechanic, technician, apprentice, etc.)."/>
+      </column>
+      <column comment="When, in GMT, the record was created." key="false" length="7" name="CREATED_AT_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When, in GMT, the record was created."/>
+      </column>
+      <column comment="Who created this record?" key="false" length="12" name="CREATED_USER_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Who created this record?"/>
+      </column>
+      <column comment="When, in GMT, the record was modified." key="false" length="7" name="UPDATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When, in GMT, the record was modified."/>
+      </column>
+      <column comment="Who last updated this record?" key="false" length="12" name="UPDATED_USER_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Who last updated this record?"/>
+      </column>
+      <column comment="When do these rates become effective?" key="false" length="7" name="EFFECTIVE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When do these rates become effective?"/>
+      </column>
+      <column comment="projected amount of future invoices for this type of work" key="false" length="6" name="PROJECTED_RFS_COST" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="projected amount of future invoices for this type of work"/>
+      </column>
+      <column comment="Additional fee [percentage] that can be added to the client's bill for labor performed" key="false" length="5" name="ADMINISTRATIVE_FEE_LABOR_ONLY" nullable="true" pattern="" precision="1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Additional fee [percentage] that can be added to the client's bill for labor performed"/>
+      </column>
+      <column comment="lowest amount of billable time (decmal - hour)  ex 1.0 means the lowest hours we bill is 1 hour" key="false" length="12" name="MINIMUM_HOURS" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="lowest amount of billable time (decmal - hour)  ex 1.0 means the lowest hours we bill is 1 hour"/>
+      </column>
+      <column comment="Lowest increment of billable time (decimal - hour) ex: 0.25 = means 15 minute increments." key="false" length="4" name="HOURS_INCREMENT" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Lowest increment of billable time (decimal - hour) ex: 0.25 = means 15 minute increments."/>
+      </column>
+      <column comment="A Unique key for each record. From a sequence." key="false" length="12" name="CLIENT_RATE_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="A Unique key for each record. From a sequence."/>
+      </column>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="tgt_stg_CLIENT_TRADE_MARKET_RATES" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.CLIENT_PARTY_ID" name="CLIENT_PARTY_ID" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.TRADE_TYPE_ID" name="TRADE_TYPE_ID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.MARKET_ID" name="MARKET_ID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.CONTRACT_ID" name="CONTRACT_ID" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.NORMAL_LABOR_RATE1" name="NORMAL_LABOR_RATE1" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.NORMAL_LABOR_RATE2" name="NORMAL_LABOR_RATE2" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.NORMAL_LABOR_RATE3" name="NORMAL_LABOR_RATE3" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.OVERTIME_LABOR_RATE1" name="OVERTIME_LABOR_RATE1" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.OVERTIME_LABOR_RATE2" name="OVERTIME_LABOR_RATE2" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.OVERTIME_LABOR_RATE3" name="OVERTIME_LABOR_RATE3" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.HOLIDAY_LABOR_RATE1" name="HOLIDAY_LABOR_RATE1" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.HOLIDAY_LABOR_RATE2" name="HOLIDAY_LABOR_RATE2" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.HOLIDAY_LABOR_RATE3" name="HOLIDAY_LABOR_RATE3" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.NORMAL_TRIP_CHARGE" name="NORMAL_TRIP_CHARGE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.OVERTIME_TRIP_CHARGE" name="OVERTIME_TRIP_CHARGE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.HOLIDAY_TRIP_CHARGE" name="HOLIDAY_TRIP_CHARGE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.MATERIAL_MARK_UP1" name="MATERIAL_MARK_UP1" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.MATERIAL_MARK_UP2" name="MATERIAL_MARK_UP2" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.MATERIAL_MARK_UP3" name="MATERIAL_MARK_UP3" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.MATERIAL_MARK_UP4" name="MATERIAL_MARK_UP4" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.MATERIAL_MARK_UP5" name="MATERIAL_MARK_UP5" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.LABOR_DESCRIPTION1" name="LABOR_DESCRIPTION1" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.LABOR_DESCRIPTION2" name="LABOR_DESCRIPTION2" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.LABOR_DESCRIPTION3" name="LABOR_DESCRIPTION3" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.CREATED_AT_DATE" name="CREATED_AT_DATE" type="id_Date"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.CREATED_USER_ID" name="CREATED_USER_ID" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.UPDATED_DATE" name="UPDATED_DATE" type="id_Date"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.UPDATED_USER_ID" name="UPDATED_USER_ID" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.EFFECTIVE_DATE" name="EFFECTIVE_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.PROJECTED_RFS_COST" name="PROJECTED_RFS_COST" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.ADMINISTRATIVE_FEE_LABOR_ONLY" name="ADMINISTRATIVE_FEE_LABOR_ONLY" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.MINIMUM_HOURS" name="MINIMUM_HOURS" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.HOURS_INCREMENT" name="HOURS_INCREMENT" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="src_CLIENT_TRADE_MARKET_RATES.CLIENT_RATE_ID" name="CLIENT_RATE_ID" type="id_BigDecimal"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="src_CLIENT_TRADE_MARKET_RATES" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="CLIENT_PARTY_ID" type="id_BigDecimal"/>
+        <mapperTableEntries name="TRADE_TYPE_ID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="MARKET_ID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="CONTRACT_ID" type="id_BigDecimal"/>
+        <mapperTableEntries name="NORMAL_LABOR_RATE1" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="NORMAL_LABOR_RATE2" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="NORMAL_LABOR_RATE3" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="OVERTIME_LABOR_RATE1" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="OVERTIME_LABOR_RATE2" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="OVERTIME_LABOR_RATE3" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="HOLIDAY_LABOR_RATE1" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="HOLIDAY_LABOR_RATE2" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="HOLIDAY_LABOR_RATE3" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="NORMAL_TRIP_CHARGE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="OVERTIME_TRIP_CHARGE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="HOLIDAY_TRIP_CHARGE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="MATERIAL_MARK_UP1" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="MATERIAL_MARK_UP2" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="MATERIAL_MARK_UP3" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="MATERIAL_MARK_UP4" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="MATERIAL_MARK_UP5" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="LABOR_DESCRIPTION1" nullable="true" type="id_String"/>
+        <mapperTableEntries name="LABOR_DESCRIPTION2" nullable="true" type="id_String"/>
+        <mapperTableEntries name="LABOR_DESCRIPTION3" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CREATED_AT_DATE" type="id_Date"/>
+        <mapperTableEntries name="CREATED_USER_ID" type="id_BigDecimal"/>
+        <mapperTableEntries name="UPDATED_DATE" type="id_Date"/>
+        <mapperTableEntries name="UPDATED_USER_ID" type="id_BigDecimal"/>
+        <mapperTableEntries name="EFFECTIVE_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="PROJECTED_RFS_COST" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="ADMINISTRATIVE_FEE_LABOR_ONLY" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="MINIMUM_HOURS" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="HOURS_INCREMENT" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="CLIENT_RATE_ID" type="id_BigDecimal"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="800" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleOutput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_JfvQUEH9EeaMtKM_IVCTwA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_3"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="context.Orcl_Talend_Stage_Server"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.Orcl_Talend_Stage_Server"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.Orcl_Talend_Stage_Port"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.Orcl_Talend_Stage_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.Orcl_Talend_Stage_ServiceName"/>
+    <elementParameter field="TEXT" name="TABLESCHEMA" show="false" value="context.Orcl_Talend_Stage_Schema"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.Orcl_Talend_Stage_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kucwy9zHj7bMBzjxDKhx6aN1LQ0VuOj7F9DqOHA7p3j3WQ=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;IPT_CLIENT$TRADE$MARKET$RATES&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+    <elementParameter field="LABEL" name="NOTE" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_JfvQUEH9EeaMtKM_IVCTwA - IPT_CLIENT_TRADE_MARKET_RATES"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.Orcl_Talend_Stage_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_PARTY_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRADE_TYPE_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MARKET_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CONTRACT_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NORMAL_LABOR_RATE1"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NORMAL_LABOR_RATE2"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NORMAL_LABOR_RATE3"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OVERTIME_LABOR_RATE1"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OVERTIME_LABOR_RATE2"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OVERTIME_LABOR_RATE3"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HOLIDAY_LABOR_RATE1"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HOLIDAY_LABOR_RATE2"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HOLIDAY_LABOR_RATE3"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NORMAL_TRIP_CHARGE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OVERTIME_TRIP_CHARGE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HOLIDAY_TRIP_CHARGE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MATERIAL_MARK_UP1"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MATERIAL_MARK_UP2"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MATERIAL_MARK_UP3"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MATERIAL_MARK_UP4"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MATERIAL_MARK_UP5"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LABOR_DESCRIPTION1"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LABOR_DESCRIPTION2"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LABOR_DESCRIPTION3"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATED_AT_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATED_USER_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATED_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATED_USER_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EFFECTIVE_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROJECTED_RFS_COST"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADMINISTRATIVE_FEE_LABOR_ONLY"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MINIMUM_HOURS"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HOURS_INCREMENT"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENT_RATE_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_UPPERCASE" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="USE_BATCH_AND_USE_CONN" value="false"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" show="false" value="10000"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
+    <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="IPT_CLIENT_TRADE_MARKET_RATES" name="tOracleOutput_1">
+      <column comment="which client is this for?" key="false" length="12" name="CLIENT_PARTY_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="which client is this for?"/>
+      </column>
+      <column comment="Which trade is this for?" key="false" length="12" name="TRADE_TYPE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which trade is this for?"/>
+      </column>
+      <column comment="Which market is this for?" key="false" length="12" name="MARKET_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which market is this for?"/>
+      </column>
+      <column comment="Contract id attached to this record." key="false" length="12" name="CONTRACT_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Contract id attached to this record."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION1." key="false" length="6" name="NORMAL_LABOR_RATE1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION1."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION2." key="false" length="6" name="NORMAL_LABOR_RATE2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION2."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION3." key="false" length="6" name="NORMAL_LABOR_RATE3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION3."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1." key="false" length="6" name="OVERTIME_LABOR_RATE1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2." key="false" length="6" name="OVERTIME_LABOR_RATE2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3." key="false" length="6" name="OVERTIME_LABOR_RATE3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1." key="false" length="6" name="HOLIDAY_LABOR_RATE1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2." key="false" length="6" name="HOLIDAY_LABOR_RATE2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3." key="false" length="6" name="HOLIDAY_LABOR_RATE3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each normal time trip." key="false" length="6" name="NORMAL_TRIP_CHARGE" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each normal time trip."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each overtime trip." key="false" length="6" name="OVERTIME_TRIP_CHARGE" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each overtime trip."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each holiday time trip." key="false" length="6" name="HOLIDAY_TRIP_CHARGE" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each holiday time trip."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 1 material markup." key="false" length="6" name="MATERIAL_MARK_UP1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 1 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 3 material markup." key="false" length="6" name="MATERIAL_MARK_UP2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 3 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 3 material markup." key="false" length="6" name="MATERIAL_MARK_UP3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 3 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 4 material markup." key="false" length="6" name="MATERIAL_MARK_UP4" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 4 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 5 material markup." key="false" length="6" name="MATERIAL_MARK_UP5" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 5 material markup."/>
+      </column>
+      <column comment="What type of worker is a type 1 worker (master mechanic, technician, apprentice, etc.)." key="false" length="20" name="LABOR_DESCRIPTION1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="What type of worker is a type 1 worker (master mechanic, technician, apprentice, etc.)."/>
+      </column>
+      <column comment="What type of worker is a type 2 worker (master mechanic, technician, apprentice, etc.)." key="false" length="20" name="LABOR_DESCRIPTION2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="What type of worker is a type 2 worker (master mechanic, technician, apprentice, etc.)."/>
+      </column>
+      <column comment="What type of worker is a type 3 worker (master mechanic, technician, apprentice, etc.)." key="false" length="20" name="LABOR_DESCRIPTION3" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="What type of worker is a type 3 worker (master mechanic, technician, apprentice, etc.)."/>
+      </column>
+      <column comment="When, in GMT, the record was created." key="false" length="7" name="CREATED_AT_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When, in GMT, the record was created."/>
+      </column>
+      <column comment="Who created this record?" key="false" length="12" name="CREATED_USER_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Who created this record?"/>
+      </column>
+      <column comment="When, in GMT, the record was modified." key="false" length="7" name="UPDATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When, in GMT, the record was modified."/>
+      </column>
+      <column comment="Who last updated this record?" key="false" length="12" name="UPDATED_USER_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Who last updated this record?"/>
+      </column>
+      <column comment="When do these rates become effective?" key="false" length="7" name="EFFECTIVE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When do these rates become effective?"/>
+      </column>
+      <column comment="projected amount of future invoices for this type of work" key="false" length="6" name="PROJECTED_RFS_COST" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="projected amount of future invoices for this type of work"/>
+      </column>
+      <column comment="Additional fee [percentage] that can be added to the client's bill for labor performed" key="false" length="5" name="ADMINISTRATIVE_FEE_LABOR_ONLY" nullable="true" pattern="" precision="1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Additional fee [percentage] that can be added to the client's bill for labor performed"/>
+      </column>
+      <column comment="lowest amount of billable time (decmal - hour)  ex 1.0 means the lowest hours we bill is 1 hour" key="false" length="12" name="MINIMUM_HOURS" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="lowest amount of billable time (decmal - hour)  ex 1.0 means the lowest hours we bill is 1 hour"/>
+      </column>
+      <column comment="Lowest increment of billable time (decimal - hour) ex: 0.25 = means 15 minute increments." key="false" length="4" name="HOURS_INCREMENT" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Lowest increment of billable time (decimal - hour) ex: 0.25 = means 15 minute increments."/>
+      </column>
+      <column comment="A Unique key for each record. From a sequence." key="false" length="12" name="CLIENT_RATE_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="A Unique key for each record. From a sequence."/>
+      </column>
+    </metadata>
+    <metadata connector="REJECT" label="IPT_CLIENT_TRADE_MARKET_RATES" name="REJECT">
+      <column comment="which client is this for?" key="false" length="12" name="CLIENT_PARTY_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="which client is this for?"/>
+      </column>
+      <column comment="Which trade is this for?" key="false" length="12" name="TRADE_TYPE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which trade is this for?"/>
+      </column>
+      <column comment="Which market is this for?" key="false" length="12" name="MARKET_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Which market is this for?"/>
+      </column>
+      <column comment="Contract id attached to this record." key="false" length="12" name="CONTRACT_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Contract id attached to this record."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION1." key="false" length="6" name="NORMAL_LABOR_RATE1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION1."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION2." key="false" length="6" name="NORMAL_LABOR_RATE2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION2."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION3." key="false" length="6" name="NORMAL_LABOR_RATE3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of normal labor of LABOR_DESCRIPTION3."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1." key="false" length="6" name="OVERTIME_LABOR_RATE1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2." key="false" length="6" name="OVERTIME_LABOR_RATE2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3." key="false" length="6" name="OVERTIME_LABOR_RATE3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1." key="false" length="6" name="HOLIDAY_LABOR_RATE1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION1."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2." key="false" length="6" name="HOLIDAY_LABOR_RATE2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION2."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3." key="false" length="6" name="HOLIDAY_LABOR_RATE3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each increment of overtime labor of LABOR_DESCRIPTION3."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each normal time trip." key="false" length="6" name="NORMAL_TRIP_CHARGE" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each normal time trip."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each overtime trip." key="false" length="6" name="OVERTIME_TRIP_CHARGE" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each overtime trip."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each holiday time trip." key="false" length="6" name="HOLIDAY_TRIP_CHARGE" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each holiday time trip."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 1 material markup." key="false" length="6" name="MATERIAL_MARK_UP1" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 1 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 3 material markup." key="false" length="6" name="MATERIAL_MARK_UP2" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 3 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 3 material markup." key="false" length="6" name="MATERIAL_MARK_UP3" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 3 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 4 material markup." key="false" length="6" name="MATERIAL_MARK_UP4" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 4 material markup."/>
+      </column>
+      <column comment="Amount allowed to bill the client for each type 5 material markup." key="false" length="6" name="MATERIAL_MARK_UP5" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Amount allowed to bill the client for each type 5 material markup."/>
+      </column>
+      <column comment="What type of worker is a type 1 worker (master mechanic, technician, apprentice, etc.)." key="false" length="20" name="LABOR_DESCRIPTION1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="What type of worker is a type 1 worker (master mechanic, technician, apprentice, etc.)."/>
+      </column>
+      <column comment="What type of worker is a type 2 worker (master mechanic, technician, apprentice, etc.)." key="false" length="20" name="LABOR_DESCRIPTION2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="What type of worker is a type 2 worker (master mechanic, technician, apprentice, etc.)."/>
+      </column>
+      <column comment="What type of worker is a type 3 worker (master mechanic, technician, apprentice, etc.)." key="false" length="20" name="LABOR_DESCRIPTION3" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="What type of worker is a type 3 worker (master mechanic, technician, apprentice, etc.)."/>
+      </column>
+      <column comment="When, in GMT, the record was created." key="false" length="7" name="CREATED_AT_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When, in GMT, the record was created."/>
+      </column>
+      <column comment="Who created this record?" key="false" length="12" name="CREATED_USER_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Who created this record?"/>
+      </column>
+      <column comment="When, in GMT, the record was modified." key="false" length="7" name="UPDATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When, in GMT, the record was modified."/>
+      </column>
+      <column comment="Who last updated this record?" key="false" length="12" name="UPDATED_USER_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Who last updated this record?"/>
+      </column>
+      <column comment="When do these rates become effective?" key="false" length="7" name="EFFECTIVE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="When do these rates become effective?"/>
+      </column>
+      <column comment="projected amount of future invoices for this type of work" key="false" length="6" name="PROJECTED_RFS_COST" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="projected amount of future invoices for this type of work"/>
+      </column>
+      <column comment="Additional fee [percentage] that can be added to the client's bill for labor performed" key="false" length="5" name="ADMINISTRATIVE_FEE_LABOR_ONLY" nullable="true" pattern="" precision="1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Additional fee [percentage] that can be added to the client's bill for labor performed"/>
+      </column>
+      <column comment="lowest amount of billable time (decmal - hour)  ex 1.0 means the lowest hours we bill is 1 hour" key="false" length="12" name="MINIMUM_HOURS" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="lowest amount of billable time (decmal - hour)  ex 1.0 means the lowest hours we bill is 1 hour"/>
+      </column>
+      <column comment="Lowest increment of billable time (decimal - hour) ex: 0.25 = means 15 minute increments." key="false" length="4" name="HOURS_INCREMENT" nullable="true" pattern="" precision="2" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Lowest increment of billable time (decimal - hour) ex: 0.25 = means 15 minute increments."/>
+      </column>
+      <column comment="A Unique key for each record. From a sequence." key="false" length="12" name="CLIENT_RATE_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="A Unique key for each record. From a sequence."/>
+      </column>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tOracleConnection_2" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tOracleConnection_2" target="tOracleConnection_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tOracleConnection_2" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tOracleConnection_2" target="tOracleInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk3"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleCommit_1" offsetLabelX="0" offsetLabelY="0" source="tOracleCommit_1" target="tOracleCommit_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="FLOW" label="src_CLIENT_TRADE_MARKET_RATES" lineStyle="0" metaname="tOracleInput_1" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="src_CLIENT_TRADE_MARKET_RATES"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleInput_1" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_1" target="tOracleCommit_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="tgt_stg_CLIENT_TRADE_MARKET_RATES" lineStyle="0" metaname="tgt_stg_CLIENT_TRADE_MARKET_RATES" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tOracleOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tgt_stg_CLIENT_TRADE_MARKET_RATES"/>
+  </connection>
+  <note opaque="false" posX="192" posY="32" sizeHeight="129" sizeWidth="449" text="Developed By: Lee Rygiel&#13;&#10;Company : FYI Solutions&#13;&#10;Developed Date : 07-25-2016&#13;&#10;Changed By: &#13;&#10;Changed Log:&#13;&#10;Changed Date:&#13;&#10;">
+    <elementParameter field="COLOR" name="NOTE_COLOR" value="225;225;135"/>
+  </note>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_69b27dfe-9382-4638-bc6b-b1dbcf380ec9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jSkFxjpyK+qBF8A4E/iRUfZMyUIoFE+uUwMTmmXmkgQGQUQEzTWlCbPkziN9fX30n196z4NFFNJC
+HW1YgJmgYQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6369589c-5c24-4dbb-b448-8134c7ede7f6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6zSk6oivthsrLQVPO3pRp15oesHVt6ClVgLM9oZppNrUd/gjkxdexpe85NYvI8OA/xGXkyDredFu
+TJMlwdNxPQ==</DigestValue></Reference></SignedInfo><SignatureValue>Ss/11hrh/WwAZINGEvxD8vR7VFjNXaSXFdAsf/vk4sHfz9nSA39pz+J++w7VjM1hHhNjOeYeq1Q9
+UUvXsuhLR6jYCkKRBXVZGeJ6MxDo8ZoEPLdnYENQDNJcSlJbqQAkUXdeoJzXmJGu80BqYYnOY1ZZ
+FGrvS2XUYEyLFeqSTac47Wl5mJm36bQYQ/00tokfTw922odjHUI+T9dUvoGtbd1poRU28pfY6nbW
+i84Dc72vgoQq2n4qVd7i7x4VtzEws7qOceVsBWOB061oQ6/wo3GLmtL6+LaHeYrPrMRmKFqtc3Bh
+QER1v9B0rwKQhIuFj6iIuRH3X5osXhzdPHMlBw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6369589c-5c24-4dbb-b448-8134c7ede7f6" Target="#_69b27dfe-9382-4638-bc6b-b1dbcf380ec9"><Timestamp>2019-05-10 18:13:36</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

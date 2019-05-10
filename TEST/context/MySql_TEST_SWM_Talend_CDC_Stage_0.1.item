@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_HQjMcHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Port" prompt="MySql_SWM_Talend_CDC_Stage_backup_Port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_HQjMcXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_AdditionalParams" prompt="MySql_SWM_Talend_CDC_Stage_backup_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true" xmi:id="_HQjMcnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Password" prompt="MySql_SWM_Talend_CDC_Stage_backup_Password?" promptNeeded="false" type="id_Password" value="X6ytGzytdIdGSylTFO9deA==" xmi:id="_HQjMc3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Server" prompt="MySql_SWM_Talend_CDC_Stage_backup_Server?" promptNeeded="false" type="id_String" value="swmtest.cu8jkhgxzmt4.us-east-1.rds.amazonaws.com" xmi:id="_HQjMdHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Database" prompt="MySql_SWM_Talend_CDC_Stage_backup_Database?" promptNeeded="false" type="id_String" value="TALEND_CDC" xmi:id="_HQjMdXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Login" prompt="MySql_SWM_Talend_CDC_Stage_backup_Login?" promptNeeded="false" type="id_String" value="TALEND_CDC" xmi:id="_HQjMdnNOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_HQjMd3NOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Port" prompt="MySql_SWM_Talend_CDC_Stage_backup_Port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_HQjMeHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_AdditionalParams" prompt="MySql_SWM_Talend_CDC_Stage_backup_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true" xmi:id="_HQjMeXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Password" prompt="MySql_SWM_Talend_CDC_Stage_backup_Password?" promptNeeded="false" type="id_Password" value="X6ytGzytdIdGSylTFO9deA==" xmi:id="_HQjMenNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Server" prompt="MySql_SWM_Talend_CDC_Stage_backup_Server?" promptNeeded="false" type="id_String" value="swmtest.cu8jkhgxzmt4.us-east-1.rds.amazonaws.com" xmi:id="_HQjMe3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Database" prompt="MySql_SWM_Talend_CDC_Stage_backup_Database?" promptNeeded="false" type="id_String" value="TALEND_CDC" xmi:id="_HQjMfHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Login" prompt="MySql_SWM_Talend_CDC_Stage_backup_Login?" promptNeeded="false" type="id_String" value="TALEND_CDC" xmi:id="_HQjMfXNOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_HQjMfnNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Port" prompt="MySql_SWM_Talend_CDC_Stage_backup_Port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_HQjMf3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_AdditionalParams" prompt="MySql_SWM_Talend_CDC_Stage_backup_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true" xmi:id="_HQjMgHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Password" prompt="MySql_SWM_Talend_CDC_Stage_backup_Password?" promptNeeded="false" type="id_Password" value="X6ytGzytdIdGSylTFO9deA==" xmi:id="_HQjMgXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Server" prompt="MySql_SWM_Talend_CDC_Stage_backup_Server?" promptNeeded="false" type="id_String" value="swmtest.cu8jkhgxzmt4.us-east-1.rds.amazonaws.com" xmi:id="_HQjMgnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Database" prompt="MySql_SWM_Talend_CDC_Stage_backup_Database?" promptNeeded="false" type="id_String" value="TALEND_CDC" xmi:id="_HQjMg3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Login" prompt="MySql_SWM_Talend_CDC_Stage_backup_Login?" promptNeeded="false" type="id_String" value="TALEND_CDC" xmi:id="_HQjMhHNOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_HQjMhXNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Port" prompt="MySql_SWM_Talend_CDC_Stage_backup_Port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_HQjMhnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_AdditionalParams" prompt="MySql_SWM_Talend_CDC_Stage_backup_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true" xmi:id="_HQjMh3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Password" prompt="MySql_SWM_Talend_CDC_Stage_backup_Password?" promptNeeded="false" type="id_Password" value="X6ytGzytdIdGSylTFO9deA==" xmi:id="_HQjMiHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Server" prompt="MySql_SWM_Talend_CDC_Stage_backup_Server?" promptNeeded="false" type="id_String" value="swmtest.cu8jkhgxzmt4.us-east-1.rds.amazonaws.com" xmi:id="_HQjMiXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Database" prompt="MySql_SWM_Talend_CDC_Stage_backup_Database?" promptNeeded="false" type="id_String" value="TALEND_CDC" xmi:id="_HQjMinNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="MySql_SWM_Talend_CDC_Stage_backup_Login" prompt="MySql_SWM_Talend_CDC_Stage_backup_Login?" promptNeeded="false" type="id_String" value="TALEND_CDC" xmi:id="_HQjMi3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fff8c3bd-43fd-44bf-897a-4f0f7045ba15"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8FPjrP/QK4bOhdUgOQilBxIuj2mrjeqawk9gUeGR6Q8s+Qo8VsfLVUmE6qTCK5Ldm9nDNil/nn9R
+m/PxOQCSaw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0582faff-72fb-4366-8584-dc9ed4e41bd8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>FFdFspl6O/A8L8R6jNwYpR58uIufBMOgPPlIwpQaLoVtPamCV/n5GzQ8NFyERwN0J020nP0aqFyW
+MCKpbYc7pg==</DigestValue></Reference></SignedInfo><SignatureValue>vLyPpdn1obSSaFnV5tenu/jbdeCfcXKsa87l31PPmeo+ns+0BxusQUzehCOlWDuwEq+tUNZqcPhi
+LSDAXkBRn5xrDambqtv+OA4zVZrgAq8EkI2WnzqHFPqemUQ/+CL05e4GLfTwC6OtOMYUwL/Yiwde
+Ut8cWMV9YEpAZAGOyZEBK52+kvkUW03lsSqRx1HMj+F3TLYRAwbeccOr2T760TvrVOzYsYxshLFu
++Uh3UtER7GecyJHDyNRaNrbpzk2Ji9FQ9vPyNTMFfKGlN6fBVC1ju440D94AQygeqgiwTu/rc93t
+Z88MuuKsIJapW/hKU3n2By7BhyRR8gvDY+eT7w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0582faff-72fb-4366-8584-dc9ed4e41bd8" Target="#_fff8c3bd-43fd-44bf-897a-4f0f7045ba15"><Timestamp>2019-05-10 18:04:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

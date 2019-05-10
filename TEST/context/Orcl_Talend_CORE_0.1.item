@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_HYuRAHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="Orcl_Talend_CORE_Password" prompt="Orcl_Talend_CORE_Password?" promptNeeded="false" type="id_Password" value="KI1bPUQjz94xdwgqy3R7oA==" xmi:id="_HYuRAXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Login" prompt="Orcl_Talend_CORE_Login?" promptNeeded="false" type="id_String" value="CORE" xmi:id="_HYuRAnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Port" prompt="Orcl_Talend_CORE_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HYuRA3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_ServiceName" prompt="Orcl_Talend_CORE_ServiceName?" promptNeeded="false" type="id_String" value="DWDEV" xmi:id="_HYuRBHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Server" prompt="Orcl_Talend_CORE_Server?" promptNeeded="false" type="id_String" value="bos-odapr-scan" xmi:id="_HYuRBXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Schema" prompt="Orcl_Talend_CORE_Schema?" promptNeeded="false" type="id_String" value="CORE" xmi:id="_HYuRBnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_AdditionalParams" prompt="Orcl_Talend_CORE_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HYuRB3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_HYuRCHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="Orcl_Talend_CORE_Password" prompt="Orcl_Talend_CORE_Password?" promptNeeded="false" type="id_Password" value="KI1bPUQjz94xdwgqy3R7oA==" xmi:id="_HYuRCXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Login" prompt="Orcl_Talend_CORE_Login?" promptNeeded="false" type="id_String" value="CORE" xmi:id="_HYuRCnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Port" prompt="Orcl_Talend_CORE_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HYuRC3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_ServiceName" prompt="Orcl_Talend_CORE_ServiceName?" promptNeeded="false" type="id_String" value="DWDEV" xmi:id="_HYuRDHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Server" prompt="Orcl_Talend_CORE_Server?" promptNeeded="false" type="id_String" value="bos-odapr-scan" xmi:id="_HYuRDXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Schema" prompt="Orcl_Talend_CORE_Schema?" promptNeeded="false" type="id_String" value="CORE" xmi:id="_HYuRDnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_AdditionalParams" prompt="Orcl_Talend_CORE_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HYuRD3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_HYuREHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="Orcl_Talend_CORE_Password" prompt="Orcl_Talend_CORE_Password?" promptNeeded="false" type="id_Password" value="z4Kp+t4w7SQ2I8R+A5/ASryaDmjxovWe" xmi:id="_HYuREXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Login" prompt="Orcl_Talend_CORE_Login?" promptNeeded="false" type="id_String" value="CORE" xmi:id="_HYuREnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Port" prompt="Orcl_Talend_CORE_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HYuRE3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_ServiceName" prompt="Orcl_Talend_CORE_ServiceName?" promptNeeded="false" type="id_String" value="DWPRD_PRD" xmi:id="_HYuRFHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Server" prompt="Orcl_Talend_CORE_Server?" promptNeeded="false" type="id_String" value="bos-odaprd-scan" xmi:id="_HYuRFXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Schema" prompt="Orcl_Talend_CORE_Schema?" promptNeeded="false" type="id_String" value="CORE" xmi:id="_HYuRFnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_AdditionalParams" prompt="Orcl_Talend_CORE_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HYuRF3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_HYuRGHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="Orcl_Talend_CORE_Password" prompt="Orcl_Talend_CORE_Password?" promptNeeded="false" type="id_Password" value="KI1bPUQjz94xdwgqy3R7oA==" xmi:id="_HYuRGXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Login" prompt="Orcl_Talend_CORE_Login?" promptNeeded="false" type="id_String" value="CORE" xmi:id="_HYuRGnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Port" prompt="Orcl_Talend_CORE_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HYuRG3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_ServiceName" prompt="Orcl_Talend_CORE_ServiceName?" promptNeeded="false" type="id_String" value="DWDEV" xmi:id="_HYuRHHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Server" prompt="Orcl_Talend_CORE_Server?" promptNeeded="false" type="id_String" value="bos-odapr-scan" xmi:id="_HYuRHXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_Schema" prompt="Orcl_Talend_CORE_Schema?" promptNeeded="false" type="id_String" value="CORE" xmi:id="_HYuRHnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_Talend_CORE_AdditionalParams" prompt="Orcl_Talend_CORE_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HYuRH3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c38e58c4-4712-47a8-83cc-fbebe507e2d2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>h3+rPTT+L2+O0aj48oYMvoStpETXdVx/UJfaszZEVYAX1FjYMM7ntiHbHu5E5lOtRwU5vf9YdPjI
+xEVRLnLlcA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_90f24fad-6866-46b4-9b5c-d143b49fe9aa"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HWjVPEZ8Vd83EpR2v0qRcHv2Qy8OX+1XFPhdP2b1jTtTTm7HbdPZ7V+1MZYgYc96eUvZW3EYaLFF
+AjwCI9FzAg==</DigestValue></Reference></SignedInfo><SignatureValue>ebBPy0NPL/FES44zwdfmiLNPX4SddK+oe1vZ0n8cHneMIeA++4HxwogKy6likdD33NsnMAOzGe8G
+IpAw6m1RB4d0vjC7h/S2BJhIdHvBTWn2GFaZd9fUZpFoZiae5LgUU+Td7Q85XSlkMjS0umqC3Zxk
+Plje3Uq8sZ5tzCoDr3cBXR9c8YresfLZZv2RIUmSldFHYRhQuRQ99StY8oHZLBTVBxagKdXVpyfj
+z9IW6SoEqQuJgg6+Xb20CVlEby1H8du2jVChOFYO6JsY8inPnGl924mghU358Dgde9q+M0iizuk7
+g3efJOLC02iRycYy4U/O+4zmjD21CgufJpMB2Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_90f24fad-6866-46b4-9b5c-d143b49fe9aa" Target="#_c38e58c4-4712-47a8-83cc-fbebe507e2d2"><Timestamp>2019-05-10 18:04:55</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_HVhMAHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_Login" prompt="Orcl_ORMB_CISSTG_Login?" promptNeeded="false" type="id_String" value="talend_ormb" xmi:id="_HVhMAXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_Password" prompt="Orcl_ORMB_CISSTG_Password?" promptNeeded="false" type="id_Password" value="PKig+LGBCGxNhmzbuZyQkg==" xmi:id="_HVhMAnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_Server" prompt="Orcl_ORMB_CISSTG_Server?" promptNeeded="false" type="id_String" value="bos-odapr-scan" xmi:id="_HVhMA3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_ServiceName" prompt="Orcl_ORMB_CISSTG_ServiceName?" promptNeeded="false" type="id_String" value="ORMALP" xmi:id="_HVhMBHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_Schema" prompt="Orcl_ORMB_CISSTG_Schema?" promptNeeded="false" type="id_String" value="CISSTG" xmi:id="_HVhMBXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_AdditionalParams" prompt="Orcl_ORMB_CISSTG_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HVhMBnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_Port" prompt="Orcl_ORMB_CISSTG_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HVhMB3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_HVhMCHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_Login" prompt="Orcl_ORMB_CISSTG_Login?" promptNeeded="false" type="id_String" value="CISSTG" xmi:id="_HVhMCXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_Password" prompt="Orcl_ORMB_CISSTG_Password?" promptNeeded="false" type="id_Password" value="J85rGvrfCbDjt1edbznf0w==" xmi:id="_HVhMCnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_Server" prompt="Orcl_ORMB_CISSTG_Server?" promptNeeded="false" type="id_String" value="bos-odaprd-scan" xmi:id="_HVhMC3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_ServiceName" prompt="Orcl_ORMB_CISSTG_ServiceName?" promptNeeded="false" type="id_String" value="RMBPRD_PRD" xmi:id="_HVhMDHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_Schema" prompt="Orcl_ORMB_CISSTG_Schema?" promptNeeded="false" type="id_String" value="CISSTG" xmi:id="_HVhMDXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_AdditionalParams" prompt="Orcl_ORMB_CISSTG_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HVhMDnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_Port" prompt="Orcl_ORMB_CISSTG_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HVhMD3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_HVhMEHNOEem5gfsP-wY8Ug">
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_Login" prompt="Orcl_ORMB_CISSTG_Login?" promptNeeded="false" type="id_String" value="CISSTG" xmi:id="_HVhMEXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_Password" prompt="Orcl_ORMB_CISSTG_Password?" promptNeeded="false" type="id_Password" value="J85rGvrfCbDjt1edbznf0w==" xmi:id="_HVhMEnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_Server" prompt="Orcl_ORMB_CISSTG_Server?" promptNeeded="false" type="id_String" value="bos-odaprd-scan" xmi:id="_HVhME3NOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_ServiceName" prompt="Orcl_ORMB_CISSTG_ServiceName?" promptNeeded="false" type="id_String" value="RMBPRD_PRD" xmi:id="_HVhMFHNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_Schema" prompt="Orcl_ORMB_CISSTG_Schema?" promptNeeded="false" type="id_String" value="CISSTG" xmi:id="_HVhMFXNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_AdditionalParams" prompt="Orcl_ORMB_CISSTG_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_HVhMFnNOEem5gfsP-wY8Ug"/>
+    <contextParameter comment="" name="Orcl_ORMB_CISSTG_Port" prompt="Orcl_ORMB_CISSTG_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_HVhMF3NOEem5gfsP-wY8Ug"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_878923fb-d4fd-41b1-b039-44612edb334e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>AJss4F7KelxZwy2fJxPoB03DAtq+jDAV4jWYarJOxr1ASdKYuc4fDgIQnumglrxhqlQGPmwFpevX
+oUihAF5Zvw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_63c467c5-77cd-4d8e-944b-6161b210f1f2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4nfDtWmQP3L9T/uCfUaMjDRbJ9wfMvaDX5FkySj7Ts/1OGzcWOXIYZBWjjuq/Yiki3HE4/Z1jkSZ
+S1fbpkZc9A==</DigestValue></Reference></SignedInfo><SignatureValue>x/azfdwgI2DXc9iQYvZOT0JUUtXvUfL8+ad/L9TpOM2P8nhJaokLyu1Lm4LlJesGkVb9Bt2EGJlC
++CY/kAPIQWsGXkmdJAcZk6o4ddqAln62y+gsSyVfBcMosJhzFXRyR+SPWC3+EI5EoWBTK+FBQjqH
+yaElmgJnTWarJmWKJVT6SsMlznLAlTX2AkAHWA+SCRaprAcjd2fSbr+QC5CM8ktvztJ+snHVFfwA
+WRMr16ZogfhTGg0vFkpECgCl/ry8OsO1py/YPUqMxodZ5UR/omgMsLVMYElGm6Nd4nJ9bNO+Ebsh
+zxwKhFI29Ysy9BbxkFHrGhHtOlvN47w1LCCNUQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_63c467c5-77cd-4d8e-944b-6161b210f1f2" Target="#_878923fb-d4fd-41b1-b039-44612edb334e"><Timestamp>2019-05-10 18:04:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
