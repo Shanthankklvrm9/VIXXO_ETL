@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="" DatabaseType="Access" DatasourceName="" DbmsId="access_id" DriverClass="net.ucanaccess.jdbc.UcanaccessDriver" FileFieldName="//hart-pfs2/Transfer/01 - Customer Operations/Customer Programs/7-Eleven/Analyst Files/Kupovics/711 06 Jun 2018 Billing DB.accdb" Password="" Port="" ProductId="ACCESS" SID="" SQLMode="false" ServerName="" SqlSynthax="SQL Syntax" StandardSQL="true" URL="jdbc:ucanaccess:////hart-pfs2/Transfer/01 - Customer Operations/Customer Programs/7-Eleven/Analyst Files/Kupovics/711 06 Jun 2018 Billing DB.accdb" UiSchema="" Username="" dataPackage="_Kryr4HTEEeiGNaVWo12Whg" id="_htjCMHTCEeiGNaVWo12Whg" label="AccessDB_Kupovics" name="AccessDB_Kupovics" xmi:id="_1hnpoHTCEeiGNaVWo12Whg">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_1hoQsHTCEeiGNaVWo12Whg"/>
+    <taggedValue tag="package filter" value="" xmi:id="_2B99oHTCEeiGNaVWo12Whg"/>
+    <taggedValue tag="Status" value="" xmi:id="_2CHHkHTCEeiGNaVWo12Whg"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_2CHHkXTCEeiGNaVWo12Whg"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_2CHHknTCEeiGNaVWo12Whg"/>
+    <taggedValue tag="Description" value="" xmi:id="_2CHHk3TCEeiGNaVWo12Whg"/>
+    <taggedValue tag="Author" value="" xmi:id="_2CHHlHTCEeiGNaVWo12Whg"/>
+    <taggedValue tag="otherParameter" xmi:id="_2CHHlXTCEeiGNaVWo12Whg"/>
+    <taggedValue tag="DB ProductName" value="Ucanaccess for access db(Jet) using hasqldb" xmi:id="_8O9rYHTCEeiGNaVWo12Whg"/>
+    <taggedValue tag="DB ProductVersion" value="V2010 [VERSION_14]" xmi:id="_8O9rYXTCEeiGNaVWo12Whg"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="`" xmi:id="_8O9rYnTCEeiGNaVWo12Whg"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="" xmi:id="_1hoQsXTCEeiGNaVWo12Whg"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema dataManager="_1hnpoHTCEeiGNaVWo12Whg" name="AccessDB_Kupovics" xmi:id="_Kryr4HTEEeiGNaVWo12Whg">
+    <ownedElement id="_JSD40HTEEeiGNaVWo12Whg" label="INVOICES" name="INVOICES" tableType="TABLE" xmi:id="_Kryr4XTEEeiGNaVWo12Whg" xsi:type="relational:TdTable">
+      <feature label="BALANCING_SEGMENT" length="255" name="BALANCING SEGMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kryr4nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kryr43TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="STORE" length="255" name="STORE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kryr5HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kryr5XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ACCOUN" length="64" name="ACCOUN" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Kryr5nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kryr53TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_ACCOUNT" length="255" name="SUB ACCOUNT" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kryr6HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kryr6XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUBTOTAL" length="100" name="SUBTOTAL" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_Kryr6nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kryr63TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="HST" length="100" name="HST" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_Kryr7HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kryr7XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="GST" length="100" name="GST" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_Kryr7nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kryr73TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PST" length="100" name="PST" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_Kryr8HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kryr8XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="US_TAX" length="100" name="US TAX" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_Kryr8nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kryr83TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TOTAL" length="100" name="TOTAL" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_Kryr9HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kryr9XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE1" length="255" name="REPAIR NOTE1" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kryr9nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kryr93TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE" length="255" name="REPAIR NOTE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kryr-HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kryr-XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CREATED_DATE" length="26" name="CREATED DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Kryr-nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kryr-3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRACKING_ID" length="255" name="TRACKING ID" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kryr_HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kryr_XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MARKET" length="255" name="MARKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kryr_nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kryr_3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROVINCE" length="100" name="PROVINCE" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_KrysAHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysAXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="INVOICE_NUMBER" length="255" name="INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysAnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysA3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ZONES" length="255" name="ZONES" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysBHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysBXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="DFM_COMMENTS" length="255" name="DFM COMMENTS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysBnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysB3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="FM_COMMENTS" length="255" name="FM COMMENTS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysCHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysCXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PRIMARY_FSR" length="255" name="PRIMARY FSR" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysCnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysC3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SERVICE_PROVIDER" length="255" name="SERVICE PROVIDER" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysDHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysDXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="EQUIPMENT_CODE" length="255" name="EQUIPMENT CODE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysDnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysD3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="COST_CENTER" length="255" name="COST CENTER" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysEHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysEXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MATERIALS" length="100" name="MATERIALS" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_KrysEnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysE3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRAVEL" length="100" name="TRAVEL" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_KrysFHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysFXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="LABOR" length="100" name="LABOR" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_KrysFnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysF3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="OTHER" length="100" name="OTHER" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_KrysGHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysGXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SERVICE_FEE" length="100" name="SERVICE FEE" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_KrysGnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysG3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_CONTRACTOR" length="100" name="SUB CONTRACTOR" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_KrysHHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysHXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ADJUSTMENT" length="100" name="ADJUSTMENT" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_KrysHnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysH3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SHIPPING_AND_HANDLING" length="100" name="SHIPPING AND HANDLING" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_KrysIHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysIXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="FREIGHT" length="100" name="FREIGHT" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_KrysInTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysI3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM" length="255" name="PROBLEM" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysJHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysJXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRADE" length="255" name="TRADE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysJnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysJ3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_CLASS" length="255" name="PROBLEM CLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysKHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysKXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_SUBCLASS" length="255" name="PROBLEM SUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysKnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysK3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_SUBSUBCLASS" length="255" name="PROBLEM SUBSUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysLHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysLXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PO_NUMBER" length="100" name="PO NUMBER" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_KrysLnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysL3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="QUOTE_ID" length="100" name="QUOTE ID" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_KrysMHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysMXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="RFS_OR_PM" length="255" name="RFS OR PM" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysMnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysM3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="INVOICE_DATE" length="26" name="INVOICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_KrysNHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysNXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="VIID" length="64" name="VIID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrysNnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysN3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CORP_OR_FRAN" length="255" name="CORP OR FRAN" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysOHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysOXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BUCKET" length="255" name="BUCKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrysOnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysO3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature key="true" label="ID" length="32" name="ID" sourceType="INTEGER" talendType="id_Long" xmi:id="_KrysPHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrysPXTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JSeIgHTEEeiGNaVWo12Whg" label="CAS_AND_LOSS_REPORT" name="CAS AND LOSS REPORT" tableType="VIEW" xmi:id="_KrysPnTEEeiGNaVWo12Whg" xsi:type="relational:TdView">
+      <feature label="ZONE" length="32" name="ZONE" sourceType="INTEGER" talendType="id_Long" xmi:id="_KrzS8HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzS8XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BALANCING_SEGMENT" length="255" name="BALANCING SEGMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzS8nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzS83TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="STORE__" length="255" name="STORE _" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzS9HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzS9XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PRIMARY_FSR" length="255" name="PRIMARY FSR" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzS9nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzS93TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SERVICE_PROVIDER" length="255" name="SERVICE PROVIDER" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzS-HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzS-XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ACCOUNT" length="64" name="ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzS-nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzS-3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MATERIALS" length="64" name="MATERIALS" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzS_HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzS_XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRAVEL" length="64" name="TRAVEL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzS_nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzS_3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="LABOR" length="64" name="LABOR" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTAHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTAXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TAX" length="64" name="TAX" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTAnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTA3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TOTAL" length="64" name="TOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTBHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTBXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE" length="255" name="REPAIR NOTE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTBnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTB3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE_1" length="16777216" name="REPAIR NOTE 1" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTCHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTCXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SERVICE_DATE" length="26" name="SERVICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_KrzTCnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTC3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM" length="255" name="PROBLEM" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTDHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTDXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRADE" length="255" name="TRADE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTDnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTD3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_CLASS" length="255" name="PROBLEM CLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTEHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTEXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_SUBCLASS" length="255" name="PROBLEM SUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTEnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTE3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_SUBSUBCLASS" length="255" name="PROBLEM SUBSUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTFHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTFXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="RFS_OR_PM" length="255" name="RFS OR PM" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTFnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTF3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRACKING_ID" length="64" name="TRACKING ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTGHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTGXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_VIID" length="64" name="IPT VIID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTGnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTG3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="DFM_CMNT" length="255" name="DFM CMNT" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTHHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTHXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="POST_DATE" length="26" name="POST DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_KrzTHnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTH3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPLACEMENT" length="255" name="REPLACEMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTIHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTIXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BUCKET" length="255" name="BUCKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTInTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTI3TEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JW0dAHTEEeiGNaVWo12Whg" label="CHRISTINAS_BUDGET_FEEDER_RM" name="CHRISTINAS BUDGET FEEDER RM" tableType="VIEW" xmi:id="_KrzTJHTEEeiGNaVWo12Whg" xsi:type="relational:TdView">
+      <feature label="DIVISION" length="64" name="DIVISION" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTJXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTJnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ZONE" length="32" name="ZONE" sourceType="INTEGER" talendType="id_Long" xmi:id="_KrzTJ3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTKHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BALANCING_SEGMENT" length="255" name="BALANCING SEGMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTKXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTKnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="STORE__" length="255" name="STORE _" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTK3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTLHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ORIGINAL_STORE" length="255" name="ORIGINAL STORE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTLXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTLnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PRIMARY_FSR" length="255" name="PRIMARY FSR" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTL3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTMHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SERVICE_PROVIDER" length="255" name="SERVICE PROVIDER" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTMXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTMnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="EQUIPMENT_CODE" length="255" name="EQUIPMENT CODE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTM3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTNHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="COST_CENTER" length="64" name="COST CENTER" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTNXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTNnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ACCOUNT" length="64" name="ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTN3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTOHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_ACCOUNT" length="64" name="SUB ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTOXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTOnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MATERIALS" length="64" name="MATERIALS" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTO3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTPHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRAVEL" length="64" name="TRAVEL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTPXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTPnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="LABOR" length="64" name="LABOR" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTP3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTQHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MISC" length="64" name="MISC" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTQXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTQnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SVCE_FEE" length="64" name="SVCE FEE" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTQ3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTRHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_CONTRACTOR" length="64" name="SUB CONTRACTOR" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTRXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTRnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ADJUSTMENT" length="64" name="ADJUSTMENT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTR3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTSHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SHIPPING_AND_HANDLING" length="64" name="SHIPPING AND HANDLING" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTSXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTSnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="FREIGHT" length="64" name="FREIGHT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTS3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTTHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TAX" length="64" name="TAX" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTTXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTTnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TOTAL" length="64" name="TOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTT3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTUHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE" length="255" name="REPAIR NOTE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTUXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTUnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE_1" length="16777216" name="REPAIR NOTE 1" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTU3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTVHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SERVICE_DATE" length="26" name="SERVICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_KrzTVXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTVnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM" length="255" name="PROBLEM" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTV3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTWHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRADE" length="255" name="TRADE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTWXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTWnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_CLASS" length="255" name="PROBLEM CLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTW3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTXHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_SUBCLASS" length="255" name="PROBLEM SUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTXXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTXnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_SUBSUBCLASS" length="255" name="PROBLEM SUBSUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTX3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTYHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PO_NUMBER" length="64" name="PO NUMBER" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTYXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTYnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="QUOTE_ID" length="64" name="QUOTE ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTY3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTZHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="RFS_OR_PM" length="255" name="RFS OR PM" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTZXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTZnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRACKING_ID" length="64" name="TRACKING ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTZ3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTaHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_NUMBER" length="255" name="IPT INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTaXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTanTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_DATE" length="26" name="IPT INVOICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_KrzTa3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTbHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_VIID" length="64" name="IPT VIID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTbXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTbnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="DFM_CMNT" length="255" name="DFM CMNT" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTb3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTcHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ORGNL_DFM_CMNT" length="255" name="ORGNL DFM CMNT" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTcXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTcnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="FSR_COMMENTS" length="255" name="FSR COMMENTS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTc3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTdHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CORP_OR_FRAN" length="255" name="CORP OR FRAN" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTdXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTdnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BUCKET" length="255" name="BUCKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTd3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTeHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="COST_CATEGORY" length="255" name="COST CATEGORY" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTeXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTenTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="POST_DATE" length="26" name="POST DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_KrzTe3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTfHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPLACEMENT" length="255" name="REPLACEMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTfXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTfnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="GST_TAX" length="32" name="GST TAX" sourceType="INTEGER" talendType="id_Long" xmi:id="_KrzTf3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTgHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PST_TAX" length="32" name="PST TAX" sourceType="INTEGER" talendType="id_Long" xmi:id="_KrzTgXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTgnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="HST_TAX" length="32" name="HST TAX" sourceType="INTEGER" talendType="id_Long" xmi:id="_KrzTg3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzThHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="URGENCY" length="255" name="URGENCY" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzThXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzThnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CREATED_AT_DATE" length="255" name="CREATED AT DATE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTh3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTiHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MARKET" length="255" name="MARKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTiXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTinTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="STATUS" length="255" name="STATUS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTi3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTjHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CLASSIFICATION" length="255" name="CLASSIFICATION" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTjXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTjnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="INITIATOR" length="255" name="INITIATOR" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTj3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTkHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CATEGORY" length="255" name="CATEGORY" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTkXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTknTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_CATEGORY" length="255" name="SUB CATEGORY" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTk3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTlHTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JXAqQHTEEeiGNaVWo12Whg" label="JUN_2018_INVOICES_CROSSTAB" name="JUN 2018 INVOICES_CROSSTAB" tableType="VIEW" xmi:id="_KrzTlXTEEeiGNaVWo12Whg" xsi:type="relational:TdView">
+      <feature label="IPT_INVOICE_NUMBER" length="255" name="IPT INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTlnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTl3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="DATE_UPLOADED" length="26" name="DATE UPLOADED" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_KrzTmHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTmXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TOTAL_OF_TOTAL" length="64" name="TOTAL OF TOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTmnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTm3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BCP" length="64" name="BCP" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTnHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTnXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CAS_LOSS" length="64" name="CAS_LOSS" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTnnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTn3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ENVIRONMENTAL" length="64" name="ENVIRONMENTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzToHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzToXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="FRANCHISE" length="64" name="FRANCHISE" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTonTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTo3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="OTHER_OCCUPANCY" length="64" name="OTHER OCCUPANCY" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTpHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTpXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="R_M" length="64" name="R_M" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTpnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTp3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="R_M_OLDCAPEX" length="64" name="R_M_OLDCAPEX" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTqHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTqXTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JXB4YHTEEeiGNaVWo12Whg" label="FIND_DUPLICATES_FOR_JUN_2018_INVOICES" name="FIND DUPLICATES FOR JUN 2018 INVOICES" tableType="VIEW" xmi:id="_KrzTqnTEEeiGNaVWo12Whg" xsi:type="relational:TdView">
+      <feature label="IPT_VIID" length="64" name="IPT VIID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTq3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTrHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_NUMBER" length="255" name="IPT INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTrXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTrnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TOTAL" length="64" name="TOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTr3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTsHTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JXYdsHTEEeiGNaVWo12Whg" label="CHRISTINAS_BUDGET_FEEDER" name="CHRISTINAS BUDGET FEEDER" tableType="VIEW" xmi:id="_KrzTsXTEEeiGNaVWo12Whg" xsi:type="relational:TdView">
+      <feature label="DIVISION" length="64" name="DIVISION" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTsnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTs3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ZONE" length="32" name="ZONE" sourceType="INTEGER" talendType="id_Long" xmi:id="_KrzTtHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTtXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BALANCING_SEGMENT" length="255" name="BALANCING SEGMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTtnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTt3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="STORE__" length="255" name="STORE _" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTuHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTuXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ORIGINAL_STORE" length="255" name="ORIGINAL STORE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTunTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTu3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PRIMARY_FSR" length="255" name="PRIMARY FSR" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTvHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTvXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SERVICE_PROVIDER" length="255" name="SERVICE PROVIDER" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTvnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTv3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="EQUIPMENT_CODE" length="255" name="EQUIPMENT CODE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzTwHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTwXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="COST_CENTER" length="64" name="COST CENTER" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTwnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTw3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ACCOUNT" length="64" name="ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTxHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTxXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_ACCOUNT" length="64" name="SUB ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTxnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTx3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MATERIALS" length="64" name="MATERIALS" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTyHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTyXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRAVEL" length="64" name="TRAVEL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTynTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTy3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="LABOR" length="64" name="LABOR" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTzHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTzXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MISC" length="64" name="MISC" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzTznTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzTz3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SVCE_FEE" length="64" name="SVCE FEE" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzT0HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT0XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_CONTRACTOR" length="64" name="SUB CONTRACTOR" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzT0nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT03TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ADJUSTMENT" length="64" name="ADJUSTMENT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzT1HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT1XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SHIPPING_AND_HANDLING" length="64" name="SHIPPING AND HANDLING" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzT1nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT13TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="FREIGHT" length="64" name="FREIGHT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzT2HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT2XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TAX" length="64" name="TAX" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzT2nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT23TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TOTAL" length="64" name="TOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzT3HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT3XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE" length="255" name="REPAIR NOTE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzT3nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT33TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE_1" length="16777216" name="REPAIR NOTE 1" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzT4HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT4XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SERVICE_DATE" length="26" name="SERVICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_KrzT4nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT43TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM" length="255" name="PROBLEM" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzT5HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT5XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRADE" length="255" name="TRADE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzT5nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT53TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_CLASS" length="255" name="PROBLEM CLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzT6HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT6XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_SUBCLASS" length="255" name="PROBLEM SUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzT6nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT63TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_SUBSUBCLASS" length="255" name="PROBLEM SUBSUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzT7HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT7XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PO_NUMBER" length="64" name="PO NUMBER" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzT7nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT73TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="QUOTE_ID" length="64" name="QUOTE ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzT8HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT8XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="RFS_OR_PM" length="255" name="RFS OR PM" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzT8nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT83TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRACKING_ID" length="64" name="TRACKING ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzT9HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT9XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_NUMBER" length="255" name="IPT INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzT9nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT93TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_DATE" length="26" name="IPT INVOICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_KrzT-HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT-XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_VIID" length="64" name="IPT VIID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzT-nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT-3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="DFM_CMNT" length="255" name="DFM CMNT" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzT_HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT_XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ORGNL_DFM_CMNT" length="255" name="ORGNL DFM CMNT" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzT_nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzT_3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="FSR_COMMENTS" length="255" name="FSR COMMENTS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUAHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUAXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CORP_OR_FRAN" length="255" name="CORP OR FRAN" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUAnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUA3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BUCKET" length="255" name="BUCKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUBHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUBXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="COST_CATEGORY" length="255" name="COST CATEGORY" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUBnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUB3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="POST_DATE" length="26" name="POST DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_KrzUCHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUCXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPLACEMENT" length="255" name="REPLACEMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUCnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUC3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="GST_TAX" length="32" name="GST TAX" sourceType="INTEGER" talendType="id_Long" xmi:id="_KrzUDHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUDXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PST_TAX" length="32" name="PST TAX" sourceType="INTEGER" talendType="id_Long" xmi:id="_KrzUDnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUD3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="HST_TAX" length="32" name="HST TAX" sourceType="INTEGER" talendType="id_Long" xmi:id="_KrzUEHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUEXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="URGENCY" length="255" name="URGENCY" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUEnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUE3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CREATED_AT_DATE" length="255" name="CREATED AT DATE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUFHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUFXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MARKET" length="255" name="MARKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUFnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUF3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="STATUS" length="255" name="STATUS" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUGHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUGXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CLASSIFICATION" length="255" name="CLASSIFICATION" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUGnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUG3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="INITIATOR" length="255" name="INITIATOR" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUHHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUHXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CATEGORY" length="255" name="CATEGORY" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUHnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUH3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_CATEGORY" length="255" name="SUB CATEGORY" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUIHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUIXTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JXa58HTEEeiGNaVWo12Whg" label="JUN_2018_INVOICES_CROSSTAB___BUCKET" name="JUN 2018 INVOICES_CROSSTAB _ BUCKET" tableType="VIEW" xmi:id="_KrzUInTEEeiGNaVWo12Whg" xsi:type="relational:TdView">
+      <feature label="BUCKET" length="255" name="BUCKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUI3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUJHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_NUMBER" length="255" name="IPT INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUJXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUJnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TOTAL_OF_TOTAL" length="64" name="TOTAL OF TOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUJ3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUKHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="Z_366" length="64" name="Z_366" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUKXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUKnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="Z_1199" length="64" name="Z_1199" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUK3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzULHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="Z_1299" length="64" name="Z_1299" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzULXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzULnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="Z_1399" length="64" name="Z_1399" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUL3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUMHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="Z_1599" length="64" name="Z_1599" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUMXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUMnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="Z_1699" length="64" name="Z_1699" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUM3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUNHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="Z_1899" length="64" name="Z_1899" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUNXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUNnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="Z_1999" length="64" name="Z_1999" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUN3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUOHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="Z_2099" length="64" name="Z_2099" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUOXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUOnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="Z_2199" length="64" name="Z_2199" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUO3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUPHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="Z_2399" length="64" name="Z_2399" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUPXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUPnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="Z_2499" length="64" name="Z_2499" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUP3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUQHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="Z_2599" length="64" name="Z_2599" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUQXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUQnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="Z_2699" length="64" name="Z_2699" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUQ3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzURHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="Z_2829" length="64" name="Z_2829" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzURXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzURnTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JXcvIHTEEeiGNaVWo12Whg" label="FSR_TABLE" name="FSR TABLE" tableType="TABLE" xmi:id="_KrzUR3TEEeiGNaVWo12Whg" xsi:type="relational:TdTable">
+      <feature label="STORE_NUMBER_PERF" length="20" name="STORE_NUMBER_PERF" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUSHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUSXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PARTY_NAME" length="60" name="PARTY_NAME" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUSnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUS3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="NAME" length="140" name="NAME" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUTHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUTXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CONTACT_ROLE_ID" length="128" name="CONTACT_ROLE_ID" sourceType="NUMERIC" talendType="id_Float" xmi:id="_KrzUTnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUT3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ULTIMATE_PARENT_PARTY_ID" length="128" name="ULTIMATE_PARENT_PARTY_ID" sourceType="NUMERIC" talendType="id_Float" xmi:id="_KrzUUHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUUXTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JXhAkHTEEeiGNaVWo12Whg" label="JUN_PL_VIEW" name="JUN PL VIEW" tableType="TABLE" xmi:id="_KrzUUnTEEeiGNaVWo12Whg" xsi:type="relational:TdTable">
+      <feature label="DIVISION" length="64" name="DIVISION" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUU3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUVHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ZONE" length="32" name="ZONE" sourceType="INTEGER" talendType="id_Long" xmi:id="_KrzUVXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUVnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BALANCING_SEGMENT" length="255" name="BALANCING SEGMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUV3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUWHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="STORE__" length="255" name="STORE _" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUWXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUWnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ORIGINAL_STORE" length="255" name="ORIGINAL STORE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUW3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUXHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PRIMARY_FSR" length="255" name="PRIMARY FSR" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUXXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUXnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SERVICE_PROVIDER" length="255" name="SERVICE PROVIDER" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUX3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUYHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="EQUIPMENT_CODE" length="255" name="EQUIPMENT CODE" sourceType="VARCHAR" talendType="id_String" xmi:id="_KrzUYXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUYnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="COST_CENTER" length="64" name="COST CENTER" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUY3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUZHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ACCOUNT" length="64" name="ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUZXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUZnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_ACCOUNT" length="64" name="SUB ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUZ3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUaHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MATERIALS" length="64" name="MATERIALS" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUaXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUanTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRAVEL" length="64" name="TRAVEL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUa3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUbHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="LABOR" length="64" name="LABOR" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUbXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUbnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MISC" length="64" name="MISC" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUb3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUcHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SVCE_FEE" length="64" name="SVCE FEE" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUcXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUcnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_CONTRACTOR" length="64" name="SUB CONTRACTOR" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUc3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUdHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ADJUSTMENT" length="64" name="ADJUSTMENT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUdXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUdnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SHIPPING_AND_HANDLING" length="64" name="SHIPPING AND HANDLING" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUd3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUeHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="FREIGHT" length="64" name="FREIGHT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUeXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUenTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TAX" length="64" name="TAX" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUe3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUfHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TOTAL" length="64" name="TOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_KrzUfXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_KrzUfnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE" length="255" name="REPAIR NOTE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6AHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6AXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE_1" length="16777216" name="REPAIR NOTE 1" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6AnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6A3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SERVICE_DATE" length="26" name="SERVICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz6BHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6BXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM" length="255" name="PROBLEM" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6BnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6B3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRADE" length="255" name="TRADE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6CHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6CXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_CLASS" length="255" name="PROBLEM CLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6CnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6C3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_SUBCLASS" length="255" name="PROBLEM SUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6DHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6DXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_SUBSUBCLASS" length="255" name="PROBLEM SUBSUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6DnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6D3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PO_NUMBER" length="64" name="PO NUMBER" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6EHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6EXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="QUOTE_ID" length="64" name="QUOTE ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6EnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6E3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="RFS_OR_PM" length="255" name="RFS OR PM" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6FHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6FXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRACKING_ID" length="64" name="TRACKING ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6FnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6F3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_NUMBER" length="255" name="IPT INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6GHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6GXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_DATE" length="26" name="IPT INVOICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz6GnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6G3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_VIID" length="64" name="IPT VIID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6HHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6HXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="DFM_CMNT" length="255" name="DFM CMNT" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6HnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6H3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ORGNL_DFM_CMNT" length="255" name="ORGNL DFM CMNT" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6IHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6IXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="FSR_COMMENTS" length="255" name="FSR COMMENTS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6InTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6I3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CORP_OR_FRAN" length="255" name="CORP OR FRAN" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6JHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6JXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BUCKET" length="255" name="BUCKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6JnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6J3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="COST_CATEGORY" length="255" name="COST CATEGORY" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6KHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6KXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="POST_DATE" length="26" name="POST DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz6KnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6K3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPLACEMENT" length="255" name="REPLACEMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6LHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6LXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="GST_TAX" length="32" name="GST TAX" sourceType="INTEGER" talendType="id_Long" xmi:id="_Krz6LnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6L3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PST_TAX" length="32" name="PST TAX" sourceType="INTEGER" talendType="id_Long" xmi:id="_Krz6MHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6MXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="HST_TAX" length="32" name="HST TAX" sourceType="INTEGER" talendType="id_Long" xmi:id="_Krz6MnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6M3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="URGENCY" length="255" name="URGENCY" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6NHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6NXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CREATED_AT_DATE" length="255" name="CREATED AT DATE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6NnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6N3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MARKET" length="255" name="MARKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6OHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6OXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="STATUS" length="255" name="STATUS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6OnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6O3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CLASSIFICATION" length="255" name="CLASSIFICATION" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6PHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6PXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="INITIATOR" length="255" name="INITIATOR" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6PnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6P3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CATEGORY" length="255" name="CATEGORY" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6QHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6QXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_CATEGORY" length="255" name="SUB CATEGORY" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6QnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6Q3TEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JXi1wHTEEeiGNaVWo12Whg" label="CURRENT_ACCRUAL" name="CURRENT ACCRUAL" tableType="TABLE" xmi:id="_Krz6RHTEEeiGNaVWo12Whg" xsi:type="relational:TdTable">
+      <feature label="ZONE" length="64" name="ZONE" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6RXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6RnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRACKING_ID" length="64" name="TRACKING_ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6R3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6SHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="STORE_NUM" length="30" name="STORE_NUM" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6SXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6SnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ACCOUNT" length="255" name="ACCOUNT" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6S3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6THTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_ACCOUNT" length="255" name="SUB ACCOUNT" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6TXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6TnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BILLABLE_TOTAL" length="22" name="BILLABLE_TOTAL" precision="2" sourceType="NUMERIC" talendType="id_Float" xmi:id="_Krz6T3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6UHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRADE_TYPE" length="50" name="TRADE_TYPE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6UXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6UnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM" length="100" name="PROBLEM" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6U3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6VHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="RFS_CREATED_DATE" length="26" name="RFS_CREATED_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz6VXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6VnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SERVICE_DATE" length="26" name="SERVICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz6V3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6WHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="VENDOR_LOC_PARTY_NAME_PERF" length="100" name="VENDOR_LOC_PARTY_NAME_PERF" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6WXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6WnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BUCKET_2" length="255" name="BUCKET 2" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6W3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6XHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ACCRUAL" length="255" name="ACCRUAL" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6XXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6XnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="VENDOR_INVOICE_ID" length="64" name="VENDOR_INVOICE_ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6X3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6YHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CLIENT_PO_NUMBER" length="30" name="CLIENT_PO_NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6YXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6YnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_STATUS" length="30" name="IPT_INVOICE_STATUS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6Y3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6ZHTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JXnHMHTEEeiGNaVWo12Whg" label="JUN_2018_INVOICES" name="JUN 2018 INVOICES" tableType="TABLE" xmi:id="_Krz6ZXTEEeiGNaVWo12Whg" xsi:type="relational:TdTable">
+      <feature label="DIVISION" length="64" name="DIVISION" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6ZnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6Z3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ZONE" length="32" name="ZONE" sourceType="INTEGER" talendType="id_Long" xmi:id="_Krz6aHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6aXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BALANCING_SEGMENT" length="255" name="BALANCING SEGMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6anTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6a3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="STORE__" length="255" name="STORE _" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6bHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6bXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ORIGINAL_STORE" length="255" name="ORIGINAL STORE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6bnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6b3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PRIMARY_FSR" length="255" name="PRIMARY FSR" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6cHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6cXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SERVICE_PROVIDER" length="255" name="SERVICE PROVIDER" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6cnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6c3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="EQUIPMENT_CODE" length="255" name="EQUIPMENT CODE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6dHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6dXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="COST_CENTER" length="64" name="COST CENTER" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6dnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6d3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ACCOUNT" length="64" name="ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6eHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6eXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_ACCOUNT" length="64" name="SUB ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6enTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6e3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MATERIALS" length="64" name="MATERIALS" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6fHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6fXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRAVEL" length="64" name="TRAVEL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6fnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6f3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="LABOR" length="64" name="LABOR" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6gHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6gXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MISC" length="64" name="MISC" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6gnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6g3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SVCE_FEE" length="64" name="SVCE FEE" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6hHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6hXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_CONTRACTOR" length="64" name="SUB CONTRACTOR" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6hnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6h3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ADJUSTMENT" length="64" name="ADJUSTMENT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6iHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6iXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SHIPPING_AND_HANDLING" length="64" name="SHIPPING AND HANDLING" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6inTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6i3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="FREIGHT" length="64" name="FREIGHT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6jHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6jXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TAX" length="64" name="TAX" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6jnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6j3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TOTAL" length="64" name="TOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6kHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6kXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE" length="255" name="REPAIR NOTE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6knTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6k3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE_1" length="16777216" name="REPAIR NOTE 1" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6lHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6lXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SERVICE_DATE" length="26" name="SERVICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz6lnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6l3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CREATED_DATE" length="26" name="CREATED DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz6mHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6mXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM" length="255" name="PROBLEM" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6mnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6m3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRADE" length="255" name="TRADE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6nHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6nXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_CLASS" length="255" name="PROBLEM CLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6nnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6n3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_SUBCLASS" length="255" name="PROBLEM SUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6oHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6oXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_SUBSUBCLASS" length="255" name="PROBLEM SUBSUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6onTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6o3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PO_NUMBER" length="64" name="PO NUMBER" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6pHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6pXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="QUOTE_ID" length="64" name="QUOTE ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6pnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6p3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="RFS_OR_PM" length="255" name="RFS OR PM" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6qHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6qXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRACKING_ID" length="64" name="TRACKING ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6qnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6q3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_NUMBER" length="255" name="IPT INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6rHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6rXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_DATE" length="26" name="IPT INVOICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz6rnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6r3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_VIID" length="64" name="IPT VIID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6sHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6sXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SR_NUMBER" length="255" name="SR NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6snTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6s3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="DFM_CMNT" length="255" name="DFM CMNT" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6tHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6tXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="FSR_COMMENTS" length="255" name="FSR COMMENTS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6tnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6t3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CORP_OR_FRAN" length="255" name="CORP OR FRAN" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6uHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6uXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BUCKET" length="255" name="BUCKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6unTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6u3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="POST_DATE" length="26" name="POST DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz6vHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6vXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPLACEMENT" length="255" name="REPLACEMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6vnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6v3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="GST_TAX" length="32" name="GST TAX" sourceType="INTEGER" talendType="id_Long" xmi:id="_Krz6wHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6wXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PST_TAX" length="32" name="PST TAX" sourceType="INTEGER" talendType="id_Long" xmi:id="_Krz6wnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6w3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="HST_TAX" length="32" name="HST TAX" sourceType="INTEGER" talendType="id_Long" xmi:id="_Krz6xHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6xXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MARKET" length="32" name="MARKET" sourceType="INTEGER" talendType="id_Long" xmi:id="_Krz6xnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6x3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="DATE_UPLOADED" length="26" name="DATE UPLOADED" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz6yHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6yXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="DATE_APPROVED" length="26" name="DATE APPROVED" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz6ynTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6y3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="DATE_OF_REMITTANCE" length="26" name="DATE OF REMITTANCE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz6zHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6zXTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JX3l4HTEEeiGNaVWo12Whg" label="JUN_2018_INVOICES_CROSSTAB_711_REPORT_BUCKET" name="JUN 2018 INVOICES_CROSSTAB 711 REPORT BUCKET" tableType="VIEW" xmi:id="_Krz6znTEEeiGNaVWo12Whg" xsi:type="relational:TdView">
+      <feature label="IPT_INVOICE_NUMBER" length="255" name="IPT INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6z3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz60HTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TOTAL_OF_TOTAL" length="64" name="TOTAL OF TOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz60XTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz60nTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BCP" length="64" name="BCP" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz603TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz61HTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CAS_LOSS" length="64" name="CAS_LOSS" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz61XTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz61nTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ENVIRONMENTAL" length="64" name="ENVIRONMENTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz613TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz62HTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="FRANCHISE" length="64" name="FRANCHISE" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz62XTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz62nTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="OTHER_OCCUPANCY" length="64" name="OTHER OCCUPANCY" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz623TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz63HTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="R_M" length="64" name="R_M" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz63XTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz63nTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="R_M_OLDCAPEX" length="64" name="R_M_OLDCAPEX" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz633TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz64HTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JX5bEHTEEeiGNaVWo12Whg" label="JUN_INVOICE_TOTALS" name="JUN INVOICE TOTALS" tableType="VIEW" xmi:id="_Krz64XTEEeiGNaVWo12Whg" xsi:type="relational:TdView">
+      <feature label="IPT_INVOICE_NUMBER" length="255" name="IPT INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz64nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz643TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUMOFTOTAL" length="64" name="SUMOFTOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz65HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz65XTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JX7QQHTEEeiGNaVWo12Whg" label="JUN_INVOICE_TOTALS_WITH_INVOICE_DATE" name="JUN INVOICE TOTALS WITH INVOICE DATE" tableType="VIEW" xmi:id="_Krz65nTEEeiGNaVWo12Whg" xsi:type="relational:TdView">
+      <feature label="IPT_INVOICE_NUMBER" length="255" name="IPT INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz653TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz66HTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_DATE" length="26" name="IPT INVOICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz66XTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz66nTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUMOFTOTAL" length="64" name="SUMOFTOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz663TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz67HTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="DATE_UPLOADED" length="26" name="DATE UPLOADED" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz67XTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz67nTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="DATE_DUE" length="26" name="DATE DUE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz673TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz68HTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="DATE_APPROVED" length="26" name="DATE APPROVED" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz68XTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz68nTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="DATE_OF_REMITTANCE" length="26" name="DATE OF REMITTANCE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz683TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz69HTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="POST_DATE" length="26" name="POST DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz69XTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz69nTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JX8eYHTEEeiGNaVWo12Whg" label="JUN_PL_VIEW_RECD_COUNT" name="JUN PL VIEW RECD COUNT" tableType="VIEW" xmi:id="_Krz693TEEeiGNaVWo12Whg" xsi:type="relational:TdView">
+      <feature label="CLASSIFICATION" length="255" name="CLASSIFICATION" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6-HTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6-XTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="COUNTOFCLASSIFICATION" length="64" name="COUNTOFCLASSIFICATION" sourceType="BIGINT" talendType="id_String" xmi:id="_Krz6-nTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6-3TEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JYAv0HTEEeiGNaVWo12Whg" label="REVIEW_CAS_AND_LOSS_NEW" name="REVIEW CAS AND LOSS NEW" tableType="VIEW" xmi:id="_Krz6_HTEEeiGNaVWo12Whg" xsi:type="relational:TdView">
+      <feature label="REPLACEMENT" length="255" name="REPLACEMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz6_XTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz6_nTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRACKING_ID" length="64" name="TRACKING ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz6_3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7AHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_VIID" length="64" name="IPT VIID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7AXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7AnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE" length="255" name="REPAIR NOTE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7A3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7BHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE_1" length="16777216" name="REPAIR NOTE 1" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7BXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7BnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM" length="255" name="PROBLEM" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7B3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7CHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRADE" length="255" name="TRADE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7CXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7CnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_CLASS" length="255" name="PROBLEM CLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7C3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7DHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_SUBCLASS" length="255" name="PROBLEM SUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7DXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7DnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM_SUBSUBCLASS" length="255" name="PROBLEM SUBSUBCLASS" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7D3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7EHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TOTAL" length="64" name="TOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7EXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7EnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="POST_DATE" length="26" name="POST DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz7E3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7FHTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JYHdgHTEEeiGNaVWo12Whg" label="CHRISTINAS_BUDGET_FEEDER_CROSSTAB" name="CHRISTINAS BUDGET FEEDER_CROSSTAB" tableType="VIEW" xmi:id="_Krz7FXTEEeiGNaVWo12Whg" xsi:type="relational:TdView">
+      <feature label="ZONE" length="32" name="ZONE" sourceType="INTEGER" talendType="id_Long" xmi:id="_Krz7FnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7F3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TOTAL_OF_TOTAL" length="64" name="TOTAL OF TOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7GHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7GXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ACCRUAL" length="64" name="ACCRUAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7GnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7G3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="INVOICED" length="64" name="INVOICED" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7HHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7HXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REVERSAL" length="64" name="REVERSAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7HnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7H3TEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JY9LAHTEEeiGNaVWo12Whg" label="MONTHLY_ACTUALS" name="MONTHLY ACTUALS" tableType="VIEW" xmi:id="_Krz7IHTEEeiGNaVWo12Whg" xsi:type="relational:TdView">
+      <feature label="TRACKING_ID" length="64" name="TRACKING ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7IXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7InTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="STORE__" length="255" name="STORE _" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7I3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7JHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TOTAL" length="64" name="TOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7JXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7JnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SERVICE_DATE" length="26" name="SERVICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz7J3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7KHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM" length="255" name="PROBLEM" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7KXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7KnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRADE" length="255" name="TRADE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7K3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7LHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_NUMBER" length="255" name="IPT INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7LXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7LnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_DATE" length="26" name="IPT INVOICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz7L3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7MHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_VIID" length="64" name="IPT VIID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7MXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7MnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BUCKET" length="255" name="BUCKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7M3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7NHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="POST_DATE" length="26" name="POST DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz7NXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7NnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CLASSIFICATION" length="255" name="CLASSIFICATION" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7N3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7OHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ACCOUNT" length="64" name="ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7OXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7OnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_ACCOUNT" length="64" name="SUB ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7O3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7PHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ZONE" length="32" name="ZONE" sourceType="INTEGER" talendType="id_Long" xmi:id="_Krz7PXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7PnTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JgGU0HTEEeiGNaVWo12Whg" label="LOCATION_ZONE_12717" name="LOCATION ZONE 12717" tableType="TABLE" xmi:id="_Krz7P3TEEeiGNaVWo12Whg" xsi:type="relational:TdTable">
+      <feature key="true" label="ID" length="32" name="ID" sourceType="INTEGER" talendType="id_Long" xmi:id="_Krz7QHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7QXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="LOCATION_NO" length="255" name="LOCATION NO" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7QnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7Q3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ZONE_NUM" length="64" name="ZONE NUM" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7RHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7RXTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JgHi8HTEEeiGNaVWo12Whg" label="PUMP___TANK_STORE" name="PUMP _ TANK STORE" tableType="TABLE" xmi:id="_Krz7RnTEEeiGNaVWo12Whg" xsi:type="relational:TdTable">
+      <feature key="true" label="ID" length="32" name="ID" sourceType="INTEGER" talendType="id_Long" xmi:id="_Krz7R3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7SHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="STORE" length="255" name="STORE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7SXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7SnTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JgOQoHTEEeiGNaVWo12Whg" label="REVERSAL" name="REVERSAL" tableType="TABLE" xmi:id="_Krz7S3TEEeiGNaVWo12Whg" xsi:type="relational:TdTable">
+      <feature label="TRACKING_ID" length="64" name="TRACKING ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7THTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7TXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="STORE_" length="255" name="STORE " sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7TnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7T3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TOTAL" length="64" name="TOTAL" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7UHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7UXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SERVICE_DATE" length="26" name="SERVICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Krz7UnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7U3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM" length="255" name="PROBLEM" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7VHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7VXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRADE" length="255" name="TRADE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7VnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7V3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_NUMBER" length="255" name="IPT INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7WHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7WXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_DATE" length="255" name="IPT INVOICE DATE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7WnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7W3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_VIID" length="64" name="IPT VIID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7XHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7XXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BUCKET" length="255" name="BUCKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7XnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7X3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="POST_DATE" length="255" name="POST DATE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7YHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7YXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CLASSIFICATION" length="255" name="CLASSIFICATION" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7YnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7Y3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ACCOUNT" length="64" name="ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7ZHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7ZXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="SUB_ACCOUNT" length="255" name="SUB ACCOUNT" sourceType="VARCHAR" talendType="id_String" xmi:id="_Krz7ZnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7Z3TEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ZONE" length="64" name="ZONE" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Krz7aHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7aXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature key="true" label="ID" length="32" name="ID" sourceType="INTEGER" talendType="id_Long" xmi:id="_Krz7anTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Krz7a3TEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_JgXakHTEEeiGNaVWo12Whg" label="SHEET1" name="SHEET1" tableType="TABLE" xmi:id="_Kr0hEHTEEeiGNaVWo12Whg" xsi:type="relational:TdTable">
+      <feature key="true" label="ID" length="32" name="ID" sourceType="INTEGER" talendType="id_Long" xmi:id="_Kr0hEXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hEnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ZONE" length="64" name="ZONE" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Kr0hE3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hFHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BALANCING_SEGMENT" length="255" name="BALANCING SEGMENT" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kr0hFXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hFnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="STORE__" length="255" name="STORE _" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kr0hF3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hGHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="ACCOUNT" length="64" name="ACCOUNT" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Kr0hGXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hGnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TOTAL" length="100" name="TOTAL" precision="4" sourceType="DECIMAL" talendType="id_Double" xmi:id="_Kr0hG3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hHHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE" length="255" name="REPAIR NOTE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kr0hHXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hHnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="REPAIR_NOTE_1" length="255" name="REPAIR NOTE 1" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kr0hH3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hIHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CREATED_DATE" length="26" name="CREATED DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Kr0hIXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hInTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="PROBLEM" length="255" name="PROBLEM" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kr0hI3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hJHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRADE" length="255" name="TRADE" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kr0hJXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hJnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="RFS_OR_PM" length="255" name="RFS OR PM" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kr0hJ3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hKHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="TRACKING_ID" length="64" name="TRACKING ID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Kr0hKXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hKnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_NUMBER" length="255" name="IPT INVOICE NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kr0hK3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hLHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_INVOICE_DATE" length="26" name="IPT INVOICE DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Kr0hLXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hLnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="IPT_VIID" length="64" name="IPT VIID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Kr0hL3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hMHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="CORP_OR_FRAN" length="255" name="CORP OR FRAN" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kr0hMXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hMnTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="BUCKET" length="255" name="BUCKET" sourceType="VARCHAR" talendType="id_String" xmi:id="_Kr0hM3TEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hNHTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="MARKET" length="64" name="MARKET" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Kr0hNXTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hNnTEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_Jgk18HTEEeiGNaVWo12Whg" label="VIID_CHECK" name="VIID CHECK" tableType="TABLE" xmi:id="_Kr0hN3TEEeiGNaVWo12Whg" xsi:type="relational:TdTable">
+      <feature key="true" label="ID" length="32" name="ID" sourceType="INTEGER" talendType="id_Long" xmi:id="_Kr0hOHTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hOXTEEeiGNaVWo12Whg"/>
+      </feature>
+      <feature label="VIID" length="64" name="VIID" sourceType="DOUBLE" talendType="id_Double" xmi:id="_Kr0hOnTEEeiGNaVWo12Whg" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_Kr0hO3TEEeiGNaVWo12Whg"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f2113b7d-295f-4427-98e6-f2554338c79c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CjmrsO4WjX5QkaFskF0bZ0d0JrFbPcBAu39x7dMgLg6SLBf+a5YsC10KpHNeDL/73o7x3XQS4VdW
+Jxk5R7IH2g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0f5e82ca-cb55-4e52-9c8b-195fe099787b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4BAH11Dj2NP8rzgCDDKKrek5lNt11jsykiMAnwBd72Qcek1TCpA5k1Oe7nJsdOnoUldC9Hke7yWo
+D69b34zM3g==</DigestValue></Reference></SignedInfo><SignatureValue>PRagmijuzslv+Nh3ZVxhtCIMtoV8N7LJ9ouU6T6zsyg98wkFzgSgF24U3bFbfsNftdsMpUbDYwEf
+I7IX7cZyFPmLZ7138JvAd+qaCCh3yPCPBGsl/whBVkTQPtlGKhUddaENCtTt/Olj/hHyokrDtytw
+l0T2HP7EahOXMSvXznF9esXBDob3mKaX4DZlh8sUNbN+UCdddUernNRFGHBMKC6Wd0PcUn0+HEYL
+peDe5MkSNOyLNXhMAms6yzvg0UP8bO9IshvKFzbH611v3/lrmliGqg8sRZ2wmLqjmPugxtWxPRSR
+o0Lc3D3bRvi70eGhHMbF1fONCBcbZ/JLgSibVQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0f5e82ca-cb55-4e52-9c8b-195fe099787b" Target="#_f2113b7d-295f-4427-98e6-f2554338c79c"><Timestamp>2019-06-25 18:22:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

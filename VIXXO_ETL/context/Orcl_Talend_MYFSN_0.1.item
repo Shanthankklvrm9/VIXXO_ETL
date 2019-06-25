@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_Dp4g0Jd2EemUbsvje59Ykg">
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Login" prompt="Orcl_Talend_MYFSN_Login?" promptNeeded="false" type="id_String" value="TALEND_PROD" xmi:id="_Dp4g0Zd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Schema" prompt="Orcl_Talend_MYFSN_Schema?" promptNeeded="false" type="id_String" value="MYFSN" xmi:id="_Dp4g0pd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Port" prompt="Orcl_Talend_MYFSN_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_Dp4g05d2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Server" prompt="Orcl_Talend_MYFSN_Server?" promptNeeded="false" type="id_String" value="BOS-ODAPRD-SCAN" xmi:id="_Dp4g1Jd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Password" prompt="Orcl_Talend_MYFSN_Password?" promptNeeded="false" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w==" xmi:id="_Dp4g1Zd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_ServiceName" prompt="Orcl_Talend_MYFSN_ServiceName?" promptNeeded="false" type="id_String" value="FSNPRD_PRD" xmi:id="_Dp4g1pd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_AdditionalParams" prompt="Orcl_Talend_MYFSN_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_Dp4g15d2EemUbsvje59Ykg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_Dp4g2Jd2EemUbsvje59Ykg">
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Login" prompt="Orcl_Talend_MYFSN_Login?" promptNeeded="false" type="id_String" value="TALEND_PROD" xmi:id="_Dp4g2Zd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Schema" prompt="Orcl_Talend_MYFSN_Schema?" promptNeeded="false" type="id_String" value="MYFSN" xmi:id="_Dp4g2pd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Port" prompt="Orcl_Talend_MYFSN_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_Dp4g25d2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Server" prompt="Orcl_Talend_MYFSN_Server?" promptNeeded="false" type="id_String" value="BOS-ODAPRD-SCAN" xmi:id="_Dp4g3Jd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Password" prompt="Orcl_Talend_MYFSN_Password?" promptNeeded="false" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w==" xmi:id="_Dp4g3Zd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_ServiceName" prompt="Orcl_Talend_MYFSN_ServiceName?" promptNeeded="false" type="id_String" value="FSNPRD_PRD" xmi:id="_Dp4g3pd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_AdditionalParams" prompt="Orcl_Talend_MYFSN_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_Dp4g35d2EemUbsvje59Ykg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_Dp4g4Jd2EemUbsvje59Ykg">
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Login" prompt="Orcl_Talend_MYFSN_Login?" promptNeeded="false" type="id_String" value="TALEND_PROD" xmi:id="_Dp4g4Zd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Schema" prompt="Orcl_Talend_MYFSN_Schema?" promptNeeded="false" type="id_String" value="MYFSN" xmi:id="_Dp4g4pd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Port" prompt="Orcl_Talend_MYFSN_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_Dp4g45d2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Server" prompt="Orcl_Talend_MYFSN_Server?" promptNeeded="false" type="id_String" value="BOS-ODAPRD-SCAN" xmi:id="_Dp4g5Jd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Password" prompt="Orcl_Talend_MYFSN_Password?" promptNeeded="false" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w==" xmi:id="_Dp4g5Zd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_ServiceName" prompt="Orcl_Talend_MYFSN_ServiceName?" promptNeeded="false" type="id_String" value="FSNPRD_PRD" xmi:id="_Dp4g5pd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_AdditionalParams" prompt="Orcl_Talend_MYFSN_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_Dp4g55d2EemUbsvje59Ykg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_Dp4g6Jd2EemUbsvje59Ykg">
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Login" prompt="Orcl_Talend_MYFSN_Login?" promptNeeded="false" type="id_String" value="TALEND_PROD" xmi:id="_Dp4g6Zd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Schema" prompt="Orcl_Talend_MYFSN_Schema?" promptNeeded="false" type="id_String" value="MYFSN" xmi:id="_Dp4g6pd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Port" prompt="Orcl_Talend_MYFSN_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_Dp4g65d2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Server" prompt="Orcl_Talend_MYFSN_Server?" promptNeeded="false" type="id_String" value="BOS-ODAPRD-SCAN" xmi:id="_Dp4g7Jd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_Password" prompt="Orcl_Talend_MYFSN_Password?" promptNeeded="false" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w==" xmi:id="_Dp4g7Zd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_ServiceName" prompt="Orcl_Talend_MYFSN_ServiceName?" promptNeeded="false" type="id_String" value="FSNPRD_PRD" xmi:id="_Dp4g7pd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_MYFSN_AdditionalParams" prompt="Orcl_Talend_MYFSN_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_Dp4g75d2EemUbsvje59Ykg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d8e32b56-66aa-4da8-a204-ea4c2260b9ee"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LivjkTtXzuD0iya6nSc9NgyjhRUu5/dJ3p7i1lSOHGKkls8mZ6CGtbZGCaEULJG3QMwyaoVRoyn0
+3p3DRh12RA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f884e496-283c-4eb8-b95b-aa58e2390e18"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Xo0vjCnptMUrE4TK3doqvqF0qbYzhgySU/czKuAHx6gagJcu7IDbsHvqFs3fc9GfmhnuAwNwvA86
+5XjFmDgJEA==</DigestValue></Reference></SignedInfo><SignatureValue>iGxhpcKoYtBGeFASt0XkOUXOrqqFq16WfMC597G7K6x4rPKwY1pgWRFPuGIlCqPFjJNgRu6sakKz
+KOfWa/T3abW2rpg9fDpuNHv2IrbW7VyTqPGk9+vV9N5wkgR/Q2rXpK9YWBZ5pUq3NMYUFNFbu9Nw
+Wp0ext/BrWirlaWtgYADsAHDBfLiIynwQRu5SJWnSNhtnoPOTkClRT/6LNAWfXS4vG8r2uujEN/d
+kLy5C1ewICWV/RupLdCsfSJpggdMeddY5DW9nJ8Iwydnovpcw21/Apw7ZNZ/+6NtEcmFjVic3aon
+FwbAu3Ow3pQ3IkOCvBxztZdCsZ8wzWaACHQi6A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f884e496-283c-4eb8-b95b-aa58e2390e18" Target="#_d8e32b56-66aa-4da8-a204-ea4c2260b9ee"><Timestamp>2019-06-25 18:21:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

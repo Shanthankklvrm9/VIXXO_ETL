@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Dev" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Prod">
+    <contextParameter comment="" name="Deltatime" prompt="Deltatime?" promptNeeded="false" repositoryContextId="_DdJJoH7jEeamfNp2TIRf3A" type="id_BigDecimal" value="-999"/>
+    <contextParameter comment="" name="END_Time" prompt="END_Time?" promptNeeded="false" repositoryContextId="_DdJJoH7jEeamfNp2TIRf3A" type="id_String" value=""/>
+    <contextParameter comment="" name="Start_Time" prompt="Start_Time?" promptNeeded="false" repositoryContextId="_DdJJoH7jEeamfNp2TIRf3A" type="id_String" value=""/>
+    <contextParameter comment="" name="Systime" prompt="Systime?" promptNeeded="false" repositoryContextId="_DdJJoH7jEeamfNp2TIRf3A" type="id_BigDecimal" value="30160725161409018569"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_AdditionalParams" prompt="Orcl_Talend_EDW_AdditionalParams?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Login" prompt="Orcl_Talend_EDW_Login?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="EDW"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Password" prompt="Orcl_Talend_EDW_Password?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_Password" value="jCbPVm+On0GQ4cMihYDvag=="/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Port" prompt="Orcl_Talend_EDW_Port?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Schema" prompt="Orcl_Talend_EDW_Schema?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Server" prompt="Orcl_Talend_EDW_Server?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="bos-odaprd-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_ServiceName" prompt="Orcl_Talend_EDW_ServiceName?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="DWPRD_PRD"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_AdditionalParams" prompt="Orcl_Talend_Siebel_AdditionalParams?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Login" prompt="Orcl_Talend_Siebel_Login?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="TALEND_PROD"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Password" prompt="Orcl_Talend_Siebel_Password?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w=="/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Port" prompt="Orcl_Talend_Siebel_Port?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Schema" prompt="Orcl_Talend_Siebel_Schema?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Server" prompt="Orcl_Talend_Siebel_Server?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="BOS-ODAPRD-SCAN"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_ServiceName" prompt="Orcl_Talend_Siebel_ServiceName?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="FSNPRD_PRD"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="STAGE"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_Password" value="ABIaQdAQRn7oVJEmlDB/Ig=="/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="bos-odaprd-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="DWPRD_PRD"/>
+  </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" name="Deltatime" prompt="Deltatime?" promptNeeded="false" repositoryContextId="_DdJJoH7jEeamfNp2TIRf3A" type="id_BigDecimal" value="-999"/>
+    <contextParameter comment="" name="END_Time" prompt="END_Time?" promptNeeded="false" repositoryContextId="_DdJJoH7jEeamfNp2TIRf3A" type="id_String" value=""/>
+    <contextParameter comment="" name="Start_Time" prompt="Start_Time?" promptNeeded="false" repositoryContextId="_DdJJoH7jEeamfNp2TIRf3A" type="id_String" value=""/>
+    <contextParameter comment="" name="Systime" prompt="Systime?" promptNeeded="false" repositoryContextId="_DdJJoH7jEeamfNp2TIRf3A" type="id_BigDecimal" value="30160725161409018569"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_AdditionalParams" prompt="Orcl_Talend_EDW_AdditionalParams?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Login" prompt="Orcl_Talend_EDW_Login?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="EDW"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Password" prompt="Orcl_Talend_EDW_Password?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_Password" value="GygX1M01G8xpP1qvP6fdYA=="/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Port" prompt="Orcl_Talend_EDW_Port?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Schema" prompt="Orcl_Talend_EDW_Schema?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Server" prompt="Orcl_Talend_EDW_Server?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="bos-odapr-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_ServiceName" prompt="Orcl_Talend_EDW_ServiceName?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="DWDEV"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_AdditionalParams" prompt="Orcl_Talend_Siebel_AdditionalParams?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Login" prompt="Orcl_Talend_Siebel_Login?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="TALEND_PROD"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Password" prompt="Orcl_Talend_Siebel_Password?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w=="/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Port" prompt="Orcl_Talend_Siebel_Port?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Schema" prompt="Orcl_Talend_Siebel_Schema?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Server" prompt="Orcl_Talend_Siebel_Server?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="BOS-ODAPRD-SCAN"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_ServiceName" prompt="Orcl_Talend_Siebel_ServiceName?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="FSNPRD_PRD"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="STAGE"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_Password" value="gNPPthtkvecbhGi6X0f4lw=="/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="bos-odapr-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="DWDEV"/>
+  </context>
+  <context confirmationNeeded="false" name="Test">
+    <contextParameter comment="" name="Deltatime" prompt="Deltatime?" promptNeeded="false" repositoryContextId="_DdJJoH7jEeamfNp2TIRf3A" type="id_BigDecimal" value="-999"/>
+    <contextParameter comment="" name="END_Time" prompt="END_Time?" promptNeeded="false" repositoryContextId="_DdJJoH7jEeamfNp2TIRf3A" type="id_String" value=""/>
+    <contextParameter comment="" name="Start_Time" prompt="Start_Time?" promptNeeded="false" repositoryContextId="_DdJJoH7jEeamfNp2TIRf3A" type="id_String" value=""/>
+    <contextParameter comment="" name="Systime" prompt="Systime?" promptNeeded="false" repositoryContextId="_DdJJoH7jEeamfNp2TIRf3A" type="id_BigDecimal" value="30160725161409018569"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_AdditionalParams" prompt="Orcl_Talend_EDW_AdditionalParams?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Login" prompt="Orcl_Talend_EDW_Login?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="EDW"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Password" prompt="Orcl_Talend_EDW_Password?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_Password" value="eIhuYjVBG5fm9nO+IrTvww=="/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Port" prompt="Orcl_Talend_EDW_Port?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Schema" prompt="Orcl_Talend_EDW_Schema?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Server" prompt="Orcl_Talend_EDW_Server?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="bos-odaha-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_ServiceName" prompt="Orcl_Talend_EDW_ServiceName?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="DWTST"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_AdditionalParams" prompt="Orcl_Talend_Siebel_AdditionalParams?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Login" prompt="Orcl_Talend_Siebel_Login?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="TALEND_PROD"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Password" prompt="Orcl_Talend_Siebel_Password?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_Password" value="SjSMyrkaHdEBmmJKb/VH9w=="/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Port" prompt="Orcl_Talend_Siebel_Port?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Schema" prompt="Orcl_Talend_Siebel_Schema?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Server" prompt="Orcl_Talend_Siebel_Server?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="BOS-ODAPRD-SCAN"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_ServiceName" prompt="Orcl_Talend_Siebel_ServiceName?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="FSNPRD_PRD"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="STAGE"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_Password" value="GfMTl5G6nMtFYhG2Or1aZA=="/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="bos-odaha-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="DWTST"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="128"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend/6.1.1/studio/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_Hokt4EO_EealmtJnTMF-GQ" name="DQTechnical"/>
+    <routinesParameter id="_HbTt8EO_EealmtJnTMF-GQ" name="DataOperation"/>
+    <routinesParameter id="_HmRAwEO_EealmtJnTMF-GQ" name="DataQualityDependencies"/>
+    <routinesParameter id="_HlKNgEO_EealmtJnTMF-GQ" name="DataQuality"/>
+    <routinesParameter id="_HnXM8EO_EealmtJnTMF-GQ" name="DqStringHandling"/>
+    <routinesParameter id="_HcpKsEO_EealmtJnTMF-GQ" name="Mathematical"/>
+    <routinesParameter id="_HeAcoEO_EealmtJnTMF-GQ" name="Numeric"/>
+    <routinesParameter id="_HfV5YEO_EealmtJnTMF-GQ" name="Relational"/>
+    <routinesParameter id="_HX9fAEO_EealmtJnTMF-GQ" name="SQLike"/>
+    <routinesParameter id="_Hgfv8EO_EealmtJnTMF-GQ" name="StringHandling"/>
+    <routinesParameter id="_HhrbsEO_EealmtJnTMF-GQ" name="TalendDataGenerator"/>
+    <routinesParameter id="_Hi15UEO_EealmtJnTMF-GQ" name="TalendDate"/>
+    <routinesParameter id="_Hj96sEO_EealmtJnTMF-GQ" name="TalendString"/>
+  </parameters>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String foo = &quot;bar&quot;;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="STG_CLIENT_LOC_TIER_SBL_LOAD"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Dev"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_-p_L8K4HEeeu0KM3erKBPg"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="DIM_DELTA_LOAD_CLIENT_LOCATION_TIER_SBL_MAP"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Dev"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_wvoGYJnGEeiax88qLCLTUA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_2"/>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tRunJob_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tRunJob_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <note opaque="true" posX="448" posY="-128" sizeHeight="129" sizeWidth="449" text="Developed By: Suresh Pokala&#13;&#10;Company : Vixxo&#13;&#10;Developed Date : 08-07-2018&#13;&#10;Changed By: &#13;&#10;Changed Log:&#13;&#10;Changed Date:">
+    <elementParameter field="COLOR" name="NOTE_COLOR" value="225;225;135"/>
+    <elementParameter field="TEXT" name="FONT_SIZE" value="9"/>
+  </note>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_941545e9-2bca-4b25-80d7-c4f1fadbf647"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0EZUV7DR75+xp8SeghqLQUR8I1Pt19M+8bu/+lL6kD31S2OGLKti8NDzbHCkiF0EBIus9tsbwguV
+1RW1qbHFCw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9fad9f2e-c378-42e0-b260-7f4640401b6d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gpBRPkbb/tTNdzg4buNyyyJqydckZYOvNm9BVAQ5T4txYo1XkPP7+wcQlGP3FrHWPVW/fkS/rCXz
+JjRfb6I6gQ==</DigestValue></Reference></SignedInfo><SignatureValue>gCKnL6eDYlFWtWYAW8vpbBzRk3ljVuqmqe+Y006EN8F/2V77mBTC1KJEufwHb7ITKZPoszzPiyPN
+u5qDtBYQV4e9V1kUClmQKuhVuv/5TGuaHeKFPIwASSLVpdGYE+35edprAJiSgZIkNtK+T5NELfdl
+EEm5ZX2cEomPlOkMPLMbBFd0j8V5JhrikXN1dUmfWYKunJeneaAz3zK/c2zfF/uvZNlLyiLHLcEe
+nVxe/k/uqMFu79ozM7Wsy+0/+j+PRcWAe9nDI2owJOOI+y31Jfn9NPtVfMgTDrn6Ry9lzsP9wsYM
+FVATw/KoMhEZNjczXbaGKRRIafrdUy8Je7PFng==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9fad9f2e-c378-42e0-b260-7f4640401b6d" Target="#_941545e9-2bca-4b25-80d7-c4f1fadbf647"><Timestamp>2019-06-25 18:21:57</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

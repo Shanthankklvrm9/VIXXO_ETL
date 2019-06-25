@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Dev" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Prod">
+    <contextParameter comment="" name="Orcl_Talend_EDW_AdditionalParams" prompt="Orcl_Talend_EDW_AdditionalParams?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Login" prompt="Orcl_Talend_EDW_Login?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="EDW"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Password" prompt="Orcl_Talend_EDW_Password?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_Password" value="kLTJAjPJYaieVjQgKXvhuA=="/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Port" prompt="Orcl_Talend_EDW_Port?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Schema" prompt="Orcl_Talend_EDW_Schema?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Server" prompt="Orcl_Talend_EDW_Server?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="bos-odaha-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_ServiceName" prompt="Orcl_Talend_EDW_ServiceName?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="DWDEV"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_AdditionalParams" prompt="Orcl_Talend_IPT_AdditionalParams?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Login" prompt="Orcl_Talend_IPT_Login?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="DW_SQLSERVER"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Password" prompt="Orcl_Talend_IPT_Password?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_Password" value="PB0LYQZA+17y7VyiQ6RPdg=="/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Port" prompt="Orcl_Talend_IPT_Port?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Schema" prompt="Orcl_Talend_IPT_Schema?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Server" prompt="Orcl_Talend_IPT_Server?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="bos-odaha-scan.ip-tech.com"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_ServiceName" prompt="Orcl_Talend_IPT_ServiceName?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="fmprd_ha"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_AdditionalParams" prompt="Orcl_Talend_Siebel_AdditionalParams?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Login" prompt="Orcl_Talend_Siebel_Login?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Password" prompt="Orcl_Talend_Siebel_Password?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_Password" value="KUAEiCpEhM4="/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Port" prompt="Orcl_Talend_Siebel_Port?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Schema" prompt="Orcl_Talend_Siebel_Schema?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Server" prompt="Orcl_Talend_Siebel_Server?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="BOS-ODAHA-SCAN"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_ServiceName" prompt="Orcl_Talend_Siebel_ServiceName?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="FSNPRD_HA"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="stage"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_Password" value="hrtE1DX8x4042IEv25WTyg=="/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="bos-odaha-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="DWDEV"/>
+  </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" name="Orcl_Talend_EDW_AdditionalParams" prompt="Orcl_Talend_EDW_AdditionalParams?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Login" prompt="Orcl_Talend_EDW_Login?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="EDW"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Password" prompt="Orcl_Talend_EDW_Password?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_Password" value="kLTJAjPJYaieVjQgKXvhuA=="/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Port" prompt="Orcl_Talend_EDW_Port?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Schema" prompt="Orcl_Talend_EDW_Schema?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Server" prompt="Orcl_Talend_EDW_Server?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="bos-odaha-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_ServiceName" prompt="Orcl_Talend_EDW_ServiceName?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="DWDEV"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_AdditionalParams" prompt="Orcl_Talend_IPT_AdditionalParams?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Login" prompt="Orcl_Talend_IPT_Login?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="DW_SQLSERVER"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Password" prompt="Orcl_Talend_IPT_Password?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_Password" value="PB0LYQZA+17y7VyiQ6RPdg=="/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Port" prompt="Orcl_Talend_IPT_Port?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Schema" prompt="Orcl_Talend_IPT_Schema?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Server" prompt="Orcl_Talend_IPT_Server?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="bos-odaha-scan.ip-tech.com"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_ServiceName" prompt="Orcl_Talend_IPT_ServiceName?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="fmprd_ha"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_AdditionalParams" prompt="Orcl_Talend_Siebel_AdditionalParams?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Login" prompt="Orcl_Talend_Siebel_Login?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="FYIASSOC"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Password" prompt="Orcl_Talend_Siebel_Password?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_Password" value="b1MJLwmMwLwAbI/RiR1+YQ=="/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Port" prompt="Orcl_Talend_Siebel_Port?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Schema" prompt="Orcl_Talend_Siebel_Schema?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Server" prompt="Orcl_Talend_Siebel_Server?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="awstestdb-corp.cu8jkhgxzmt4.us-east-1.rds.amazonaws.com"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_ServiceName" prompt="Orcl_Talend_Siebel_ServiceName?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="AWSTEST"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="stage"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_Password" value="hrtE1DX8x4042IEv25WTyg=="/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="bos-odaha-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="DWDEV"/>
+  </context>
+  <context confirmationNeeded="false" name="Test">
+    <contextParameter comment="" name="Orcl_Talend_EDW_AdditionalParams" prompt="Orcl_Talend_EDW_AdditionalParams?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Login" prompt="Orcl_Talend_EDW_Login?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="EDW"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Password" prompt="Orcl_Talend_EDW_Password?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_Password" value="PJv1kVl7mljJh72ImHDW6w=="/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Port" prompt="Orcl_Talend_EDW_Port?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Schema" prompt="Orcl_Talend_EDW_Schema?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_Server" prompt="Orcl_Talend_EDW_Server?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="bos-odaha-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_EDW_ServiceName" prompt="Orcl_Talend_EDW_ServiceName?" promptNeeded="false" repositoryContextId="_T1prMErEEeatIfibPbkZPg" type="id_String" value="DWTST"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_AdditionalParams" prompt="Orcl_Talend_IPT_AdditionalParams?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Login" prompt="Orcl_Talend_IPT_Login?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="DW_SQLSERVER"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Password" prompt="Orcl_Talend_IPT_Password?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_Password" value="PB0LYQZA+17y7VyiQ6RPdg=="/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Port" prompt="Orcl_Talend_IPT_Port?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Schema" prompt="Orcl_Talend_IPT_Schema?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_Server" prompt="Orcl_Talend_IPT_Server?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="bos-odaha-scan.ip-tech.com"/>
+    <contextParameter comment="" name="Orcl_Talend_IPT_ServiceName" prompt="Orcl_Talend_IPT_ServiceName?" promptNeeded="false" repositoryContextId="_9EGaMD83Eea6uKGJangeXg" type="id_String" value="fmprd_ha"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_AdditionalParams" prompt="Orcl_Talend_Siebel_AdditionalParams?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Login" prompt="Orcl_Talend_Siebel_Login?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Password" prompt="Orcl_Talend_Siebel_Password?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_Password" value="KUAEiCpEhM4="/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Port" prompt="Orcl_Talend_Siebel_Port?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Schema" prompt="Orcl_Talend_Siebel_Schema?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="SIEBEL"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_Server" prompt="Orcl_Talend_Siebel_Server?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="BOS-ODAHA-SCAN"/>
+    <contextParameter comment="" name="Orcl_Talend_Siebel_ServiceName" prompt="Orcl_Talend_Siebel_ServiceName?" promptNeeded="false" repositoryContextId="_L0cS8EGyEeaMtKM_IVCTwA" type="id_String" value="FSNPRD_HA"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="STAGE"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_Password" value="KnzY98DBR4xAS1ybCijLUg=="/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value=""/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="bos-odaha-scan"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" repositoryContextId="_jkO3gEH-EeaMtKM_IVCTwA" type="id_String" value="DWTST"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend/6.1.1/studio/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_ERrOEEPAEea89POvfNdmyA" name="DQTechnical"/>
+    <routinesParameter id="_Drc7kEPAEea89POvfNdmyA" name="DataOperation"/>
+    <routinesParameter id="_EJ8OYEPAEea89POvfNdmyA" name="DataQualityDependencies"/>
+    <routinesParameter id="_EHxEIEPAEea89POvfNdmyA" name="DataQuality"/>
+    <routinesParameter id="_EMFjcEPAEea89POvfNdmyA" name="DqStringHandling"/>
+    <routinesParameter id="_Du1mwEPAEea89POvfNdmyA" name="Mathematical"/>
+    <routinesParameter id="_DxJ68EPAEea89POvfNdmyA" name="Numeric"/>
+    <routinesParameter id="_D7sXAEPAEea89POvfNdmyA" name="Relational"/>
+    <routinesParameter id="_DkafcEPAEea89POvfNdmyA" name="SQLike"/>
+    <routinesParameter id="_D-kE0EPAEea89POvfNdmyA" name="StringHandling"/>
+    <routinesParameter id="_EBD_MEPAEea89POvfNdmyA" name="TalendDataGenerator"/>
+    <routinesParameter id="_EDPwgEPAEea89POvfNdmyA" name="TalendDate"/>
+    <routinesParameter id="_EFfMMEPAEea89POvfNdmyA" name="TalendString"/>
+  </parameters>
+  <node componentName="tOracleCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_1"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleCommit_1"/>
+  </node>
+  <node componentName="tOracleConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_JfvQUEH9EeaMtKM_IVCTwA"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_TNS_FILE" value="false"/>
+    <elementParameter field="FILE" name="TNS_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TNS_EDITOR" name="TNS_EDITOR" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.Orcl_Talend_Stage_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" value="context.Orcl_Talend_Stage_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.Orcl_Talend_Stage_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Orcl_Talend_Stage_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.Orcl_Talend_Stage_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kucwy9zHj7bMBzjxDKhx6aN1LQ0VuOj7F9DqOHA7p3j3WQ=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.Orcl_Talend_Stage_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:thin:USER/MDP@server&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Orcl_Talend_Stage"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tOracleCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_2"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_2"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleCommit_2"/>
+  </node>
+  <node componentName="tOracleConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_2"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_H9jRQErDEeatIfibPbkZPg"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_TNS_FILE" value="false"/>
+    <elementParameter field="FILE" name="TNS_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TNS_EDITOR" name="TNS_EDITOR" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.Orcl_Talend_EDW_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" value="context.Orcl_Talend_EDW_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.Orcl_Talend_EDW_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Orcl_Talend_EDW_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.Orcl_Talend_EDW_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kucwy9zHj7bMB9iQBKug57icO1I/cLWI1w4UOooK2V2d2Q=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.Orcl_Talend_EDW_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:thin:USER/MDP@server&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Orcl_Talend_EDW"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleInput_3"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_JfvQUEH9EeaMtKM_IVCTwA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="context.Orcl_Talend_Stage_Server"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.Orcl_Talend_Stage_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.Orcl_Talend_Stage_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.Orcl_Talend_Stage_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.Orcl_Talend_Stage_ServiceName"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Orcl_Talend_Stage_Schema"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.Orcl_Talend_Stage_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kucwy9zHj7bMBzjxDKhx6aN1LQ0VuOj7F9DqOHA7p3j3WQ=="/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;CSL_SP_LINE_OF_SERVICE&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#13;&#10;  NATIVE_SP_LOCATION_KEY, &#13;&#10;  NATIVE_LOS_KEY, &#13;&#10;  CREATED_DATE, &#13;&#10;  UPDATED_DATE&#13;&#10;FROM CSL_SP_LINE_OF_SERVICE&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.Orcl_Talend_Stage_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="10000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="NATIVE_SP_LOCATION_KEY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NATIVE_LOS_KEY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATED_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATED_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="CSL_SP_LINE_OF_SERVICE" name="tOracleInput_3">
+      <column comment="Native Key from  Service Provider Location " key="false" length="15" name="NATIVE_SP_LOCATION_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Native Key From  Service Provider Line of Service" key="false" length="15" name="NATIVE_LOS_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Timestamp when row created" key="false" length="6" name="CREATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Timestamp when row was modified" key="false" length="6" name="UPDATED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="352" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_ES0RoKBGEeaBvIFGllNelQ-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="SUB_DIM_SP_LINE_OF_SERVICE" name="Tgt_SPL_LOS">
+      <column comment="Surrogate Key from  Service Provider Location " key="false" length="38" name="SERVICE_PROVIDER_LOCATION_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Surrogate Key from  Service Provider Location "/>
+      </column>
+      <column comment="Surrogate Key from  Service Provider Line of Service" key="false" length="38" name="LINE_OF_SERVICE_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Surrogate Key from  Service Provider Line of Service"/>
+      </column>
+      <column comment="Timestamp when row created" key="false" length="11" name="CREATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Timestamp when row created"/>
+      </column>
+      <column comment="Timestamp when row was modified" key="false" length="11" name="UPDATED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Timestamp when row was modified"/>
+      </column>
+    </metadata>
+    <metadata connector="FLOW" label="SUB_DIM_SP_LINE_OF_SERVICE" name="reject1">
+      <column comment="Surrogate Key from  Service Provider Location " key="false" length="38" name="SERVICE_PROVIDER_LOCATION_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Surrogate Key from  Service Provider Location "/>
+      </column>
+      <column comment="Surrogate Key from  Service Provider Line of Service" key="false" length="38" name="LINE_OF_SERVICE_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Surrogate Key from  Service Provider Line of Service"/>
+      </column>
+      <column comment="Timestamp when row created" key="false" length="11" name="CREATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Timestamp when row created"/>
+      </column>
+      <column comment="Timestamp when row was modified" key="false" length="11" name="UPDATED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Timestamp when row was modified"/>
+      </column>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables activateCondensedTool="true" name="Tgt_SPL_LOS" rejectInnerJoin="true" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="LKUP_SPL.SERVICE_PROVIDER_LOCATION_ID" name="SERVICE_PROVIDER_LOCATION_ID" type="id_BigDecimal"/>
+        <mapperTableEntries expression="LKUP_LOS.LINE_OF_SERVICE_ID" name="LINE_OF_SERVICE_ID" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_SPL_Los.CREATED_DATE" name="CREATED_DATE" type="id_Date"/>
+        <mapperTableEntries expression="Src_SPL_Los.UPDATED_DATE" name="UPDATED_DATE" nullable="true" type="id_Date"/>
+      </outputTables>
+      <outputTables name="reject1" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="LKUP_SPL.SERVICE_PROVIDER_LOCATION_ID" name="SERVICE_PROVIDER_LOCATION_ID" type="id_BigDecimal"/>
+        <mapperTableEntries expression="LKUP_LOS.LINE_OF_SERVICE_ID" name="LINE_OF_SERVICE_ID" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_SPL_Los.CREATED_DATE" name="CREATED_DATE" type="id_Date"/>
+        <mapperTableEntries expression="Src_SPL_Los.UPDATED_DATE" name="UPDATED_DATE" nullable="true" type="id_Date"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="Src_SPL_Los" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="NATIVE_SP_LOCATION_KEY" nullable="true" type="id_String"/>
+        <mapperTableEntries name="NATIVE_LOS_KEY" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CREATED_DATE" type="id_Date"/>
+        <mapperTableEntries name="UPDATED_DATE" nullable="true" type="id_Date"/>
+      </inputTables>
+      <inputTables innerJoin="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="LKUP_LOS" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="LINE_OF_SERVICE_ID" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_SPL_Los.NATIVE_LOS_KEY " name="NATIVE_LOS_KEY" nullable="true" operator="=" type="id_String"/>
+      </inputTables>
+      <inputTables innerJoin="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="LKUP_SPL" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="SERVICE_PROVIDER_LOCATION_ID" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Src_SPL_Los.NATIVE_SP_LOCATION_KEY " name="NATIVE_SP_LOCATION_KEY" nullable="true" operator="=" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleInput_4"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_H9jRQErDEeatIfibPbkZPg"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="context.Orcl_Talend_EDW_Server"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.Orcl_Talend_EDW_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.Orcl_Talend_EDW_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.Orcl_Talend_EDW_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.Orcl_Talend_EDW_ServiceName"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Orcl_Talend_EDW_Schema"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.Orcl_Talend_EDW_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kucwy9zHj7bMB9iQBKug57icO1I/cLWI1w4UOooK2V2d2Q=="/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;DIM_LINE_OF_SERVICE&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT LINE_OF_SERVICE_ID,&#13;&#10;  CASE UPPER(SYSTEM_OF_RECORD)&#13;&#10;    WHEN 'SIEBEL' THEN SIEBEL_KEY&#13;&#10;    ELSE IPT_KEY&#13;&#10;  END AS NATIVE_LOS_KEY&#13;&#10;FROM DIM_LINE_OF_SERVICE &quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.Orcl_Talend_EDW_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="LINE_OF_SERVICE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NATIVE_LOS_KEY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleInput_4">
+      <column comment="" defaultValue="" key="false" length="38" name="LINE_OF_SERVICE_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="NATIVE_LOS_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleInput_2"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_H9jRQErDEeatIfibPbkZPg"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="context.Orcl_Talend_EDW_Server"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.Orcl_Talend_EDW_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.Orcl_Talend_EDW_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.Orcl_Talend_EDW_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.Orcl_Talend_EDW_ServiceName"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Orcl_Talend_EDW_Schema"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.Orcl_Talend_EDW_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kucwy9zHj7bMB9iQBKug57icO1I/cLWI1w4UOooK2V2d2Q=="/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;DIM_SERVICE_PROVIDER_LOCATION&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT SERVICE_PROVIDER_LOCATION_ID,&#13;&#10;  CASE UPPER(SYSTEM_OF_RECORD)&#13;&#10;    WHEN 'SIEBEL' THEN SIEBEL_KEY&#13;&#10;    ELSE IPT_KEY&#13;&#10;  END AS NATIVE_SP_LOCATION_KEY&#13;&#10;FROM DIM_SERVICE_PROVIDER_LOCATION &#13;&#10;WHERE SCD_ACTIVE_VERSION = 1&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.Orcl_Talend_EDW_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER_LOCATION_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NATIVE_SP_LOCATION_KEY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleInput_2">
+      <column comment="" defaultValue="" key="false" length="38" name="SERVICE_PROVIDER_LOCATION_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="NATIVE_SP_LOCATION_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER_LOCATION_ID"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LINE_OF_SERVICE_ID"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATED_DATE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATED_DATE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="SUB_DIM_SP_LINE_OF_SERVICE" name="tLogRow_1">
+      <column comment="Surrogate Key from  Service Provider Location " key="false" length="38" name="SERVICE_PROVIDER_LOCATION_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Surrogate Key from  Service Provider Location "/>
+      </column>
+      <column comment="Surrogate Key from  Service Provider Line of Service" key="false" length="38" name="LINE_OF_SERVICE_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Surrogate Key from  Service Provider Line of Service"/>
+      </column>
+      <column comment="Timestamp when row created" key="false" length="11" name="CREATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Timestamp when row created"/>
+      </column>
+      <column comment="Timestamp when row was modified" key="false" length="11" name="UPDATED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Timestamp when row was modified"/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_2"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER_LOCATION_ID"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LINE_OF_SERVICE_ID"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATED_DATE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATED_DATE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="SUB_DIM_SP_LINE_OF_SERVICE" name="tLogRow_2">
+      <column comment="Surrogate Key from  Service Provider Location " key="false" length="38" name="SERVICE_PROVIDER_LOCATION_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Surrogate Key from  Service Provider Location "/>
+      </column>
+      <column comment="Surrogate Key from  Service Provider Line of Service" key="false" length="38" name="LINE_OF_SERVICE_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Surrogate Key from  Service Provider Line of Service"/>
+      </column>
+      <column comment="Timestamp when row created" key="false" length="11" name="CREATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Timestamp when row created"/>
+      </column>
+      <column comment="Timestamp when row was modified" key="false" length="11" name="UPDATED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Timestamp when row was modified"/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleOutput_2"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_H9jRQErDEeatIfibPbkZPg"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="context.Orcl_Talend_EDW_Server"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.Orcl_Talend_EDW_Server"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.Orcl_Talend_EDW_Port"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.Orcl_Talend_EDW_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.Orcl_Talend_EDW_ServiceName"/>
+    <elementParameter field="TEXT" name="TABLESCHEMA" show="false" value="context.Orcl_Talend_EDW_Schema"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.Orcl_Talend_EDW_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kucwy9zHj7bMB9iQBKug57icO1I/cLWI1w4UOooK2V2d2Q=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;SUB_DIM_SP_LINE_OF_SERVICE&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+    <elementParameter field="LABEL" name="NOTE" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_H9jRQErDEeatIfibPbkZPg - SUB_DIM_SP_LINE_OF_SERVICE"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.Orcl_Talend_EDW_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="SERVICE_PROVIDER_LOCATION_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LINE_OF_SERVICE_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREATED_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATED_DATE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_UPPERCASE" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="USE_BATCH_AND_USE_CONN" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="100000"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
+    <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="SUB_DIM_SP_LINE_OF_SERVICE" name="tOracleOutput_2">
+      <column comment="Surrogate Key from  Service Provider Location " key="false" length="38" name="SERVICE_PROVIDER_LOCATION_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Surrogate Key from  Service Provider Location "/>
+      </column>
+      <column comment="Surrogate Key from  Service Provider Line of Service" key="false" length="38" name="LINE_OF_SERVICE_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Surrogate Key from  Service Provider Line of Service"/>
+      </column>
+      <column comment="Timestamp when row created" key="false" length="11" name="CREATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Timestamp when row created"/>
+      </column>
+      <column comment="Timestamp when row was modified" key="false" length="11" name="UPDATED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Timestamp when row was modified"/>
+      </column>
+    </metadata>
+    <metadata connector="REJECT" label="SUB_DIM_SP_LINE_OF_SERVICE" name="REJECT">
+      <column comment="Surrogate Key from  Service Provider Location " key="false" length="38" name="SERVICE_PROVIDER_LOCATION_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Surrogate Key from  Service Provider Location "/>
+      </column>
+      <column comment="Surrogate Key from  Service Provider Line of Service" key="false" length="38" name="LINE_OF_SERVICE_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Surrogate Key from  Service Provider Line of Service"/>
+      </column>
+      <column comment="Timestamp when row created" key="false" length="11" name="CREATED_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Timestamp when row created"/>
+      </column>
+      <column comment="Timestamp when row was modified" key="false" length="11" name="UPDATED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Timestamp when row was modified"/>
+      </column>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleCommit_1" offsetLabelX="0" offsetLabelY="0" source="tOracleCommit_1" target="tOracleCommit_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tOracleConnection_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tOracleConnection_1" target="tOracleConnection_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tOracleConnection_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tOracleConnection_1" target="tOracleInput_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="Src_SPL_Los" lineStyle="0" metaname="tOracleInput_3" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_3" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Src_SPL_Los"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleInput_3" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_3" target="tOracleCommit_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="Tgt_SPL_LOS" lineStyle="0" metaname="Tgt_SPL_LOS" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Tgt_SPL_LOS"/>
+  </connection>
+  <connection connectorName="FLOW" label="reject1" lineStyle="0" metaname="reject1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tLogRow_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="reject1"/>
+  </connection>
+  <connection connectorName="FLOW" label="LKUP_LOS" lineStyle="8" metaname="tOracleInput_4" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_4" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="LKUP_LOS"/>
+  </connection>
+  <connection connectorName="FLOW" label="LKUP_SPL" lineStyle="8" metaname="tOracleInput_2" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_2" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="LKUP_SPL"/>
+  </connection>
+  <note opaque="true" posX="192" posY="32" sizeHeight="129" sizeWidth="449" text="Developed By: Shagufta Begum&#13;&#10;Company : FYI Solutions&#13;&#10;Developed Date : 08-19-2016&#13;&#10;Changed By: &#13;&#10;Changed Log:&#13;&#10;Changed Date:&#13;&#10;">
+    <elementParameter field="COLOR" name="NOTE_COLOR" value="225;225;135"/>
+  </note>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleInput_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleOutput_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6774c8a0-3495-48d6-a533-172c37a55c8c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>k20sGdWu85D/TQDCSRFbMMeMnmoMYYsbk2Kucvr0+F/z7LVDS/Z8FRQ2iLdi1YXRKiYnELIoZrHg
+5fHp8AJT0w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f3aa4d1e-b036-4a16-81c1-f603511d39cd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4llrkRvwZQkhhtLJuhfCEdpFqTKFvrlp/GcSDFwnH0AyLDqDBa6fMzE8tDwl9p1AAMJs4BSJ4Quz
+9UmO3mRkdw==</DigestValue></Reference></SignedInfo><SignatureValue>o10x1/0LjebSoRIRql3Q4doQJ7BsuHOOL6z+AytNolusZ2hMEyBzILWfSAfIRYLlXRIN3CdfR2/u
+gfqYiF/WmaT59TojsGPuxaUyyqRkSfYvmNqLpZ8E90fP8SfTQu9qgI5PbWvp0h94I74DckFxjllp
+GtoJOiCCzPGeca+wHM42F7Yvyqzn6WcGFZzAbasJmhO32VlKrBX64SOoHXSKesiJjI1cmMamXdrF
+xsolj+dTWpilS49PORWXKy6DFwOIgxrjWJMIJ3BzsuihKnJxmhE7n9XAzkFLUy3tp6UeDGvYf903
+6oanN/nf3FbuG8PmKwygZN7G0UKMmtNbmrgrYg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f3aa4d1e-b036-4a16-81c1-f603511d39cd" Target="#_6774c8a0-3495-48d6-a533-172c37a55c8c"><Timestamp>2019-06-25 18:22:19</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

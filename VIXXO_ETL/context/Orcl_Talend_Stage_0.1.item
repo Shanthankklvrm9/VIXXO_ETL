@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_Dq0U8Jd2EemUbsvje59Ykg">
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" type="id_String" value="DWDEV" xmi:id="_Dq0U8Zd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_Dq0U8pd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_Dq0U85d2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_Dq0U9Jd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" type="id_String" value="bos-odapr-scan" xmi:id="_Dq0U9Zd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" type="id_Password" value="gNPPthtkvecbhGi6X0f4lw==" xmi:id="_Dq0U9pd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" type="id_String" value="STAGE" xmi:id="_Dq0U95d2EemUbsvje59Ykg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_Dq0U-Jd2EemUbsvje59Ykg">
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" type="id_String" value="DWPRD_PRD" xmi:id="_Dq0U-Zd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_Dq0U-pd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_Dq0U-5d2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_Dq0U_Jd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" type="id_String" value="bos-odaprd-scan" xmi:id="_Dq0U_Zd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" type="id_Password" value="ABIaQdAQRn7oVJEmlDB/Ig==" xmi:id="_Dq0U_pd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" type="id_String" value="STAGE" xmi:id="_Dq0U_5d2EemUbsvje59Ykg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_Dq0VAJd2EemUbsvje59Ykg">
+    <contextParameter comment="" name="Orcl_Talend_Stage_ServiceName" prompt="Orcl_Talend_Stage_ServiceName?" promptNeeded="false" type="id_String" value="DWTST" xmi:id="_Dq0VAZd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Schema" prompt="Orcl_Talend_Stage_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_Dq0VApd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_AdditionalParams" prompt="Orcl_Talend_Stage_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_Dq0VA5d2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Port" prompt="Orcl_Talend_Stage_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_Dq0VBJd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Server" prompt="Orcl_Talend_Stage_Server?" promptNeeded="false" type="id_String" value="bos-odaha-scan" xmi:id="_Dq0VBZd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Password" prompt="Orcl_Talend_Stage_Password?" promptNeeded="false" type="id_Password" value="GfMTl5G6nMtFYhG2Or1aZA==" xmi:id="_Dq0VBpd2EemUbsvje59Ykg"/>
+    <contextParameter comment="" name="Orcl_Talend_Stage_Login" prompt="Orcl_Talend_Stage_Login?" promptNeeded="false" type="id_String" value="STAGE" xmi:id="_Dq0VB5d2EemUbsvje59Ykg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2ac886ad-1116-4ca5-8211-ecc31d2a86cf"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1mdQMKm9Qp+H7A76yT38ctk0alErtwRTQOdtp93Wbj86Wmmq2i6fLFlvIDs+CYwSm5+UWr0nuQKg
+fTmlHKpP7A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d420ed18-f155-4b7a-a14c-ab154496fa97"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>BDx+LC5wZF0dKNcDfqSEkN0v1rFUwNHCGxBBOJ9DXfFp+rgrxW9B8k3XfaqmU7LJ4BzTEA21r7U0
+8VODL4Xvjw==</DigestValue></Reference></SignedInfo><SignatureValue>QKR2v6IdTJ26K1cFUxkUcXAe8xJP9Gx/10Yq6JBPO0XjV9Vp65bt3rHx5C/ViGu++mu/4pPQpYDf
+xTsW7UHVtid66z/yuo5fDpxBOUr3cF5OJST1Em13eJtCMdDN7Yg5zrAkgE9/WKWtsUcfmjAXNsVN
+w3ee2QmTDLH8kgd8u+/DEX4sxa1ZHe3IpZsRT8Lhq6nuEO1Q9L5FnNztRyS8MTMg0EY7dBPo9jVJ
+bfYHQ7dRoiFVRCQ5ifjymBMH/GZzzXoW8X41YjWYsCcN5p3dj+41aGz+MjyKcJi5+3v3FNeneUVr
+9N1BGbeN7iwzgoRawYrJq4VZlDDPLfG/wFoH7w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d420ed18-f155-4b7a-a14c-ab154496fa97" Target="#_2ac886ad-1116-4ca5-8211-ecc31d2a86cf"><Timestamp>2019-06-25 18:21:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

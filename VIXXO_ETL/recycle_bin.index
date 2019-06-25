@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2019-06-25T11:22:28.559-0700">
+  <deletedItems id="_1Dvz0FWxEeaG29KpYcl-vQ" path="" type="CONTEXT"/>
+  <deletedItems id="_BitrUOGeEea6EcPsuMc--w" path="" type="CONTEXT"/>
+  <deletedItems id="_7fnrAOGeEea6EcPsuMc--w" path="" type="CONTEXT"/>
+  <deletedItems id="_-N3XoMDpEea7FpK1Ilytqw" path="ETL_Layer/Mapping/Datamart_Layer/CDC_Stage_Delta_Load" type="PROCESS"/>
+  <deletedItems id="_JMh9INOMEea7JcQF_90yEg" path="ETL_Layer/Mapping/Datamart_Layer/CDC_Stage_Delta_Load" type="PROCESS"/>
+  <deletedItems id="_MTDkEIS6Eeajy-Z61OLdvw" path="ETL_Layer/Mapping/Datamart_Layer/CDC_Stage_Delta_Load" type="PROCESS"/>
+  <deletedItems id="_3zdngITGEeajy-Z61OLdvw" path="ETL_Layer/Mapping/Datamart_Layer/CDC_Stage_Delta_Load" type="PROCESS"/>
+  <deletedItems id="_2g7ugJSyEeaNg93ue5PicA" path="ETL_Layer/Mapping/Datamart_Layer/CSL_Loads" type="PROCESS"/>
+  <deletedItems id="_O4JZwHkDEeabd7XkEVq_Vg" path="ETL_Layer/Mapping/Datamart_Layer/Dimensions" type="PROCESS"/>
+  <deletedItems id="_FhAnQKx0EeaWIp41OqHNTA" path="ETL_Layer/Mapping/Datamart_Layer/Dimensions" type="PROCESS"/>
+  <deletedItems id="_foQhgMMJEeeZpeM_CtBs-A" path="ETL_Layer/Mapping/Datamart_Layer/Facts" type="PROCESS"/>
+  <deletedItems id="_OclmgNNVEeacPMCHH6AD-A" path="ETL_Layer/Mapping/Datamart_Layer/Wrapper_Jobs" type="PROCESS"/>
+  <deletedItems id="_NE_fgNKnEeah4dBRTkRbrQ" path="ETL_Layer/Mapping/Datamart_Layer/Wrapper_Jobs" type="PROCESS"/>
+  <deletedItems id="_POy3QMkoEeaq47x5NH-4mg" path="ETL_Layer/Mapping/Datamart_Layer/Wrapper_Jobs" type="PROCESS"/>
+  <deletedItems id="_aDsu0MkpEeaq47x5NH-4mg" path="ETL_Layer/Mapping/Datamart_Layer/Wrapper_Jobs" type="PROCESS"/>
+  <deletedItems id="_wj52kGRoEeivrc-NJfgHOQ" path="ETL_Layer/Mapping/IBNR" type="PROCESS"/>
+  <deletedItems id="_3zN3UNw8EeeQ3Yld0C6owQ" path="ETL_Layer/Mapping/ORMB/CDC_STAGE_Loads" type="PROCESS"/>
+  <deletedItems id="_PqOvwNw9EeeQ3Yld0C6owQ" path="ETL_Layer/Mapping/ORMB/CDC_STAGE_Loads" type="PROCESS"/>
+  <deletedItems id="_bhbU0OdBEeeBsuEbJz1uzA" path="ETL_Layer/Mapping/ORMB/CORE_LOAD" type="PROCESS"/>
+  <deletedItems id="_bwTeUOdBEeeBsuEbJz1uzA" path="ETL_Layer/Mapping/ORMB/CORE_LOAD" type="PROCESS"/>
+  <deletedItems id="_Sd5KkNU0EeeB5PXn0ZYtpw" path="ETL_Layer/Mapping/ORMB/STAGE_Load" type="PROCESS"/>
+  <deletedItems id="_RVZqwNUvEeeB5PXn0ZYtpw" path="ETL_Layer/Mapping/ORMB/STAGE_Load" type="PROCESS"/>
+  <deletedItems id="_sPoyQDUwEemoef6I-RmJEA" path="ETL_Layer/Mapping/SLA_Threshold" type="PROCESS"/>
+  <deletedItems id="_WT_W8NKtEea8u8_J-6VRFA" path="ETL_Layer/Mapping" type="PROCESS"/>
+  <deletedItems id="_6coWwHnREeabd7XkEVq_Vg" path="ETL_Layer/Users_Workzones/Lee/STG_IPT" type="PROCESS"/>
+  <deletedItems id="_6hPxAHnREeabd7XkEVq_Vg" path="ETL_Layer/Users_Workzones/Lee/STG_IPT" type="PROCESS"/>
+  <deletedItems id="_6mAVMHnREeabd7XkEVq_Vg" path="ETL_Layer/Users_Workzones/Lee/STG_IPT" type="PROCESS"/>
+  <deletedItems id="_qOrN4FgFEeadt81BsKVhZw" path="ETL_Layer/Users_Workzones/Lee/TBD" type="PROCESS"/>
+  <deletedItems id="_FuHF4FgDEeadt81BsKVhZw" path="ETL_Layer/Users_Workzones/Lee/TBD" type="PROCESS"/>
+  <deletedItems id="_a1ixEE3bEea_1IG-obBVBg" path="ETL_Layer/Users_Workzones/Lee/TBD" type="PROCESS"/>
+  <deletedItems id="_RoDPsFgAEeadt81BsKVhZw" path="ETL_Layer/Users_Workzones/Lee/TBD" type="PROCESS"/>
+  <deletedItems id="_SmTwoE6dEea-Cu95TuBY7A" path="ETL_Layer/Users_Workzones/Lee/TBD" type="PROCESS"/>
+  <deletedItems id="_rls28FggEeadt81BsKVhZw" path="ETL_Layer/Users_Workzones/Lee/TBD" type="PROCESS"/>
+  <deletedItems id="_duAM4E6UEea-Cu95TuBY7A" path="ETL_Layer/Users_Workzones/Lee/TBD" type="PROCESS"/>
+  <deletedItems id="_oMWi4F8uEea8P5RNiencjQ" path="ETL_Layer/Users_Workzones/Lee/TBD" type="PROCESS"/>
+  <deletedItems id="_DI6fcE6mEea-Cu95TuBY7A" path="ETL_Layer/Users_Workzones/Lee/TBD" type="PROCESS"/>
+  <deletedItems id="_7MyOQGjvEearo8VvdcJ8VA" path="ETL_Layer/Users_Workzones/Shagufta/STG_LINE_OF_SERVICE_ALL" type="PROCESS"/>
+  <deletedItems id="_-6t4kGjvEearo8VvdcJ8VA" path="ETL_Layer/Users_Workzones/Shagufta/STG_LINE_OF_SERVICE_ALL" type="PROCESS"/>
+</recyclebin:RecycleBin>
